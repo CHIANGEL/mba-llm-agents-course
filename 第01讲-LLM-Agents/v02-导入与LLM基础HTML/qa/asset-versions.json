@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-19",
+  "method": "sha256 first 12 characters; index references updated after generated data is written",
+  "assets": [
+    {
+      "file": "src/base.css",
+      "sha256_12": "378a222aec12"
+    },
+    {
+      "file": "src/001-004.css",
+      "sha256_12": "572d16296032"
+    },
+    {
+      "file": "src/005-008.css",
+      "sha256_12": "816a22ee9cda"
+    },
+    {
+      "file": "src/009-013.css",
+      "sha256_12": "5f7721b1226c"
+    },
+    {
+      "file": "src/prompting.css",
+      "sha256_12": "754a5fe00593"
+    },
+    {
+      "file": "src/llm-foundations.css",
+      "sha256_12": "357d0c328c3a"
+    },
+    {
+      "file": "src/prompting-r2.css",
+      "sha256_12": "c7d2ccaf980a"
+    },
+    {
+      "file": "src/navigation.css",
+      "sha256_12": "c2778eb16aee"
+    },
+    {
+      "file": "src/agent-overview-r4.css",
+      "sha256_12": "51a075af7997"
+    },
+    {
+      "file": "src/source-replica-r5.css",
+      "sha256_12": "9f7261b9b54f"
+    },
+    {
+      "file": "src/data.js",
+      "sha256_12": "191ee09b6adf"
+    },
+    {
+      "file": "src/001-004.js",
+      "sha256_12": "523c9ea9776e"
+    },
+    {
+      "file": "src/005-008.js",
+      "sha256_12": "685bbd94591f"
+    },
+    {
+      "file": "src/009-013.js",
+      "sha256_12": "54996e6e5047"
+    },
+    {
+      "file": "src/section-frames.js",
+      "sha256_12": "0b853b2f4834"
+    },
+    {
+      "file": "src/prompting-base.js",
+      "sha256_12": "af765f54844d"
+    },
+    {
+      "file": "src/prompting-r2-data.js",
+      "sha256_12": "07f6c21e7adf"
+    },
+    {
+      "file": "src/prompting-r2.js",
+      "sha256_12": "4325fb65b264"
+    },
+    {
+      "file": "src/agents-base.js",
+      "sha256_12": "e4ba513dbdec"
+    },
+    {
+      "file": "src/agents-frames.js",
+      "sha256_12": "e238b1934bf3"
+    },
+    {
+      "file": "src/agent-overview-r4.js",
+      "sha256_12": "67f7815d4964"
+    },
+    {
+      "file": "src/agents-tools.js",
+      "sha256_12": "d9d2511aabc0"
+    },
+    {
+      "file": "src/agents-memory.js",
+      "sha256_12": "2e209f8e2c83"
+    },
+    {
+      "file": "src/agents-skills.js",
+      "sha256_12": "b35cf7592e01"
+    },
+    {
+      "file": "src/agents-harness.js",
+      "sha256_12": "e2d58a8acb5b"
+    },
+    {
+      "file": "src/llm-evidence.js",
+      "sha256_12": "6fec7ab6f989"
+    },
+    {
+      "file": "src/decoding-data.js",
+      "sha256_12": "07eb6411a87f"
+    },
+    {
+      "file": "src/decoding.js",
+      "sha256_12": "7b4688475898"
+    },
+    {
+      "file": "src/llm-foundations.js",
+      "sha256_12": "9b9fa744e6bf"
+    },
+    {
+      "file": "src/source-replica-r5.js",
+      "sha256_12": "15f640f8d522"
+    },
+    {
+      "file": "src/navigation.js",
+      "sha256_12": "d6b668999a7f"
+    },
+    {
+      "file": "src/player.js",
+      "sha256_12": "1afae34ea8d6"
+    }
+  ]
+}
