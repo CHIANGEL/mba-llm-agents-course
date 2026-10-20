@@ -13,6 +13,12 @@ for(const [id,c] of Object.entries(C))add(Number(id),()=>page(
  bottom('<span class="r14-red">接下来：</span>'+c.next)));
 function edge(x,y,X,Y,label,lx,ly,color='#0070c0'){return `<path d="M${x} ${y} L${X} ${Y}" fill="none" stroke="${color}" stroke-width="3" marker-end="url(#r14-arr${color==='#0070c0'?'a':'b'})"/><text class="edge-label" x="${lx}" y="${ly}">${label}</text>`;}
 function node(x,y,w,text,color='#0070c0'){return `<rect x="${x}" y="${y}" width="${w}" height="58" rx="28" fill="white" stroke="${color}" stroke-width="3"/><text x="${x+w/2}" y="${y+38}" text-anchor="middle">${text}</text>`;}
+const esc25=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+add(25001,()=>page(lead('两份文档记录同一个企业知识库项目：一份说明预算范围，一份说明安全要求。')+
+ a(0,95,715,'文档A · 试点预算','r14-h')+a(785,95,715,'文档B · 安全与账户要求','r14-h')+
+ a(0,160,715,`<pre class="mr8-pre" data-scroll-region tabindex="0" style="height:440px;margin:0;font-size:29px;line-height:1.65">${esc25(window.MEMORY_R8.files.budget.text)}</pre>`)+
+ a(785,160,715,`<pre class="mr8-pre" data-scroll-region tabindex="0" style="height:440px;margin:0;font-size:29px;line-height:1.65">${esc25(window.MEMORY_R8.files.security.text)}</pre>`)+
+ bottom('下一页：从这两份文档中提取信息，分别组织成记忆条目与关系图。')));
 add(6101,()=>page(lead('同一组材料可以整理成条目库，也可以通过共同对象组织成记忆图谱。')+
  a(0,83,715,'文档A · 试点预算：20人、3个月、10万元','r14-doc')+
  a(765,83,735,'文档B · 安全要求：团队权限、企业账户','r14-doc green')+

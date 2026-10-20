@@ -6,9 +6,21 @@ const paper=(x,y,w,h)=>`<path d="M${x} ${y} H${x+w-25} L${x+w} ${y+25} V${y+h} H
 const arrow=(x,y,w,color='#0070c0')=>`<path d="M${x} ${y} h${w} m-13 -9 l13 9 -13 9" fill="none" stroke="${color}" stroke-width="3"/>`;
 const person=(x,y,color)=>`<g transform="translate(${x},${y})"><circle cy="-7" r="6" fill="${color}"/><path d="M-10 11 V3 Q-10 -1 -5 -1 H5 Q10 -1 10 3 V11 Z" fill="${color}"/></g>`;
 function table(x,y,n){let t=`<circle cx="${x}" cy="${y}" r="51" fill="#f3e5cc" stroke="#cab38b" stroke-width="2"/>`;for(let i=0;i<6;i++){const a=(-90+i*60)*Math.PI/180;const px=x+35*Math.cos(a),py=y+35*Math.sin(a);t+=i<n?person(px,py,'#0070c0'):`<circle cx="${px}" cy="${py}" r="10" fill="white" stroke="#887a66" stroke-width="1.8"/>`;}return t;}
+R[26001]={steps:1,render(){return `<div class="c1-page intro-r26">
+${at(0,0,1504,'<b>Large Language Models（LLMs）</b>：大语言模型，简称<span class="intro-r26-em">“大模型”</span>。','intro-r26-definition')}
+${at(0,105,790,'大模型聊天界面','h2')}
+${at(850,105,650,'智能体应用','h2')}
+<img class="at intro-r26-web" src="assets/basic-concepts-r23/deepseek-web.png" alt="DeepSeek网页版：用户输入问题，模型生成回复">
+<img class="at intro-r26-phone" src="assets/basic-concepts-r23/doubao-mobile.png" alt="豆包手机端聊天界面">
+<img class="at intro-r26-agents" src="assets/intro-r26/codex-workbuddy.png" alt="上方Codex、下方WorkBuddy的桌面任务界面">
+${at(0,618,555,'DeepSeek · 网页版','intro-r26-caption')}
+${at(560,618,255,'豆包 · 手机端','intro-r26-caption')}
+${at(850,618,650,'Codex　/　WorkBuddy · 桌面端','intro-r26-caption')}
+${at(0,680,1500,'这些应用背后，都有大语言模型参与生成。','intro-r26-note')}
+</div>`;}};
 R[1]={steps:2,render(s){return `<div class="c1-page">
 ${at(0,8,1450,'从模型生成回答，走到Agent执行任务。','c1-title')}
-${at(0,84,1490,'Prompting组织输入，LLM生成内容，Agents执行并反馈。')}
+${at(0,84,1490,'Prompting组织输入，LLM生成内容，Harness执行并反馈。')}
 ${at(28,185,430,'生成回答','h2')}${at(595,185,390,'执行操作','h2')}${at(1100,185,390,'检查交付','h2')}
 ${svg(paper(20,260,460,275))}
 ${at(50,294,400,'今天的讲座取消了。','label black')}

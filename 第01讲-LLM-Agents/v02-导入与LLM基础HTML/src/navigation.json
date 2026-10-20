@@ -87,25 +87,25 @@
         },
         {
           "id": "3.2",
-          "title": "工具调用",
+          "title": "工具调用 Tool Use",
           "from": 52,
           "to": 73
         },
         {
           "id": "3.3",
-          "title": "Memory",
+          "title": "记忆 Memory",
           "from": 74,
           "to": 88
         },
         {
           "id": "3.4",
-          "title": "Skills",
+          "title": "技能 Skills",
           "from": 89,
           "to": 104
         },
         {
           "id": "3.5",
-          "title": "Protocols",
+          "title": "协议 Protocols",
           "from": 8001,
           "to": 8017
         },
@@ -203,7 +203,7 @@
       "renderer": 4009,
       "navigation": "3.2",
       "previous": "外化与内化总览",
-      "next": "工具调用",
+      "next": "工具调用 Tool Use",
       "seconds": 15
     },
     {
@@ -211,8 +211,8 @@
       "insert_before": 74,
       "renderer": 4010,
       "navigation": "3.3",
-      "previous": "工具调用",
-      "next": "Memory",
+      "previous": "工具调用 Tool Use",
+      "next": "记忆 Memory",
       "seconds": 15
     },
     {
@@ -220,8 +220,8 @@
       "insert_before": 89,
       "renderer": 4011,
       "navigation": "3.4",
-      "previous": "Memory",
-      "next": "Skills",
+      "previous": "记忆 Memory",
+      "next": "技能 Skills",
       "seconds": 15
     },
     {
@@ -229,8 +229,8 @@
       "insert_before": 8001,
       "renderer": 4014,
       "navigation": "3.5",
-      "previous": "Skills",
-      "next": "Protocols",
+      "previous": "技能 Skills",
+      "next": "协议 Protocols",
       "seconds": 15
     },
     {
@@ -238,7 +238,7 @@
       "insert_before": 8501,
       "renderer": 4012,
       "navigation": "3.6",
-      "previous": "Protocols",
+      "previous": "协议 Protocols",
       "next": "Harness",
       "seconds": 15
     },

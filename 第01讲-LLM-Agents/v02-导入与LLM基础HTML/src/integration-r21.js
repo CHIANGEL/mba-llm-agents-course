@@ -56,7 +56,7 @@ add(21002,lead('GPT-6 Astra发布后，OpenAI建议重新检查Skills、工作�
  '<div class="r21-comparison"><div class="r21-comparison-head"><span>原先的细致指导</span><span></span><span>模型能力提高后，重新检查</span></div>'+
  [['详细预设每一步','交代目标和必要条件'],['每次先读所有文档','根据当前任务选择资料'],['反复提醒检查与测试','按任务需要安排检查']].map(x=>`<div class="r21-comparison-row"><span>${x[0]}</span><span class="r21-arrow">→</span><strong>${x[1]}</strong></div>`).join('')+'</div>'+
  at(26,570,1450,'“Guidance that helps Sol or Luna may overconstrain GPT-6 Astra.”','r21-quote')+
- at(26,625,1450,'Eric Provencher · OpenAI · 2026-09-11　<a href="https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra">Rethinking skills and prompts for GPT-6 Astra ↗</a>','r21-source'));
+ at(26,625,1450,'Eric Provencher · OpenAI · 2026-09-11　<a href="https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra" target="_blank" rel="noopener">Rethinking skills and prompts for GPT-6 Astra ↗</a>','r21-source'));
 
 add(21003,lead('把反复有效的判断转成训练材料，通过训练更新参数，再检查模型能否独立完成。')+
  '<div class="r21-training-flow">'+[

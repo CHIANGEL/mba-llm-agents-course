@@ -16,12 +16,11 @@ function video(name,label,duration,x=0,y=84,w=970,h=545){return `<div class="o17
 <div class="o17-controls"><button type="button" data-video-action="play" aria-label="播放${label}">播放</button><input type="range" min="0" max="${duration}" value="0" step="0.1" aria-label="${label}播放进度"><output class="o17-clock">0:00 / ${format(duration)}</output><select aria-label="${label}播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select><button type="button" data-video-action="mute" aria-label="开启${label}声音">静音</button><button type="button" data-video-action="expand" aria-label="放大${label}">放大</button></div></div>`;}
 function format(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+String(t%60).padStart(2,'0');}
 window.MBA_OPENING_VIDEO=video;
-add(17001,()=>page(lead('先比较交付结果，再看智能体比模型多了哪些组成部分。')+
-at(0,100,1504,`<div class="o17-compare">
-<section><img src="assets/llm.png" alt="大语言模型"><h2>大模型：生成内容</h2><p>改写通知、解释概念、比较方案。<br>处理给定输入，生成回答。</p><p class="o17-overview-answer">外部操作由谁执行？</p></section>
-<section><img src="${A}browser-booking.jpg" alt="Browser Use在网页上选择预约时段"><h2>软件智能体：执行任务</h2><p>查询数据、运行程序、操作网页。<br>依据执行结果继续下一步。</p><p class="o17-overview-answer">怎样接入外部系统？</p></section>
-<section><img src="${A}astra-arm.jpg" alt="SO101机械臂抓取红笔"><h2>具身智能体：作用于物体</h2><p>通过传感器观察环境，<br>通过执行器移动、抓取物体。</p><p class="o17-overview-answer">还需要什么硬件与控制？</p></section>
-</div>`)+end('沿着案例看：输入与输出 → 软件中的操作 → 物理环境中的动作。')));
+add(17001,()=>page(at(0,65,1504,`<div class="o17-compare">
+<section><img src="assets/llm.png" alt="大语言模型"><h2>大模型：生成内容</h2><p>改写通知、解释概念、比较方案。<br>处理给定输入，生成回答。</p><p class="o17-overview-answer">能生成文本，但不能做事情</p></section>
+<section><img src="${A}browser-booking.jpg" alt="Browser Use在网页上选择预约时段"><h2>软件智能体：执行任务</h2><p>查询数据、运行程序、操作网页。<br>依据执行结果继续下一步。</p><p class="o17-overview-answer">能做事情，但仅限于电子空间</p></section>
+<section><img src="${A}astra-arm.jpg" alt="SO101机械臂抓取红笔"><h2>具身智能体：作用于物体</h2><p>通过传感器观察环境，<br>通过执行器移动、抓取物体。</p><p class="o17-overview-answer">究极愿景，物理世界交互</p></section>
+</div>`)));
 add(17002,()=>page(lead('没有连接工具时，模型处理收到的输入，生成输出。')+
 at(0,99,710,'<h2>仍以前面的通知为例</h2>')+
 at(0,166,690,'<small>任务</small>用一句正式英文通知大家：<br>原定于今天的讲座取消。','o17-paper')+

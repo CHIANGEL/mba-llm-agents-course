@@ -4,11 +4,11 @@
   "assets": [
     {
       "file": "src/base.css",
-      "sha256_12": "a9a878f1eaa5"
+      "sha256_12": "c69c1d35c23e"
     },
     {
       "file": "src/001-004.css",
-      "sha256_12": "572d16296032"
+      "sha256_12": "ac73e1844dbe"
     },
     {
       "file": "src/005-008.css",
@@ -83,12 +83,24 @@
       "sha256_12": "cdf5ff2492d3"
     },
     {
+      "file": "src/basic-concepts-r23.css",
+      "sha256_12": "db5542227e4e"
+    },
+    {
+      "file": "src/prompting-demo-links.css",
+      "sha256_12": "deb310bc8ef0"
+    },
+    {
+      "file": "src/basic-mechanisms-r24.css",
+      "sha256_12": "5940c7240edf"
+    },
+    {
       "file": "src/data.js",
-      "sha256_12": "4dbb4895eb18"
+      "sha256_12": "66aba63f15a1"
     },
     {
       "file": "src/001-004.js",
-      "sha256_12": "523c9ea9776e"
+      "sha256_12": "31e66d6c791f"
     },
     {
       "file": "src/005-008.js",
@@ -140,15 +152,15 @@
     },
     {
       "file": "src/memory-r8.js",
-      "sha256_12": "78b9a7584329"
+      "sha256_12": "c3413353a987"
     },
     {
       "file": "src/skills-r9-data.js",
-      "sha256_12": "5c8febbc0949"
+      "sha256_12": "aecfba2a9c88"
     },
     {
       "file": "src/skills-r9.js",
-      "sha256_12": "298429dffe31"
+      "sha256_12": "419bda34baab"
     },
     {
       "file": "src/harness-r11.js",
@@ -168,7 +180,7 @@
     },
     {
       "file": "src/llm-foundations.js",
-      "sha256_12": "9b9fa744e6bf"
+      "sha256_12": "8507fa521a8a"
     },
     {
       "file": "src/source-replica-r5.js",
@@ -180,19 +192,19 @@
     },
     {
       "file": "src/navigation.js",
-      "sha256_12": "f5c1d235ec59"
+      "sha256_12": "4c76ad7af592"
     },
     {
       "file": "src/memory-review-r14-data.js",
-      "sha256_12": "245a40c60fbd"
+      "sha256_12": "5e3dc1483180"
     },
     {
       "file": "src/memory-review-r14.js",
-      "sha256_12": "2dae338448d5"
+      "sha256_12": "0be9db5067d0"
     },
     {
       "file": "src/agent-opening-r17.js",
-      "sha256_12": "0642a34776e6"
+      "sha256_12": "6a83dd670c10"
     },
     {
       "file": "src/tools-protocols-r19.js",
@@ -204,11 +216,27 @@
     },
     {
       "file": "src/integration-r21.js",
-      "sha256_12": "b339768552e7"
+      "sha256_12": "40c51ca44733"
+    },
+    {
+      "file": "src/basic-concepts-r23.js",
+      "sha256_12": "bcfd750aaa69"
+    },
+    {
+      "file": "src/prompting-demo-data.js",
+      "sha256_12": "5ceff818cf05"
+    },
+    {
+      "file": "src/prompting-demo-links.js",
+      "sha256_12": "441567fb3e96"
+    },
+    {
+      "file": "src/basic-mechanisms-r24.js",
+      "sha256_12": "b431fab93cdc"
     },
     {
       "file": "src/player.js",
-      "sha256_12": "9c55931c1c5e"
+      "sha256_12": "b3df34ace33d"
     }
   ]
 }

@@ -33,7 +33,9 @@ add(4,()=>page(lead('同一条记忆，可以保存为文字条目，也可以�
 a(0,100,680,'条目式：一条记录保存一件事','mr8-h')+
 a(0,186,640,'Kendra喜欢Adidas鞋。<br><br>对象：Kendra<br>关系：喜欢<br>对象：Adidas鞋','mr8-sheet mr8-text')+
 a(780,100,720,'图谱式：节点与关系','mr8-h')+
-im(760,190,740,350,'graph')+
+a(760,190,740,'<div style="height:225px;overflow:hidden"><img src="assets/memory-r8/graph.png" style="width:740px;height:auto;display:block" alt="Kendra通过喜欢这一关系指向Adidas鞋"></div>')+
+a(780,440,720,'<b>节点：</b>Kendra、Adidas鞋，表示对象。','mr8-small')+
+a(780,492,720,'<b>边：</b>“喜欢”，表示对象之间的关系。','mr8-small')+
 a(0,568,1470,'原始对话、摘要和条目可以同时保留；关系图帮助沿着关联查找信息。','mr8-text')+
 bottom('条目和图谱都可以结合关键词、语义相似度等方式检索。')));
 add(5,()=>page(lead('记忆通过增、删、改、查维护；查到的内容加入模型输入后，才能用于当前任务。')+
@@ -69,8 +71,8 @@ a(0,245,660,'自动使用历史信息','mr8-h')+ul(0,310,660,['过去项目的�
 a(820,245,680,'指定本次任务的材料','mr8-h')+ul(820,310,680,['明确指定本项目材料','需要历史时，读取相关记录','核对对象、时间和用途'])+
 svg(arrow(680,410,785,410))+
 bottom('关闭个性化记忆后，仍然可以通过明确提供材料、读取文件来延续工作。')));
-add(12,()=>page(lead('先判断是否需要历史，再检查候选记忆是否适合当前任务。')+
-im(175,87,1180,485,'memory-decision')+
+add(12,()=>page(lead('先判断是否需要记忆，再检查候选记忆是否适合当前任务。')+
+im(175,87,1180,485,'memory-skills-r25/memory-decision.png')+
 bottom('有用且适用的记忆才采用，无关记忆忽略，信息不足时询问用户。')));
 add(13,()=>page(lead('记忆可以帮助智能体了解用户；定时或事件触发，则让它能够主动开始任务。')+
 a(0,100,700,'个性化智能体 · Personal Agent','mr8-h')+a(0,166,700,'围绕同一用户，保留偏好、背景与任务进度。','mr8-text')+
@@ -119,7 +121,7 @@ a(1140,113,355,'本次输入','mr8-h')+im(1215,195,160,165,'doc.png')+a(1140,380
 svg(arrow(465,287,550,287)+arrow(1025,287,1110,287))+
 a(0,495,1470,'• 摘要足够时，直接使用。<br>• 详细信息会改变判断时，再读取对应文件。','mr8-text')+
 bottom('只读取任务需要的内容，避免把整个记忆库都加入输入。')));
-function trace(view,selected){const ids=D.views.followup;const name={first:'首次模型输入',call:'已经生成读取调用',read:'读取后的下一次输入',answer:'模型依据记忆给出回答',followup:'用户继续补充条件'}[view];return `<section class="mr8-widget" data-mr8-widget="trace" data-mr8-view="${view}" data-mr8-selected="${selected}"><div class="mr8-widget-list"><h2>当前环节</h2><div class="trace-scroll-list" data-trace-list data-scroll-region tabindex="0" role="region" aria-label="Memory案例完整过程">${ids.map(id=>`<button data-mr8-item="${id}" aria-pressed="${id===selected}">${e(D.items[id].label)}<span>${e(D.items[id].origin)}</span></button>`).join('')}</div><div class="mr8-stage-note">${name}</div></div><div class="mr8-panel"><div class="mr8-widget-toolbar"><button data-mr8-mode="selected" aria-pressed="true">关键内容</button><button data-mr8-mode="raw" aria-pressed="false">原始条目</button><button data-mr8-mode="all" aria-pressed="false">${view==='call'||view==='answer'?'当前条目列表':'本次完整输入'}</button></div><h2 data-mr8-heading>${e(selected==='memory'?'已加载的记忆摘要':D.items[selected].label)}</h2><pre class="mr8-pre" data-scroll-region tabindex="0" data-mr8-content>${e(selected==='memory'?D.summary:D.items[selected].text)}</pre><p data-mr8-caption>${view==='call'?'调用请求已经生成；工具返回以后，才能组装下一次模型输入。':view==='answer'?'左侧按过程顺序排列；回答由模型生成，下一轮才随历史进入输入。':'本次完整输入只包含当前阶段已经取得的内容。'}</p></div></section>`;}
+function trace(view,selected){const ids=D.views[view];const name={first:'首次模型输入',call:'已经生成读取调用',read:'读取后的下一次输入',answer:'模型依据记忆给出回答',followup:'用户继续补充条件'}[view];return `<section class="mr8-widget" data-mr8-widget="trace" data-mr8-view="${view}" data-mr8-selected="${selected}"><div class="mr8-widget-list"><h2>当前环节</h2><div class="trace-scroll-list" data-trace-list data-scroll-region tabindex="0" role="region" aria-label="Memory案例完整过程">${ids.map(id=>`<button data-mr8-item="${id}" aria-pressed="${id===selected}">${e(D.items[id].label)}<span>${e(D.items[id].origin)}</span></button>`).join('')}</div><div class="mr8-stage-note">${name}</div></div><div class="mr8-panel"><div class="mr8-widget-toolbar"><button data-mr8-mode="selected" aria-pressed="true">关键内容</button><button data-mr8-mode="raw" aria-pressed="false">原始条目</button><button data-mr8-mode="all" aria-pressed="false">${view==='call'||view==='answer'?'当前条目列表':'本次完整输入'}</button></div><h2 data-mr8-heading>${e(selected==='memory'?'已加载的记忆摘要':D.items[selected].label)}</h2><pre class="mr8-pre" data-scroll-region tabindex="0" data-mr8-content>${e(selected==='memory'?D.summary:D.items[selected].text)}</pre><p data-mr8-caption>${view==='call'?'调用请求已经生成；工具返回以后，才能组装下一次模型输入。':view==='answer'?'左侧按过程顺序排列；回答由模型生成，下一轮才随历史进入输入。':'本次完整输入只包含当前阶段已经取得的内容。'}</p></div></section>`;}
 add(21,()=>page(lead('用户提交任务后，客户端把记忆摘要、基础指令、项目说明和用户消息拼成输入。')+trace('first','base')+bottom('摘要由客户端加入；此时模型还没有发起读取详细记忆的工具调用。')));
 add(22,()=>page(lead('用户偏好已写在摘要里；预算的具体范围，需要打开摘要所列的文件查询。')+
 table(0,100,1500,['摘要里是什么','本次怎样处理','为什么'],[
