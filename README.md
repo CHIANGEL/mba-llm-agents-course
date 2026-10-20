@@ -4,7 +4,9 @@
 
 协作仓库：[CHIANGEL/mba-llm-agents-course](https://github.com/CHIANGEL/mba-llm-agents-course)。加入协作、分支提交、课件编辑和检查流程见[协作维护说明](CONTRIBUTING.md)，公网课件的构建和更新方式见[发布说明](DEPLOYMENT.md)。
 
-- [第一讲 LLM Agents 完整 HTML 课件 v02](第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html)：175页、175个播放器状态，参考266分25秒含10分钟休息，可分两次讲；页面默认全显，Agents从第51页开始；[使用说明](第01讲-LLM-Agents/v02-导入与LLM基础HTML/README.md)。
+在线课件：[第一讲 LLM Agents](https://linjianghao.com/mba-llm-agents-course/)。无需登录；课件更新合入 `main` 后自动发布。
+
+- [第一讲 LLM Agents 完整 HTML 课件 v02](第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html)：当前为Memory措辞修订r15，193页、193个播放器状态，参考276分45秒含10分钟休息，可分两次讲；页面默认全显，Agents从第51页开始；[使用说明](第01讲-LLM-Agents/v02-导入与LLM基础HTML/README.md)。
 - [结构修订说明](第01讲-LLM-Agents/v01-逐页内容规划/结构修订说明.md)：2026-10-18反馈后的分层目录与各子章节总分总映射。
 - [第一讲逐页内容规划 v01](第01讲-LLM-Agents/v01-逐页内容规划/逐页内容规划.md)：89页初稿，保留当时的拟上屏文案、教师讲解、配图与案例安排；当前内容和页序以完整课件为准。
 - [页序与案例速览（初稿）](第01讲-LLM-Agents/v01-逐页内容规划/页序与案例速览.md)：原规划的节奏与案例位置，当前页码见使用说明。
