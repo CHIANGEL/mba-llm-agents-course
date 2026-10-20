@@ -4,7 +4,7 @@
   "assets": [
     {
       "file": "src/base.css",
-      "sha256_12": "378a222aec12"
+      "sha256_12": "a9a878f1eaa5"
     },
     {
       "file": "src/001-004.css",
@@ -52,15 +52,11 @@
     },
     {
       "file": "src/memory-r8.css",
-      "sha256_12": "b10893ad9a3e"
+      "sha256_12": "05b603fa87e7"
     },
     {
       "file": "src/skills-r9.css",
-      "sha256_12": "e2cb63b88bde"
-    },
-    {
-      "file": "src/protocols-r10.css",
-      "sha256_12": "3fc2a43b9156"
+      "sha256_12": "a55659c909d1"
     },
     {
       "file": "src/harness-r11.css",
@@ -71,8 +67,16 @@
       "sha256_12": "16c864f0a3b5"
     },
     {
+      "file": "src/agent-opening-r17.css",
+      "sha256_12": "80c0f0413b4e"
+    },
+    {
+      "file": "src/tools-protocols-r19.css",
+      "sha256_12": "c9f6e63b5911"
+    },
+    {
       "file": "src/data.js",
-      "sha256_12": "149f1b19c97b"
+      "sha256_12": "e999afffb052"
     },
     {
       "file": "src/001-004.js",
@@ -128,15 +132,15 @@
     },
     {
       "file": "src/memory-r8.js",
-      "sha256_12": "0c79dfda3127"
+      "sha256_12": "78b9a7584329"
     },
     {
       "file": "src/skills-r9-data.js",
-      "sha256_12": "2ea5f312cf7d"
+      "sha256_12": "5c8febbc0949"
     },
     {
       "file": "src/skills-r9.js",
-      "sha256_12": "ab57ac6bb666"
+      "sha256_12": "298429dffe31"
     },
     {
       "file": "src/harness-r11.js",
@@ -171,24 +175,24 @@
       "sha256_12": "d6b668999a7f"
     },
     {
-      "file": "src/protocols-r10-data.js",
-      "sha256_12": "f242946ed345"
-    },
-    {
-      "file": "src/protocols-r10.js",
-      "sha256_12": "0e337a0cb6bc"
-    },
-    {
       "file": "src/memory-review-r14-data.js",
-      "sha256_12": "55665fa5c40b"
+      "sha256_12": "b8fe7f1c88a1"
     },
     {
       "file": "src/memory-review-r14.js",
       "sha256_12": "2dae338448d5"
     },
     {
+      "file": "src/agent-opening-r17.js",
+      "sha256_12": "0642a34776e6"
+    },
+    {
+      "file": "src/tools-protocols-r19.js",
+      "sha256_12": "a9cfc0de8a98"
+    },
+    {
       "file": "src/player.js",
-      "sha256_12": "c1f12f25572c"
+      "sha256_12": "4753c6700512"
     }
   ]
 }

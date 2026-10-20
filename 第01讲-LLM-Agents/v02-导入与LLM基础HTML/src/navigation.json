@@ -75,48 +75,54 @@
       "children": [
         {
           "id": "3.0",
+          "title": "大模型与智能体",
+          "from": 17001,
+          "to": 17008
+        },
+        {
+          "id": "3.1",
           "title": "外化与内化总览",
           "from": 50,
           "to": 51
         },
         {
-          "id": "3.1",
+          "id": "3.2",
           "title": "工具调用",
           "from": 52,
           "to": 73
         },
         {
-          "id": "3.2",
+          "id": "3.3",
           "title": "Memory",
           "from": 74,
           "to": 88
         },
         {
-          "id": "3.3",
+          "id": "3.4",
           "title": "Skills",
           "from": 89,
           "to": 104
         },
         {
-          "id": "3.4",
+          "id": "3.5",
           "title": "Protocols",
           "from": 8001,
           "to": 8016
         },
         {
-          "id": "3.5",
+          "id": "3.6",
           "title": "Harness",
           "from": 8501,
           "to": 8518
         },
         {
-          "id": "3.6",
+          "id": "3.7",
           "title": "外化与内化整合",
           "from": 126,
           "to": 132
         },
         {
-          "id": "3.7",
+          "id": "3.8",
           "title": "全讲总结",
           "from": 133,
           "to": 134
@@ -194,14 +200,14 @@
       "renderer": 4008,
       "navigation": "3.0",
       "previous": "Prompting",
-      "next": "Agents · 外化与内化",
+      "next": "Agents · 大模型与智能体",
       "seconds": null
     },
     {
       "authoring_page": 9007,
       "insert_before": 52,
       "renderer": 4009,
-      "navigation": "3.1",
+      "navigation": "3.2",
       "previous": "外化与内化总览",
       "next": "工具调用",
       "seconds": 15
@@ -210,7 +216,7 @@
       "authoring_page": 9008,
       "insert_before": 74,
       "renderer": 4010,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "previous": "工具调用",
       "next": "Memory",
       "seconds": 15
@@ -219,7 +225,7 @@
       "authoring_page": 9009,
       "insert_before": 89,
       "renderer": 4011,
-      "navigation": "3.3",
+      "navigation": "3.4",
       "previous": "Memory",
       "next": "Skills",
       "seconds": 15
@@ -228,7 +234,7 @@
       "authoring_page": 9011,
       "insert_before": 8001,
       "renderer": 4014,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "previous": "Skills",
       "next": "Protocols",
       "seconds": 15
@@ -237,7 +243,7 @@
       "authoring_page": 9010,
       "insert_before": 8501,
       "renderer": 4012,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "previous": "Protocols",
       "next": "Harness",
       "seconds": 15
@@ -246,10 +252,19 @@
       "authoring_page": 126,
       "insert_before": null,
       "renderer": 4013,
-      "navigation": "3.6",
+      "navigation": "3.7",
       "previous": "Harness",
       "next": "外化与内化整合",
       "seconds": null
+    },
+    {
+      "authoring_page": 17000,
+      "insert_before": 51,
+      "renderer": 4015,
+      "navigation": "3.1",
+      "previous": "大模型与智能体",
+      "next": "外化与内化总览",
+      "seconds": 15
     }
   ]
 }

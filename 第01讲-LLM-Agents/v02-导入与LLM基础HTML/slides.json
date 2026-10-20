@@ -93,14 +93,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束导入，开始LLM基础 · 连续生成。",
     "sources": [
@@ -352,14 +353,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束连续生成，开始LLM基础 · 多轮聊天。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 1050,
@@ -561,14 +563,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束LLM基础，开始Prompting · 三个核心。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 1500,
@@ -763,14 +766,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束三个核心，开始问清问题。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 1910,
@@ -876,14 +880,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束问清问题，开始学习。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 2070,
@@ -1218,14 +1223,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束学习，开始解决问题。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 2730,
@@ -1461,14 +1467,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束解决问题，开始决策。先定位本节在全讲中的位置，再进入内容总览。",
     "start_seconds": 3175,
@@ -1748,7 +1755,7 @@
     "seconds": 30,
     "on_slide": [
       "已结束：Prompting",
-      "接下来：Agents · 外化与内化",
+      "接下来：Agents · 大模型与智能体",
       "1. LLM基础：连续生成与多轮聊天",
       "1.1 连续生成",
       "1.2 多轮聊天",
@@ -1761,16 +1768,17 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
-    "talk": "结束Prompting，开始Agents · 外化与内化。",
+    "talk": "结束Prompting，开始Agents · 大模型与智能体。",
     "sources": [
       {
         "id": "L3",
@@ -1797,13 +1805,372 @@
   },
   {
     "page": 52,
+    "authoring_page": 17001,
+    "renderer": 17001,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "overview",
+    "title": "从大模型到智能体",
+    "seconds": 90,
+    "on_slide": [
+      "大模型处理给定输入，生成内容。",
+      "软件智能体围绕目标，反复观察、决定、执行和检查。",
+      "具身智能体通过传感器与执行器，作用于物理环境。"
+    ],
+    "talk": "大模型接收输入、生成内容。软件智能体围绕目标执行操作，再依据返回结果继续。具身智能体把这一循环连接到传感器和执行器。通知、数据分析、预约与抓笔，分别展示这些交付结果。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_MODEL",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_MS",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_BROWSER",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_ARM",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 3630,
+    "end_seconds": 3720,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 53,
+    "authoring_page": 17002,
+    "renderer": 17002,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "content",
+    "title": "大模型能生成什么？还缺什么？",
+    "seconds": 100,
+    "on_slide": [
+      "没有连接工具时，模型处理收到的输入，生成输出。",
+      "The lecture scheduled for today has been cancelled.",
+      "发送通知需要收件人、邮件系统和发送结果。写出“已发送”不会自动发出邮件。"
+    ],
+    "talk": "前面已经生成了通知内容。取得收件人、发送和检查结果，都需要邮件系统及相应工具执行。聊天产品可以内置这些工具；单独的模型负责根据输入生成输出。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "GEN_TRACE",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_MODEL",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 3720,
+    "end_seconds": 3820,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 54,
+    "authoring_page": 17003,
+    "renderer": 17003,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "case",
+    "title": "查询数据：模型得到新的信息",
+    "seconds": 100,
+    "on_slide": [
+      "Magentic-One查询标普500指数数据。",
+      "生成取数程序→运行程序→读取返回的数据→生成分析。",
+      "新增的信息通过执行过程进入模型输入。",
+      "取得数据后仍需检查回答：标普500指数的单位是点，原视频最后回答误用了美元符号。"
+    ],
+    "talk": "程序从数据服务取得数值，执行结果进入模型后续输入，模型据此给出分析。获取到数据以后，回答中的单位仍可能出错：标普500的数值单位是点，视频最后误用了美元符号。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_MS",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_SP",
+        "locator": "FAQ问题2：Index points"
+      }
+    ],
+    "start_seconds": 3820,
+    "end_seconds": 3920,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 55,
+    "authoring_page": 17004,
+    "renderer": 17004,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "case",
+    "title": "操作网页：从建议到实际操作",
+    "seconds": 100,
+    "on_slide": [
+      "Browser Use在网站寻找并选择驾驶考试预约时段。",
+      "查看日期、填写资料、选择时段、提交后检查预约成功页面。",
+      "观察→决定→执行→再观察。"
+    ],
+    "talk": "浏览器先显示可选日期，随后填写资料、选择时段并提交。最后的页面显示Appointment Scheduled。每一次动作之后，返回的页面状态为下一步提供依据。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_BROWSER",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 3920,
+    "end_seconds": 4020,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 56,
+    "authoring_page": 17005,
+    "renderer": 17005,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "content",
+    "title": "软件智能体的操作范围",
+    "seconds": 90,
+    "on_slide": [
+      "智能体的操作范围取决于连接的工具和获准的操作。",
+      "软件操作需要账户、权限与网站支持。",
+      "移动物体需要传感器、执行器和控制程序。",
+      "软件操作可以间接影响现实；直接移动物体还需要物理设备。"
+    ],
+    "talk": "软件中的订票或下单，可以通过服务商间接改变现实中的安排。直接抓取物体还需要感知位置、控制硬件并检查动作结果。浏览器工具与机器人控制工具，连接的是不同的执行环境。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_BROWSER",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_ARM",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_COMPUTER",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 4020,
+    "end_seconds": 4110,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 57,
+    "authoring_page": 17006,
+    "renderer": 17006,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "case",
+    "title": "机械臂抓笔：GPT-6 Astra的一个案例",
+    "seconds": 110,
+    "on_slide": [
+      "GPT-6 Astra＋SO101机械臂：找到红笔，抓起并保持。",
+      "摄像头观察→模型调整运动脚本→控制程序执行→新画面返回。",
+      "原作者视频为50倍速，任务实际耗时22分钟。"
+    ],
+    "talk": "已有电机控制、相机与运动学代码提供执行条件。模型接收画面，编写运动脚本，再依据新画面调整。作者记录端到端约22分钟；视频压缩为50倍速，不能从播放速度推导模型每次决策的耗时。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_ARM",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_MODEL",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 4110,
+    "end_seconds": 4220,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 58,
+    "authoring_page": 17007,
+    "renderer": 17007,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "content",
+    "title": "具身智能：把执行循环接到物理设备",
+    "seconds": 90,
+    "on_slide": [
+      "传感器提供环境信息，控制程序安排硬件动作，物理反馈用于检查结果。",
+      "物体可能移动，抓取也可能失败，需要重新观察和调整。",
+      "可进一步延伸到仓储搬运、生产操作、家庭服务。"
+    ],
+    "talk": "抓取需要准确的位置和动作控制，失败后要用新画面重新调整。扩展到仓储、生产和家庭服务，还会增加物体种类、空间变化、持续运行等要求。传感器、控制程序与硬件需要一同适配任务。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_ARM",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_ROBOTICS",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 4220,
+    "end_seconds": 4310,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 59,
+    "authoring_page": 17008,
+    "renderer": 17008,
+    "section": "大模型与智能体",
+    "navigation": "3.0",
+    "type": "summary",
+    "title": "智能体比大模型多了什么？",
+    "seconds": 110,
+    "on_slide": [
+      "Agent = LLM + Harness。",
+      "LLM理解任务，生成回答、计划或工具调用。",
+      "Harness准备输入、组织工具执行、返回结果、保存状态并安排继续或停止。",
+      "外化：哪些工作由模型外部承担？内化：哪些做法可通过训练进入模型？"
+    ],
+    "talk": "单独调用模型得到生成内容。智能体通过Harness组织输入、工具执行和结果反馈，把多次模型调用连接成任务过程。工具提供执行接口，运行系统还保存状态并控制继续或停止。外化与内化进一步说明，哪些工作安排在模型之外，哪些做法通过训练成为模型能力。",
+    "show_sources": false,
+    "sources": [
+      {
+        "id": "R17_COMPUTER",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_MS",
+        "locator": "案例与机制，公开页面及视频"
+      },
+      {
+        "id": "R17_ARM",
+        "locator": "案例与机制，公开页面及视频"
+      }
+    ],
+    "start_seconds": 4310,
+    "end_seconds": 4420,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 60,
+    "authoring_page": 17000,
+    "renderer": 4015,
+    "section": "Agents",
+    "type": "agenda",
+    "title": "本讲内容",
+    "seconds": 15,
+    "navigation": "3.1",
+    "show_sources": false,
+    "sources": [],
+    "on_slide": [
+      "已结束：大模型与智能体",
+      "接下来：外化与内化总览",
+      "1. LLM基础：连续生成与多轮聊天",
+      "1.1 连续生成",
+      "1.2 多轮聊天",
+      "1.3 LLM小结",
+      "2. Prompting：交代任务，再选择方法",
+      "2.1 三个核心",
+      "2.2 问清问题",
+      "2.3 学习",
+      "2.4 解决问题",
+      "2.5 决策",
+      "2.6 Prompting小结",
+      "3. Agents：Externalization & Internalization",
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
+    ],
+    "talk": "结束大模型与智能体，开始外化与内化总览。先定位本节在全讲中的位置，再进入内容总览。",
+    "start_seconds": 4420,
+    "end_seconds": 4435,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 61,
     "authoring_page": 51,
     "renderer": 5001,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "overview",
     "title": "智能体的外化与内化",
-    "seconds": 60,
+    "seconds": 45,
     "on_slide": [
       "Externalization（外化）：把信息、方法和执行安排在模型之外。",
       "Internalization（内化）：通过训练，让模型学会部分可复用的做法。",
@@ -1817,8 +2184,8 @@
         "locator": "原PDF物理页16；第16–25页整体逻辑"
       }
     ],
-    "start_seconds": 3630,
-    "end_seconds": 3690,
+    "start_seconds": 4435,
+    "end_seconds": 4480,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1829,11 +2196,11 @@
     }
   },
   {
-    "page": 53,
+    "page": 62,
     "authoring_page": 5101,
     "renderer": 5002,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "用“外化”理解Agent的各部分",
     "seconds": 45,
@@ -1849,8 +2216,8 @@
         "locator": "原PDF物理页17；第16–25页整体逻辑"
       }
     ],
-    "start_seconds": 3690,
-    "end_seconds": 3735,
+    "start_seconds": 4480,
+    "end_seconds": 4525,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1861,11 +2228,11 @@
     }
   },
   {
-    "page": 54,
+    "page": 63,
     "authoring_page": 5102,
     "renderer": 5003,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "外部表示，会改变任务的做法",
     "seconds": 45,
@@ -1882,8 +2249,8 @@
         "locator": "原PDF物理页18；第16–25页整体逻辑"
       }
     ],
-    "start_seconds": 3735,
-    "end_seconds": 3780,
+    "start_seconds": 4525,
+    "end_seconds": 4570,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1894,11 +2261,11 @@
     }
   },
   {
-    "page": 55,
+    "page": 64,
     "authoring_page": 5103,
     "renderer": 5004,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "写一张清单，改变了什么？",
     "seconds": 50,
@@ -1915,8 +2282,8 @@
         "locator": "原PDF物理页19；第16–25页整体逻辑"
       }
     ],
-    "start_seconds": 3780,
-    "end_seconds": 3830,
+    "start_seconds": 4570,
+    "end_seconds": 4620,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1927,11 +2294,11 @@
     }
   },
   {
-    "page": 56,
+    "page": 65,
     "authoring_page": 5104,
     "renderer": 5005,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "地图把关系放到了眼前",
     "seconds": 40,
@@ -1948,8 +2315,8 @@
         "locator": "原PDF物理页20；第16–25页整体逻辑"
       }
     ],
-    "start_seconds": 3830,
-    "end_seconds": 3870,
+    "start_seconds": 4620,
+    "end_seconds": 4660,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1960,11 +2327,11 @@
     }
   },
   {
-    "page": 57,
+    "page": 66,
     "authoring_page": 5105,
     "renderer": 5006,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "大模型智能体的发展史",
     "seconds": 85,
@@ -1982,8 +2349,8 @@
       }
     ],
     "source_replica": true,
-    "start_seconds": 3870,
-    "end_seconds": 3955,
+    "start_seconds": 4660,
+    "end_seconds": 4745,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -1994,11 +2361,11 @@
     }
   },
   {
-    "page": 58,
+    "page": 67,
     "authoring_page": 5106,
     "renderer": 5007,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "什么被外部化了？",
     "seconds": 65,
@@ -2017,8 +2384,8 @@
       }
     ],
     "source_replica": true,
-    "start_seconds": 3955,
-    "end_seconds": 4020,
+    "start_seconds": 4745,
+    "end_seconds": 4810,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2029,11 +2396,11 @@
     }
   },
   {
-    "page": 59,
+    "page": 68,
     "authoring_page": 5107,
     "renderer": 5008,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "工具、记忆、技能与协议",
     "seconds": 75,
@@ -2052,8 +2419,8 @@
       }
     ],
     "html_figures": true,
-    "start_seconds": 4020,
-    "end_seconds": 4095,
+    "start_seconds": 4810,
+    "end_seconds": 4885,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2064,11 +2431,11 @@
     }
   },
   {
-    "page": 60,
+    "page": 69,
     "authoring_page": 5108,
     "renderer": 5009,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "content",
     "title": "外部经验，也可能成为训练材料",
     "seconds": 80,
@@ -2087,8 +2454,8 @@
       }
     ],
     "html_figures": true,
-    "start_seconds": 4095,
-    "end_seconds": 4175,
+    "start_seconds": 4885,
+    "end_seconds": 4965,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2099,11 +2466,11 @@
     }
   },
   {
-    "page": 61,
+    "page": 70,
     "authoring_page": 5109,
     "renderer": 5010,
     "section": "智能体的外化与内化",
-    "navigation": "3.0",
+    "navigation": "3.1",
     "type": "summary",
     "title": "先看外化，再提出内化的问题",
     "seconds": 55,
@@ -2123,8 +2490,8 @@
       }
     ],
     "html_figures": true,
-    "start_seconds": 4175,
-    "end_seconds": 4230,
+    "start_seconds": 4965,
+    "end_seconds": 5020,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2135,14 +2502,14 @@
     }
   },
   {
-    "page": 62,
+    "page": 71,
     "authoring_page": 9007,
     "renderer": 4009,
     "section": "Agents",
     "type": "agenda",
     "title": "本讲内容",
     "seconds": 15,
-    "navigation": "3.1",
+    "navigation": "3.2",
     "show_sources": false,
     "sources": [],
     "on_slide": [
@@ -2160,18 +2527,19 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束外化与内化总览，开始工具调用。先定位本节在全讲中的位置，再进入内容总览。",
-    "start_seconds": 4230,
-    "end_seconds": 4245,
+    "start_seconds": 5020,
+    "end_seconds": 5035,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2182,7 +2550,7 @@
     }
   },
   {
-    "page": 63,
+    "page": 72,
     "renderer": 2052,
     "section": "Agents·工具调用",
     "type": "overview",
@@ -2201,9 +2569,9 @@
       }
     ],
     "authoring_page": 52,
-    "navigation": "3.1",
-    "start_seconds": 4245,
-    "end_seconds": 4335,
+    "navigation": "3.2",
+    "start_seconds": 5035,
+    "end_seconds": 5125,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2214,7 +2582,7 @@
     }
   },
   {
-    "page": 64,
+    "page": 73,
     "renderer": 2053,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2234,9 +2602,9 @@
       }
     ],
     "authoring_page": 53,
-    "navigation": "3.1",
-    "start_seconds": 4335,
-    "end_seconds": 4455,
+    "navigation": "3.2",
+    "start_seconds": 5125,
+    "end_seconds": 5245,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2247,9 +2615,9 @@
     }
   },
   {
-    "page": 65,
+    "page": 74,
     "renderer": 6201,
-    "navigation": "3.1",
+    "navigation": "3.2",
     "section": "工具调用",
     "type": "subagenda",
     "title": "工具调用：接下来讲什么？",
@@ -2267,8 +2635,8 @@
       }
     ],
     "authoring_page": 6201,
-    "start_seconds": 4455,
-    "end_seconds": 4480,
+    "start_seconds": 5245,
+    "end_seconds": 5270,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2279,7 +2647,7 @@
     }
   },
   {
-    "page": 66,
+    "page": 75,
     "renderer": 2054,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2299,9 +2667,9 @@
       }
     ],
     "authoring_page": 54,
-    "navigation": "3.1",
-    "start_seconds": 4480,
-    "end_seconds": 4630,
+    "navigation": "3.2",
+    "start_seconds": 5270,
+    "end_seconds": 5420,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2312,7 +2680,7 @@
     }
   },
   {
-    "page": 67,
+    "page": 76,
     "renderer": 2055,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2332,9 +2700,9 @@
       }
     ],
     "authoring_page": 55,
-    "navigation": "3.1",
-    "start_seconds": 4630,
-    "end_seconds": 4810,
+    "navigation": "3.2",
+    "start_seconds": 5420,
+    "end_seconds": 5600,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2345,7 +2713,7 @@
     }
   },
   {
-    "page": 68,
+    "page": 77,
     "renderer": 2056,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2365,9 +2733,9 @@
       }
     ],
     "authoring_page": 56,
-    "navigation": "3.1",
-    "start_seconds": 4810,
-    "end_seconds": 4930,
+    "navigation": "3.2",
+    "start_seconds": 5600,
+    "end_seconds": 5720,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2378,7 +2746,7 @@
     }
   },
   {
-    "page": 69,
+    "page": 78,
     "renderer": 2057,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2398,9 +2766,9 @@
       }
     ],
     "authoring_page": 57,
-    "navigation": "3.1",
-    "start_seconds": 4930,
-    "end_seconds": 5290,
+    "navigation": "3.2",
+    "start_seconds": 5720,
+    "end_seconds": 6080,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2411,7 +2779,7 @@
     }
   },
   {
-    "page": 70,
+    "page": 79,
     "renderer": 2058,
     "section": "Agents·工具调用",
     "type": "summary",
@@ -2431,9 +2799,9 @@
       }
     ],
     "authoring_page": 58,
-    "navigation": "3.1",
-    "start_seconds": 5290,
-    "end_seconds": 5380,
+    "navigation": "3.2",
+    "start_seconds": 6080,
+    "end_seconds": 6170,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2444,9 +2812,9 @@
     }
   },
   {
-    "page": 71,
+    "page": 80,
     "renderer": 6202,
-    "navigation": "3.1",
+    "navigation": "3.2",
     "section": "工具调用",
     "type": "subagenda",
     "title": "工具调用：接下来讲什么？",
@@ -2464,8 +2832,8 @@
       }
     ],
     "authoring_page": 6202,
-    "start_seconds": 5380,
-    "end_seconds": 5405,
+    "start_seconds": 6170,
+    "end_seconds": 6195,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2476,7 +2844,7 @@
     }
   },
   {
-    "page": 72,
+    "page": 81,
     "renderer": 2066,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2496,9 +2864,9 @@
       }
     ],
     "authoring_page": 66,
-    "navigation": "3.1",
-    "start_seconds": 5405,
-    "end_seconds": 5525,
+    "navigation": "3.2",
+    "start_seconds": 6195,
+    "end_seconds": 6315,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2509,7 +2877,41 @@
     }
   },
   {
-    "page": 73,
+    "page": 82,
+    "renderer": 19001,
+    "navigation": "3.2",
+    "section": "Agents·工具调用",
+    "type": "case",
+    "title": "Astra操作机械臂：感知和控制也通过工具",
+    "seconds": 120,
+    "show_sources": false,
+    "on_slide": [
+      "读取画面：调用相机程序，取得工作台图像。",
+      "运行运动脚本：Astra编写、调整脚本，程序通过控制接口驱动机械臂。",
+      "再看执行结果：读取新画面，检查是否抓住，再决定下一步。",
+      "GPT-6 Astra与SO101；原作者视频50倍速，任务耗时22分钟。"
+    ],
+    "talk": "承接Computer Use：从电脑界面换成摄像头画面，从鼠标键盘换成机器人控制接口。模型通过工具调用这些程序；运动脚本控制硬件，画面返回以后继续调整。作者复用了已有的电机控制、关节坐标转换、配置与相机采集代码，再编写本任务的运动脚本。",
+    "sources": [
+      {
+        "id": "ARM_TOOLS_R19",
+        "locator": "作者SO101抓笔记录，2026-09-13"
+      }
+    ],
+    "authoring_page": 19001,
+    "start_seconds": 6315,
+    "end_seconds": 6435,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 83,
     "renderer": 2071,
     "section": "Agents·工具调用",
     "type": "content",
@@ -2529,9 +2931,9 @@
       }
     ],
     "authoring_page": 71,
-    "navigation": "3.1",
-    "start_seconds": 5525,
-    "end_seconds": 5645,
+    "navigation": "3.2",
+    "start_seconds": 6435,
+    "end_seconds": 6555,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2542,7 +2944,7 @@
     }
   },
   {
-    "page": 74,
+    "page": 84,
     "renderer": 2072,
     "section": "Agents·工具调用",
     "type": "summary",
@@ -2563,9 +2965,9 @@
       }
     ],
     "authoring_page": 72,
-    "navigation": "3.1",
-    "start_seconds": 5645,
-    "end_seconds": 5750,
+    "navigation": "3.2",
+    "start_seconds": 6555,
+    "end_seconds": 6660,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2576,14 +2978,14 @@
     }
   },
   {
-    "page": 75,
+    "page": 85,
     "authoring_page": 9008,
     "renderer": 4010,
     "section": "Agents",
     "type": "agenda",
     "title": "本讲内容",
     "seconds": 15,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "show_sources": false,
     "sources": [],
     "on_slide": [
@@ -2601,18 +3003,19 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束工具调用，开始Memory。先定位本节在全讲中的位置，再进入内容总览。",
-    "start_seconds": 6350,
-    "end_seconds": 6365,
+    "start_seconds": 7260,
+    "end_seconds": 7275,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2623,9 +3026,9 @@
     }
   },
   {
-    "page": 76,
+    "page": 86,
     "renderer": 6001,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "overview",
     "title": "Memory：保存和使用跨会话信息",
@@ -2643,8 +3046,8 @@
       }
     ],
     "authoring_page": 74,
-    "start_seconds": 6365,
-    "end_seconds": 6425,
+    "start_seconds": 7275,
+    "end_seconds": 7335,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2655,9 +3058,9 @@
     }
   },
   {
-    "page": 77,
+    "page": 87,
     "renderer": 6002,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "新会话怎样用到过去的信息？",
@@ -2675,8 +3078,8 @@
       }
     ],
     "authoring_page": 7401,
-    "start_seconds": 6425,
-    "end_seconds": 6500,
+    "start_seconds": 7335,
+    "end_seconds": 7410,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2687,9 +3090,9 @@
     }
   },
   {
-    "page": 78,
+    "page": 88,
     "renderer": 6003,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "记忆要存什么？",
@@ -2707,8 +3110,8 @@
       }
     ],
     "authoring_page": 7402,
-    "start_seconds": 6500,
-    "end_seconds": 6590,
+    "start_seconds": 7410,
+    "end_seconds": 7500,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2719,9 +3122,9 @@
     }
   },
   {
-    "page": 79,
+    "page": 89,
     "renderer": 6004,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "记忆怎样组织：条目与关系图",
@@ -2739,8 +3142,8 @@
       }
     ],
     "authoring_page": 7403,
-    "start_seconds": 6590,
-    "end_seconds": 6690,
+    "start_seconds": 7500,
+    "end_seconds": 7600,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2751,9 +3154,9 @@
     }
   },
   {
-    "page": 80,
+    "page": 90,
     "renderer": 6101,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "explanation",
     "title": "记忆库：条目与图谱",
@@ -2771,8 +3174,8 @@
       }
     ],
     "authoring_page": 6101,
-    "start_seconds": 6690,
-    "end_seconds": 6740,
+    "start_seconds": 7600,
+    "end_seconds": 7650,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2783,9 +3186,9 @@
     }
   },
   {
-    "page": 81,
+    "page": 91,
     "renderer": 6005,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "overview",
     "title": "记忆的增删改查",
@@ -2803,8 +3206,8 @@
       }
     ],
     "authoring_page": 7404,
-    "start_seconds": 6740,
-    "end_seconds": 6815,
+    "start_seconds": 7650,
+    "end_seconds": 7725,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2815,9 +3218,9 @@
     }
   },
   {
-    "page": 82,
+    "page": 92,
     "renderer": 6006,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "写入：新增、修改、删除，还是不变？",
@@ -2835,8 +3238,8 @@
       }
     ],
     "authoring_page": 7405,
-    "start_seconds": 6815,
-    "end_seconds": 6905,
+    "start_seconds": 7725,
+    "end_seconds": 7815,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2847,9 +3250,9 @@
     }
   },
   {
-    "page": 83,
+    "page": 93,
     "renderer": 6007,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "事实变了，历史与当前怎样区分？",
@@ -2867,8 +3270,8 @@
       }
     ],
     "authoring_page": 7406,
-    "start_seconds": 6905,
-    "end_seconds": 6980,
+    "start_seconds": 7815,
+    "end_seconds": 7890,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2879,9 +3282,9 @@
     }
   },
   {
-    "page": 84,
+    "page": 94,
     "renderer": 6008,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "删除一条记忆，信息就消失了吗？",
@@ -2899,8 +3302,8 @@
       }
     ],
     "authoring_page": 7407,
-    "start_seconds": 6980,
-    "end_seconds": 7055,
+    "start_seconds": 7890,
+    "end_seconds": 7965,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2911,9 +3314,9 @@
     }
   },
   {
-    "page": 85,
+    "page": 95,
     "renderer": 6009,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "查询：先确定范围，再找候选",
@@ -2931,8 +3334,8 @@
       }
     ],
     "authoring_page": 7408,
-    "start_seconds": 7055,
-    "end_seconds": 7145,
+    "start_seconds": 7965,
+    "end_seconds": 8055,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2943,9 +3346,9 @@
     }
   },
   {
-    "page": 86,
+    "page": 96,
     "renderer": 6102,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "subagenda",
     "title": "Memory：本节内容",
@@ -2963,8 +3366,8 @@
       }
     ],
     "authoring_page": 6102,
-    "start_seconds": 7145,
-    "end_seconds": 7170,
+    "start_seconds": 8055,
+    "end_seconds": 8080,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -2975,9 +3378,9 @@
     }
   },
   {
-    "page": 87,
+    "page": 97,
     "renderer": 6010,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "记忆也可能干扰当前任务",
@@ -2995,8 +3398,8 @@
       }
     ],
     "authoring_page": 7409,
-    "start_seconds": 7170,
-    "end_seconds": 7260,
+    "start_seconds": 8080,
+    "end_seconds": 8170,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3007,9 +3410,9 @@
     }
   },
   {
-    "page": 88,
+    "page": 98,
     "renderer": 6011,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "content",
     "title": "工作场景：需要哪些历史信息？",
@@ -3027,8 +3430,8 @@
       }
     ],
     "authoring_page": 7410,
-    "start_seconds": 7260,
-    "end_seconds": 7350,
+    "start_seconds": 8170,
+    "end_seconds": 8260,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3039,9 +3442,9 @@
     }
   },
   {
-    "page": 89,
+    "page": 99,
     "renderer": 6012,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·保存、维护与采用",
     "type": "summary",
     "title": "先判断这次需不需要记忆",
@@ -3059,8 +3462,8 @@
       }
     ],
     "authoring_page": 7411,
-    "start_seconds": 7350,
-    "end_seconds": 7430,
+    "start_seconds": 8260,
+    "end_seconds": 8340,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3071,9 +3474,9 @@
     }
   },
   {
-    "page": 90,
+    "page": 100,
     "renderer": 6103,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "subagenda",
     "title": "Memory：本节内容",
@@ -3091,8 +3494,8 @@
       }
     ],
     "authoring_page": 6103,
-    "start_seconds": 7430,
-    "end_seconds": 7455,
+    "start_seconds": 8340,
+    "end_seconds": 8365,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3103,9 +3506,9 @@
     }
   },
   {
-    "page": 91,
+    "page": 101,
     "renderer": 6013,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·个性化与主动式智能体",
     "type": "overview",
     "title": "从Memory到个性化与主动式智能体",
@@ -3123,8 +3526,8 @@
       }
     ],
     "authoring_page": 7412,
-    "start_seconds": 7455,
-    "end_seconds": 7540,
+    "start_seconds": 8365,
+    "end_seconds": 8450,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3135,9 +3538,9 @@
     }
   },
   {
-    "page": 92,
+    "page": 102,
     "renderer": 6014,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·个性化与主动式智能体",
     "type": "content",
     "title": "Meta Muse与OpenAI dot",
@@ -3155,8 +3558,8 @@
       }
     ],
     "authoring_page": 7413,
-    "start_seconds": 7540,
-    "end_seconds": 7645,
+    "start_seconds": 8450,
+    "end_seconds": 8555,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3167,9 +3570,9 @@
     }
   },
   {
-    "page": 93,
+    "page": 103,
     "renderer": 6015,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·个性化与主动式智能体",
     "type": "content",
     "title": "个性化智能体：信息、权限与风险",
@@ -3187,8 +3590,8 @@
       }
     ],
     "authoring_page": 7414,
-    "start_seconds": 7645,
-    "end_seconds": 7735,
+    "start_seconds": 8555,
+    "end_seconds": 8645,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3199,9 +3602,9 @@
     }
   },
   {
-    "page": 94,
+    "page": 104,
     "renderer": 6016,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·个性化与主动式智能体",
     "type": "content",
     "title": "智能体会改变平台的入口吗？",
@@ -3219,8 +3622,8 @@
       }
     ],
     "authoring_page": 7415,
-    "start_seconds": 7735,
-    "end_seconds": 7855,
+    "start_seconds": 8645,
+    "end_seconds": 8765,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3231,9 +3634,9 @@
     }
   },
   {
-    "page": 95,
+    "page": 105,
     "renderer": 6104,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "explanation",
     "title": "平台对智能体的限制，已经在发生",
@@ -3251,8 +3654,8 @@
       }
     ],
     "authoring_page": 6104,
-    "start_seconds": 7855,
-    "end_seconds": 7920,
+    "start_seconds": 8765,
+    "end_seconds": 8830,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3263,9 +3666,9 @@
     }
   },
   {
-    "page": 96,
+    "page": 106,
     "renderer": 6017,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·个性化与主动式智能体",
     "type": "summary",
     "title": "个性化与主动式智能体小结",
@@ -3283,8 +3686,8 @@
       }
     ],
     "authoring_page": 7416,
-    "start_seconds": 7920,
-    "end_seconds": 7980,
+    "start_seconds": 8830,
+    "end_seconds": 8890,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3295,9 +3698,9 @@
     }
   },
   {
-    "page": 97,
+    "page": 107,
     "renderer": 6105,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "subagenda",
     "title": "Memory：本节内容",
@@ -3315,8 +3718,8 @@
       }
     ],
     "authoring_page": 6105,
-    "start_seconds": 7980,
-    "end_seconds": 8005,
+    "start_seconds": 8890,
+    "end_seconds": 8915,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3327,9 +3730,9 @@
     }
   },
   {
-    "page": 98,
+    "page": 108,
     "renderer": 6106,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "explanation",
     "title": "Codex CLI的记忆系统",
@@ -3347,8 +3750,8 @@
       }
     ],
     "authoring_page": 6106,
-    "start_seconds": 8005,
-    "end_seconds": 8075,
+    "start_seconds": 8915,
+    "end_seconds": 8985,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3359,9 +3762,9 @@
     }
   },
   {
-    "page": 99,
+    "page": 109,
     "renderer": 6018,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "overview",
     "title": "Codex采购案例：旧预算还能沿用吗？",
@@ -3379,8 +3782,8 @@
       }
     ],
     "authoring_page": 7417,
-    "start_seconds": 8075,
-    "end_seconds": 8175,
+    "start_seconds": 8985,
+    "end_seconds": 9085,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3391,9 +3794,9 @@
     }
   },
   {
-    "page": 100,
+    "page": 110,
     "renderer": 6107,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "explanation",
     "title": "Codex CLI的记忆文件目录",
@@ -3411,8 +3814,8 @@
       }
     ],
     "authoring_page": 6107,
-    "start_seconds": 8175,
-    "end_seconds": 8230,
+    "start_seconds": 9085,
+    "end_seconds": 9140,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3423,9 +3826,9 @@
     }
   },
   {
-    "page": 101,
+    "page": 111,
     "renderer": 6019,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "磁盘里保存了什么？",
@@ -3443,8 +3846,8 @@
       }
     ],
     "authoring_page": 7418,
-    "start_seconds": 8230,
-    "end_seconds": 8350,
+    "start_seconds": 9140,
+    "end_seconds": 9260,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3455,9 +3858,9 @@
     }
   },
   {
-    "page": 102,
+    "page": 112,
     "renderer": 6020,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "渐进式披露：先摘要，再细节",
@@ -3475,8 +3878,8 @@
       }
     ],
     "authoring_page": 7419,
-    "start_seconds": 8350,
-    "end_seconds": 8460,
+    "start_seconds": 9260,
+    "end_seconds": 9370,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3487,9 +3890,9 @@
     }
   },
   {
-    "page": 103,
+    "page": 113,
     "renderer": 6021,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "首次输入：摘要怎样进入模型？",
@@ -3507,8 +3910,8 @@
       }
     ],
     "authoring_page": 7420,
-    "start_seconds": 8460,
-    "end_seconds": 8580,
+    "start_seconds": 9370,
+    "end_seconds": 9490,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3519,9 +3922,9 @@
     }
   },
   {
-    "page": 104,
+    "page": 114,
     "renderer": 6022,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "摘要足够吗？哪些内容还要查？",
@@ -3539,8 +3942,8 @@
       }
     ],
     "authoring_page": 7421,
-    "start_seconds": 8580,
-    "end_seconds": 8660,
+    "start_seconds": 9490,
+    "end_seconds": 9570,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3551,9 +3954,9 @@
     }
   },
   {
-    "page": 105,
+    "page": 115,
     "renderer": 6023,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "模型生成读取调用",
@@ -3571,8 +3974,8 @@
       }
     ],
     "authoring_page": 7422,
-    "start_seconds": 8660,
-    "end_seconds": 8765,
+    "start_seconds": 9570,
+    "end_seconds": 9675,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3583,9 +3986,9 @@
     }
   },
   {
-    "page": 106,
+    "page": 116,
     "renderer": 6024,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "工具返回后，输入增加了什么？",
@@ -3603,8 +4006,8 @@
       }
     ],
     "authoring_page": 7423,
-    "start_seconds": 8765,
-    "end_seconds": 8870,
+    "start_seconds": 9675,
+    "end_seconds": 9780,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3615,9 +4018,9 @@
     }
   },
   {
-    "page": 107,
+    "page": 117,
     "renderer": 6025,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "读取记忆后的采购判断",
@@ -3635,8 +4038,8 @@
       }
     ],
     "authoring_page": 7424,
-    "start_seconds": 8870,
-    "end_seconds": 8960,
+    "start_seconds": 9780,
+    "end_seconds": 9870,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3647,9 +4050,9 @@
     }
   },
   {
-    "page": 108,
+    "page": 118,
     "renderer": 6031,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory",
     "type": "explanation",
     "title": "模型生成采购评审要点",
@@ -3667,8 +4070,8 @@
       }
     ],
     "authoring_page": 6108,
-    "start_seconds": 8960,
-    "end_seconds": 9015,
+    "start_seconds": 9870,
+    "end_seconds": 9925,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3679,9 +4082,9 @@
     }
   },
   {
-    "page": 109,
+    "page": 119,
     "renderer": 6026,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "用户补充正式部署条件",
@@ -3699,8 +4102,8 @@
       }
     ],
     "authoring_page": 7425,
-    "start_seconds": 9015,
-    "end_seconds": 9100,
+    "start_seconds": 9925,
+    "end_seconds": 10010,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3711,9 +4114,9 @@
     }
   },
   {
-    "page": 110,
+    "page": 120,
     "renderer": 6027,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "case",
     "title": "文件更新了，当前输入会自动变吗？",
@@ -3731,8 +4134,8 @@
       }
     ],
     "authoring_page": 7426,
-    "start_seconds": 9100,
-    "end_seconds": 9220,
+    "start_seconds": 10010,
+    "end_seconds": 10130,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3743,9 +4146,9 @@
     }
   },
   {
-    "page": 111,
+    "page": 121,
     "renderer": 6028,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·Codex商业案例",
     "type": "summary",
     "title": "采购案例小结：记忆读取与更新",
@@ -3763,8 +4166,8 @@
       }
     ],
     "authoring_page": 7427,
-    "start_seconds": 9220,
-    "end_seconds": 9300,
+    "start_seconds": 10130,
+    "end_seconds": 10210,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3775,9 +4178,9 @@
     }
   },
   {
-    "page": 112,
+    "page": 122,
     "renderer": 6029,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·小结与Skills过渡",
     "type": "summary",
     "title": "Memory小结：保存、读取与采用",
@@ -3795,8 +4198,8 @@
       }
     ],
     "authoring_page": 7428,
-    "start_seconds": 9300,
-    "end_seconds": 9360,
+    "start_seconds": 10210,
+    "end_seconds": 10270,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3807,9 +4210,9 @@
     }
   },
   {
-    "page": 113,
+    "page": 123,
     "renderer": 6030,
-    "navigation": "3.2",
+    "navigation": "3.3",
     "section": "Memory·小结与Skills过渡",
     "type": "summary",
     "title": "从Memory到Skills：从信息到方法",
@@ -3827,8 +4230,8 @@
       }
     ],
     "authoring_page": 7429,
-    "start_seconds": 9360,
-    "end_seconds": 9435,
+    "start_seconds": 10270,
+    "end_seconds": 10345,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3839,14 +4242,14 @@
     }
   },
   {
-    "page": 114,
+    "page": 124,
     "authoring_page": 9009,
     "renderer": 4011,
     "section": "Agents",
     "type": "agenda",
     "title": "本讲内容",
     "seconds": 15,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "show_sources": false,
     "sources": [],
     "on_slide": [
@@ -3864,18 +4267,19 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束Memory，开始Skills。先定位本节在全讲中的位置，再进入内容总览。",
-    "start_seconds": 9435,
-    "end_seconds": 9450,
+    "start_seconds": 10345,
+    "end_seconds": 10360,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3886,9 +4290,9 @@
     }
   },
   {
-    "page": 115,
+    "page": 125,
     "renderer": 7001,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·技能包",
     "type": "overview",
     "title": "Skills：把“怎样做”保存成可复用的方法",
@@ -3906,8 +4310,8 @@
       }
     ],
     "authoring_page": 89,
-    "start_seconds": 9450,
-    "end_seconds": 9525,
+    "start_seconds": 10360,
+    "end_seconds": 10435,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3918,9 +4322,9 @@
     }
   },
   {
-    "page": 116,
+    "page": 126,
     "renderer": 7002,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·技能包",
     "type": "concept",
     "title": "从程序性记忆到Skills",
@@ -3938,8 +4342,8 @@
       }
     ],
     "authoring_page": 8901,
-    "start_seconds": 9525,
-    "end_seconds": 9615,
+    "start_seconds": 10435,
+    "end_seconds": 10525,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3950,28 +4354,28 @@
     }
   },
   {
-    "page": 117,
+    "page": 127,
     "renderer": 7003,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·技能包",
     "type": "overview",
-    "title": "一、完整的技能包：先看方法怎样落在文件中",
+    "title": "采购评审Skill：把条件整理成一页评审要点",
     "seconds": 90,
     "show_sources": false,
     "on_slide": [
-      "一、完整的技能包：先看方法怎样落在文件中",
-      "接下来先看完整技能包。Jupyter Notebook将说明文字与代码放进同一份文件。jupyter-notebook Skill支持实验与教程两种用途。先看入口，再看参考、程序和模板如何配合。"
+      "采购评审Skill：把条件整理成一页评审要点",
+      "沿用Memory案例：300人、一年、预算上限30万元。先认识完整采购评审包，再观察模型怎样按任务读取和使用。"
     ],
-    "talk": "接下来先看完整技能包。Jupyter Notebook将说明文字与代码放进同一份文件。jupyter-notebook Skill支持实验与教程两种用途。先看入口，再看参考、程序和模板如何配合。",
+    "talk": "沿用Memory案例：300人、一年、预算上限30万元。先认识完整采购评审包，再观察模型怎样按任务读取和使用。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8902,
-    "start_seconds": 9615,
-    "end_seconds": 9705,
+    "start_seconds": 10525,
+    "end_seconds": 10615,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -3982,60 +4386,92 @@
     }
   },
   {
-    "page": 118,
-    "renderer": 7004,
-    "navigation": "3.3",
+    "page": 128,
+    "renderer": 7030,
+    "navigation": "3.4",
     "section": "Skills·技能包",
-    "type": "files",
-    "title": "打开jupyter-notebook：12个文件各有什么用？",
-    "seconds": 150,
-    "show_sources": false,
-    "on_slide": [
-      "打开jupyter-notebook：12个文件各有什么用？",
-      "依次查看完整12文件包。SKILL.md保存用途与步骤；references保存详细做法；scripts保存程序；assets包括Notebook模板和界面图标；agents/openai.yaml保存客户端展示配置；LICENSE.txt保存许可。"
-    ],
-    "talk": "依次查看完整12文件包。SKILL.md保存用途与步骤；references保存详细做法；scripts保存程序；assets包括Notebook模板和界面图标；agents/openai.yaml保存客户端展示配置；LICENSE.txt保存许可。",
-    "sources": [
-      {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
-      }
-    ],
-    "authoring_page": 8903,
-    "start_seconds": 9705,
-    "end_seconds": 9855,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 119,
-    "renderer": 7005,
-    "navigation": "3.3",
-    "section": "Skills·技能包",
-    "type": "concept",
-    "title": "SKILL.md：先说明何时用，再说明怎样做",
+    "type": "explanation",
+    "title": "先看文件夹：采购评审包怎样组织？",
     "seconds": 90,
     "show_sources": false,
     "on_slide": [
-      "SKILL.md：先说明何时用，再说明怎样做",
-      "名称、用途说明和文件入口帮助选择Skill。读取正文后，模型才能看到教程与实验的分支、脚本位置、参考文件与检查要求。"
+      "先看文件夹：采购评审包怎样组织？",
+      "先展示采购评审包的文件夹层级：SKILL.md、references、scripts、assets与agents；再打开单个文件。"
     ],
-    "talk": "名称、用途说明和文件入口帮助选择Skill。读取正文后，模型才能看到教程与实验的分支、脚本位置、参考文件与检查要求。",
+    "talk": "先展示采购评审包的文件夹层级：SKILL.md、references、scripts、assets与agents；再打开单个文件。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
+      }
+    ],
+    "authoring_page": 8960,
+    "start_seconds": 10615,
+    "end_seconds": 10705,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 129,
+    "renderer": 7004,
+    "navigation": "3.4",
+    "section": "Skills·技能包",
+    "type": "files",
+    "title": "打开采购评审包：9个文件各有什么用？",
+    "seconds": 150,
+    "show_sources": false,
+    "on_slide": [
+      "打开采购评审包：9个文件各有什么用？",
+      "从文件夹层级进入具体文件。查看入口、四份参考、两个脚本、HTML模板与客户端配置。"
+    ],
+    "talk": "从文件夹层级进入具体文件。查看入口、四份参考、两个脚本、HTML模板与客户端配置。",
+    "sources": [
+      {
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
+      }
+    ],
+    "authoring_page": 8903,
+    "start_seconds": 10705,
+    "end_seconds": 10855,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 130,
+    "renderer": 7005,
+    "navigation": "3.4",
+    "section": "Skills·技能包",
+    "type": "concept",
+    "title": "SKILL.md：何时使用，怎样完成",
+    "seconds": 90,
+    "show_sources": false,
+    "on_slide": [
+      "SKILL.md：何时使用，怎样完成",
+      "名称与用途帮助模型选中Skill；正文提供正式部署和试点分支，以及生成和检查的入口。"
+    ],
+    "talk": "名称与用途帮助模型选中Skill；正文提供正式部署和试点分支，以及生成和检查的入口。",
+    "sources": [
+      {
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8904,
-    "start_seconds": 9855,
-    "end_seconds": 9945,
+    "start_seconds": 10855,
+    "end_seconds": 10945,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4046,28 +4482,28 @@
     }
   },
   {
-    "page": 120,
+    "page": 131,
     "renderer": 7006,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·技能包",
     "type": "concept",
-    "title": "参考、脚本、模板：沿着一条生成路径配合",
+    "title": "参考、脚本与模板怎样配合？",
     "seconds": 105,
     "show_sources": false,
     "on_slide": [
-      "参考、脚本、模板：沿着一条生成路径配合",
-      "教程参考用于指导内容安排；生成脚本按参数读取教程模板，改标题并写出Notebook。模型读参考与程序读模板是不同动作，模板不必整体进入模型输入。"
+      "参考、脚本与模板怎样配合？",
+      "模型读参考文件组织内容；工具运行脚本，脚本读取模板并写文件。方法、程序与版式各有作用。"
     ],
-    "talk": "教程参考用于指导内容安排；生成脚本按参数读取教程模板，改标题并写出Notebook。模型读参考与程序读模板是不同动作，模板不必整体进入模型输入。",
+    "talk": "模型读参考文件组织内容；工具运行脚本，脚本读取模板并写文件。方法、程序与版式各有作用。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8905,
-    "start_seconds": 9945,
-    "end_seconds": 10050,
+    "start_seconds": 10945,
+    "end_seconds": 11050,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4078,28 +4514,28 @@
     }
   },
   {
-    "page": 121,
+    "page": 132,
     "renderer": 7007,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·技能包",
     "type": "summary",
-    "title": "技能包小结：入口、方法与资源怎样配合",
+    "title": "完整技能包：入口、方法与资源",
     "seconds": 60,
     "show_sources": false,
     "on_slide": [
-      "技能包小结：入口、方法与资源怎样配合",
-      "入口说明何时用；正文说明怎样做及去哪里查；参考、脚本、模板承担细节说明、稳定执行和文件结构。按任务组织，简单Skill可以只有SKILL.md。"
+      "完整技能包：入口、方法与资源",
+      "回顾采购评审包，说明文件包的存在与模型已读取其内容是两回事。"
     ],
-    "talk": "入口说明何时用；正文说明怎样做及去哪里查；参考、脚本、模板承担细节说明、稳定执行和文件结构。按任务组织，简单Skill可以只有SKILL.md。",
+    "talk": "回顾采购评审包，说明文件包的存在与模型已读取其内容是两回事。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8906,
-    "start_seconds": 10050,
-    "end_seconds": 10110,
+    "start_seconds": 11050,
+    "end_seconds": 11110,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4110,9 +4546,9 @@
     }
   },
   {
-    "page": 122,
+    "page": 133,
     "renderer": 6203,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills",
     "type": "subagenda",
     "title": "Skills：接下来讲什么？",
@@ -4130,8 +4566,8 @@
       }
     ],
     "authoring_page": 6203,
-    "start_seconds": 10110,
-    "end_seconds": 10135,
+    "start_seconds": 11110,
+    "end_seconds": 11135,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4142,28 +4578,28 @@
     }
   },
   {
-    "page": 123,
+    "page": 134,
     "renderer": 7008,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "overview",
-    "title": "二、一次调用：从任务到Notebook文件",
+    "title": "一次Skill调用：从采购条件到评审文件",
     "seconds": 90,
     "show_sources": false,
     "on_slide": [
-      "二、一次调用：从任务到Notebook文件",
-      "技能包已讲完，接下来沿同一个Notebook骨架任务观察调用。目录选择、读取正文、读取教程参考、执行脚本、读取检查清单与产物，最后回答。"
+      "一次Skill调用：从采购条件到评审文件",
+      "完整过程：确认当前任务，读技能正文，读正式部署方法，再读费用口径，组织初稿，生成文件，读取清单并核对产物。"
     ],
-    "talk": "技能包已讲完，接下来沿同一个Notebook骨架任务观察调用。目录选择、读取正文、读取教程参考、执行脚本、读取检查清单与产物，最后回答。",
+    "talk": "完整过程：确认当前任务，读技能正文，读正式部署方法，再读费用口径，组织初稿，生成文件，读取清单并核对产物。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8907,
-    "start_seconds": 10135,
-    "end_seconds": 10225,
+    "start_seconds": 11135,
+    "end_seconds": 11225,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4174,28 +4610,28 @@
     }
   },
   {
-    "page": 124,
+    "page": 135,
     "renderer": 7009,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "trace",
-    "title": "先看目录：这个任务适合哪个Skill？",
+    "title": "当前输入：采购条件、用户任务与Skill目录",
     "seconds": 120,
     "show_sources": false,
     "on_slide": [
-      "先看目录：这个任务适合哪个Skill？",
-      "本次任务要求创建Python列表与平均值的教学Notebook骨架，保留模板内容。客户端提供Skill名称、用途与入口，模型根据用途选择jupyter-notebook。"
+      "当前输入：采购条件、用户任务与Skill目录",
+      "Memory提供当前采购条件；Skill目录提供方法的名称、用途和路径。模型还没有读取包内正文。"
     ],
-    "talk": "本次任务要求创建Python列表与平均值的教学Notebook骨架，保留模板内容。客户端提供Skill名称、用途与入口，模型根据用途选择jupyter-notebook。",
+    "talk": "Memory提供当前采购条件；Skill目录提供方法的名称、用途和路径。模型还没有读取包内正文。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8908,
-    "start_seconds": 10225,
-    "end_seconds": 10345,
+    "start_seconds": 11225,
+    "end_seconds": 11345,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4206,28 +4642,28 @@
     }
   },
   {
-    "page": 125,
+    "page": 136,
     "renderer": 7010,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "trace",
-    "title": "第一次展开：读取SKILL.md",
+    "title": "第一次读取：从目录进入SKILL.md",
     "seconds": 120,
     "show_sources": false,
     "on_slide": [
-      "第一次展开：读取SKILL.md",
-      "模型生成读取文件的工具调用；工具返回完整SKILL.md。读取后的输入有了流程和资源位置。本次要求教学用途，选择tutorial分支。"
+      "第一次读取：从目录进入SKILL.md",
+      "先选用Skill，再读取正文。当前任务选择正式部署分支，得到rollout-review.md的入口。"
     ],
-    "talk": "模型生成读取文件的工具调用；工具返回完整SKILL.md。读取后的输入有了流程和资源位置。本次要求教学用途，选择tutorial分支。",
+    "talk": "先选用Skill，再读取正文。当前任务选择正式部署分支，得到rollout-review.md的入口。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8909,
-    "start_seconds": 10345,
-    "end_seconds": 10465,
+    "start_seconds": 11345,
+    "end_seconds": 11465,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4238,28 +4674,28 @@
     }
   },
   {
-    "page": 126,
+    "page": 137,
     "renderer": 7011,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "trace",
-    "title": "第二次展开：按教程分支读取参考",
+    "title": "第二次读取：找到正式部署的评审方法",
     "seconds": 120,
     "show_sources": false,
     "on_slide": [
-      "第二次展开：按教程分支读取参考",
-      "SKILL.md指向tutorial-patterns.md。模型继续生成读取调用，工具返回教学组织要求。experiment-patterns.md仍保留在磁盘中，本任务不需要读取它。"
+      "第二次读取：找到正式部署的评审方法",
+      "读取rollout-review.md，取得四部分结构；费用范围一节继续链接cost-scope.md。"
     ],
-    "talk": "SKILL.md指向tutorial-patterns.md。模型继续生成读取调用，工具返回教学组织要求。experiment-patterns.md仍保留在磁盘中，本任务不需要读取它。",
+    "talk": "读取rollout-review.md，取得四部分结构；费用范围一节继续链接cost-scope.md。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8910,
-    "start_seconds": 10465,
-    "end_seconds": 10585,
+    "start_seconds": 11465,
+    "end_seconds": 11585,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4270,28 +4706,92 @@
     }
   },
   {
-    "page": 127,
+    "page": 138,
+    "renderer": 7031,
+    "navigation": "3.4",
+    "section": "Skills·一次调用",
+    "type": "explanation",
+    "title": "第三次读取：评审方法继续指向费用口径",
+    "seconds": 90,
+    "show_sources": false,
+    "on_slide": [
+      "第三次读取：评审方法继续指向费用口径",
+      "正式部署方法中的费用范围一节指向cost-scope.md。这里补充订阅、配置迁移、培训支持及比较规则。"
+    ],
+    "talk": "正式部署方法中的费用范围一节指向cost-scope.md。这里补充订阅、配置迁移、培训支持及比较规则。",
+    "sources": [
+      {
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
+      }
+    ],
+    "authoring_page": 8961,
+    "start_seconds": 11585,
+    "end_seconds": 11675,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 139,
+    "renderer": 7032,
+    "navigation": "3.4",
+    "section": "Skills·一次调用",
+    "type": "explanation",
+    "title": "组织初稿：把项目事实放进评审结构",
+    "seconds": 90,
+    "show_sources": false,
+    "on_slide": [
+      "组织初稿：把项目事实放进评审结构",
+      "读取前面项目的账户与数据要求；将300人、一年、30万元及对应评审要点写入review-input.json。"
+    ],
+    "talk": "读取前面项目的账户与数据要求；将300人、一年、30万元及对应评审要点写入review-input.json。",
+    "sources": [
+      {
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
+      }
+    ],
+    "authoring_page": 8962,
+    "start_seconds": 11675,
+    "end_seconds": 11765,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 140,
     "renderer": 7012,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "execution",
-    "title": "执行：程序读取模板，写出文件",
+    "title": "生成文件：脚本读取初稿与模板",
     "seconds": 105,
     "show_sources": false,
     "on_slide": [
-      "执行：程序读取模板，写出文件",
-      "模型按Skill里的方法生成运行脚本的调用，exec_command运行程序。程序依据tutorial参数读取教程模板，替换首个标题并写出7单元Notebook。工具先返回保存路径。"
+      "生成文件：脚本读取初稿与模板",
+      "模型生成工具调用；生成脚本读取本次初稿与固定HTML模板，写出采购评审要点。"
     ],
-    "talk": "模型按Skill里的方法生成运行脚本的调用，exec_command运行程序。程序依据tutorial参数读取教程模板，替换首个标题并写出7单元Notebook。工具先返回保存路径。",
+    "talk": "模型生成工具调用；生成脚本读取本次初稿与固定HTML模板，写出采购评审要点。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8911,
-    "start_seconds": 10585,
-    "end_seconds": 10690,
+    "start_seconds": 11765,
+    "end_seconds": 11870,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4302,28 +4802,28 @@
     }
   },
   {
-    "page": 128,
+    "page": 141,
     "renderer": 7013,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "trace",
-    "title": "检查：取得要求，再打开实际产物",
+    "title": "生成之后：另读检查清单，再读回产物",
     "seconds": 120,
     "show_sources": false,
     "on_slide": [
-      "检查：取得要求，再打开实际产物",
-      "返回文件路径以后，读取quality-checklist.md取得检查要求，再读取生成的Notebook。得到实际单元内容后，才能判断文件中有哪些内容、下一步需要补什么。"
+      "生成之后：另读检查清单，再读回产物",
+      "从SKILL.md进入quality-checklist.md，取得检查标准；接着读回实际生成的HTML文件。"
     ],
-    "talk": "返回文件路径以后，读取quality-checklist.md取得检查要求，再读取生成的Notebook。得到实际单元内容后，才能判断文件中有哪些内容、下一步需要补什么。",
+    "talk": "从SKILL.md进入quality-checklist.md，取得检查标准；接着读回实际生成的HTML文件。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8912,
-    "start_seconds": 10690,
-    "end_seconds": 10810,
+    "start_seconds": 11870,
+    "end_seconds": 11990,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4334,28 +4834,60 @@
     }
   },
   {
-    "page": 129,
+    "page": 142,
+    "renderer": 7033,
+    "navigation": "3.4",
+    "section": "Skills·一次调用",
+    "type": "explanation",
+    "title": "运行检查：条件、初稿与产物是否一致？",
+    "seconds": 90,
+    "show_sources": false,
+    "on_slide": [
+      "运行检查：条件、初稿与产物是否一致？",
+      "脚本逐项比对人数、期限、预算上限，并核对评审字段和生成文件；材料依据和内容完整性仍按清单检查。"
+    ],
+    "talk": "脚本逐项比对人数、期限、预算上限，并核对评审字段和生成文件；材料依据和内容完整性仍按清单检查。",
+    "sources": [
+      {
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
+      }
+    ],
+    "authoring_page": 8963,
+    "start_seconds": 11990,
+    "end_seconds": 12080,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 143,
     "renderer": 7014,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "notebook",
-    "title": "打开产物：标题已替换，其余保留模板",
+    "title": "一页采购评审要点：内容与当前任务一致",
     "seconds": 120,
     "show_sources": false,
     "on_slide": [
-      "打开产物：标题已替换，其余保留模板",
-      "7个单元可逐个查看。第1单元标题变为Python列表与平均值；第5单元仍是正弦函数示例，其余为原模板。任务要求先创建骨架，后续再填入主题内容并运行代码。"
+      "一页采购评审要点：内容与当前任务一致",
+      "展示实际脚本生成的文件：300人、一年、预算上限30万元，以及费用范围、交付管理和待确认事项。"
     ],
-    "talk": "7个单元可逐个查看。第1单元标题变为Python列表与平均值；第5单元仍是正弦函数示例，其余为原模板。任务要求先创建骨架，后续再填入主题内容并运行代码。",
+    "talk": "展示实际脚本生成的文件：300人、一年、预算上限30万元，以及费用范围、交付管理和待确认事项。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8913,
-    "start_seconds": 10810,
-    "end_seconds": 10930,
+    "start_seconds": 12080,
+    "end_seconds": 12200,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4366,28 +4898,28 @@
     }
   },
   {
-    "page": 130,
+    "page": 144,
     "renderer": 7015,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "trace",
-    "title": "回答用户：交付文件，并说明下一步",
+    "title": "交付：说明文件内容与待确认事项",
     "seconds": 90,
     "show_sources": false,
     "on_slide": [
-      "回答用户：交付文件，并说明下一步",
-      "回答对应本次骨架任务：文件路径、7个单元、已改标题与保留模板。后续需要补背景和目标，将正弦示例换成列表求平均值，然后运行检查。材料与结果按消息顺序进入后续输入。"
+      "交付：说明文件内容与待确认事项",
+      "最终回复依据已生成的文件与检查结果，交代产物位置，保留供应商报价、上线日期和验收标准等待确认事项。"
     ],
-    "talk": "回答对应本次骨架任务：文件路径、7个单元、已改标题与保留模板。后续需要补背景和目标，将正弦示例换成列表求平均值，然后运行检查。材料与结果按消息顺序进入后续输入。",
+    "talk": "最终回复依据已生成的文件与检查结果，交代产物位置，保留供应商报价、上线日期和验收标准等待确认事项。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8914,
-    "start_seconds": 10930,
-    "end_seconds": 11020,
+    "start_seconds": 12200,
+    "end_seconds": 12290,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4398,28 +4930,28 @@
     }
   },
   {
-    "page": 131,
+    "page": 145,
     "renderer": 7016,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·调用全过程",
     "type": "summary",
-    "title": "调用小结：两次展开，几次工具操作",
+    "title": "渐进式披露：沿任务逐层读取，用到时再展开",
     "seconds": 90,
     "show_sources": false,
     "on_slide": [
-      "调用小结：两次展开，几次工具操作",
-      "目录到SKILL.md是第一次展开；正文到所需参考是第二次展开。模型读取方法与参考，程序读取模板，工具返回路径和文件内容。Skill提供方法，工具完成操作，检查回到本次交付要求。"
+      "渐进式披露：沿任务逐层读取，用到时再展开",
+      "目录→SKILL.md→正式部署方法→费用口径；生成后另读检查清单。模板由程序读取，试点分支本次没有读取。"
     ],
-    "talk": "目录到SKILL.md是第一次展开；正文到所需参考是第二次展开。模型读取方法与参考，程序读取模板，工具返回路径和文件内容。Skill提供方法，工具完成操作，检查回到本次交付要求。",
+    "talk": "目录→SKILL.md→正式部署方法→费用口径；生成后另读检查清单。模板由程序读取，试点分支本次没有读取。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8915,
-    "start_seconds": 11020,
-    "end_seconds": 11110,
+    "start_seconds": 12290,
+    "end_seconds": 12380,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4430,9 +4962,9 @@
     }
   },
   {
-    "page": 132,
+    "page": 146,
     "renderer": 6204,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills",
     "type": "subagenda",
     "title": "Skills：接下来讲什么？",
@@ -4450,8 +4982,8 @@
       }
     ],
     "authoring_page": 6204,
-    "start_seconds": 11110,
-    "end_seconds": 11135,
+    "start_seconds": 12380,
+    "end_seconds": 12405,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4462,9 +4994,9 @@
     }
   },
   {
-    "page": 133,
+    "page": 147,
     "renderer": 7017,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "overview",
     "title": "三、自己的Skills：从已有工作到持续维护",
@@ -4482,8 +5014,8 @@
       }
     ],
     "authoring_page": 8916,
-    "start_seconds": 11135,
-    "end_seconds": 11225,
+    "start_seconds": 12405,
+    "end_seconds": 12495,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4494,9 +5026,9 @@
     }
   },
   {
-    "page": 134,
+    "page": 148,
     "renderer": 7018,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "prompt",
     "title": "让Codex或Claude Code整理Skill初稿",
@@ -4514,8 +5046,8 @@
       }
     ],
     "authoring_page": 8917,
-    "start_seconds": 11225,
-    "end_seconds": 11345,
+    "start_seconds": 12495,
+    "end_seconds": 12615,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4526,9 +5058,9 @@
     }
   },
   {
-    "page": 135,
+    "page": 149,
     "renderer": 7019,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "concept",
     "title": "让文件结构服务于自己的任务",
@@ -4546,8 +5078,8 @@
       }
     ],
     "authoring_page": 8918,
-    "start_seconds": 11345,
-    "end_seconds": 11420,
+    "start_seconds": 12615,
+    "end_seconds": 12690,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4558,9 +5090,9 @@
     }
   },
   {
-    "page": 136,
+    "page": 150,
     "renderer": 7020,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "prompt",
     "title": "高Star的Skill，适合你的任务吗？",
@@ -4578,8 +5110,8 @@
       }
     ],
     "authoring_page": 8919,
-    "start_seconds": 11420,
-    "end_seconds": 11540,
+    "start_seconds": 12690,
+    "end_seconds": 12810,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4590,9 +5122,9 @@
     }
   },
   {
-    "page": 137,
+    "page": 151,
     "renderer": 7021,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "concept",
     "title": "评估：选对了吗，读对了吗，结果对了吗？",
@@ -4610,8 +5142,8 @@
       }
     ],
     "authoring_page": 8920,
-    "start_seconds": 11540,
-    "end_seconds": 11675,
+    "start_seconds": 12810,
+    "end_seconds": 12945,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4622,28 +5154,28 @@
     }
   },
   {
-    "page": 138,
+    "page": 152,
     "renderer": 7022,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "concept",
-    "title": "换一个环境，Skill还适用吗？",
+    "title": "Skill迁移：方法相同，运行条件可能不同",
     "seconds": 105,
     "show_sources": false,
     "on_slide": [
-      "换一个环境，Skill还适用吗？",
-      "Skill的效果依赖任务场景、模型能力与Harness提供的工具和权限。跨平台迁移要核对文件路径、工具名称、依赖、模板与输入材料，再用代表任务验证。"
+      "Skill迁移：方法相同，运行条件可能不同",
+      "场景、模型和Harness变化后重新验证。能在本机生成采购评审HTML，不代表别的应用具备相同路径、工具和Python环境。"
     ],
-    "talk": "Skill的效果依赖任务场景、模型能力与Harness提供的工具和权限。跨平台迁移要核对文件路径、工具名称、依赖、模板与输入材料，再用代表任务验证。",
+    "talk": "场景、模型和Harness变化后重新验证。能在本机生成采购评审HTML，不代表别的应用具备相同路径、工具和Python环境。",
     "sources": [
       {
-        "id": "SKILLS_R9",
-        "locator": "原Skill演示；原课PDF108–113页；官方创建、评估与安全资料"
+        "id": "SKILLS_R16",
+        "locator": "采购评审技能包与执行记录"
       }
     ],
     "authoring_page": 8921,
-    "start_seconds": 11675,
-    "end_seconds": 11780,
+    "start_seconds": 12945,
+    "end_seconds": 13050,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4654,9 +5186,9 @@
     }
   },
   {
-    "page": 139,
+    "page": 153,
     "renderer": 7023,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "concept",
     "title": "公共Skill：也会把外部指令与程序带进来",
@@ -4674,8 +5206,8 @@
       }
     ],
     "authoring_page": 8922,
-    "start_seconds": 11780,
-    "end_seconds": 11885,
+    "start_seconds": 13050,
+    "end_seconds": 13155,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4686,9 +5218,9 @@
     }
   },
   {
-    "page": 140,
+    "page": 154,
     "renderer": 7024,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "concept",
     "title": "维护：场景、模型、Harness变了，就要复查",
@@ -4706,8 +5238,8 @@
       }
     ],
     "authoring_page": 8923,
-    "start_seconds": 11885,
-    "end_seconds": 11990,
+    "start_seconds": 13155,
+    "end_seconds": 13260,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4718,9 +5250,9 @@
     }
   },
   {
-    "page": 141,
+    "page": 155,
     "renderer": 7025,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "summary",
     "title": "自己的Skills小结：用结果决定保留什么",
@@ -4738,8 +5270,8 @@
       }
     ],
     "authoring_page": 8924,
-    "start_seconds": 11990,
-    "end_seconds": 12065,
+    "start_seconds": 13260,
+    "end_seconds": 13335,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4750,9 +5282,9 @@
     }
   },
   {
-    "page": 142,
+    "page": 156,
     "renderer": 7026,
-    "navigation": "3.3",
+    "navigation": "3.4",
     "section": "Skills·合成、评估与维护",
     "type": "summary",
     "title": "Skills小结：组织方法、调用方法、检验方法",
@@ -4770,8 +5302,8 @@
       }
     ],
     "authoring_page": 8925,
-    "start_seconds": 12065,
-    "end_seconds": 12155,
+    "start_seconds": 13335,
+    "end_seconds": 13425,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -4782,14 +5314,14 @@
     }
   },
   {
-    "page": 143,
+    "page": 157,
     "authoring_page": 9011,
     "renderer": 4014,
     "section": "Agents",
     "type": "agenda",
     "title": "本讲内容",
     "seconds": 15,
-    "navigation": "3.4",
+    "navigation": "3.5",
     "show_sources": false,
     "sources": [],
     "on_slide": [
@@ -4807,466 +5339,19 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束Skills，开始Protocols。先定位本节在全讲中的位置，再进入内容总览。",
-    "start_seconds": 12155,
-    "end_seconds": 12170,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 144,
-    "renderer": 8001,
-    "navigation": "3.4",
-    "section": "Protocols·总览",
-    "type": "overview",
-    "title": "Protocols：约定怎样交互",
-    "seconds": 75,
-    "show_sources": false,
-    "on_slide": [
-      "Protocols：约定怎样交互",
-      "工具提供操作，Memory保存信息，Skills提供方法。与外部系统协作时，还需要约定怎样说明能力、发送请求和接收结果。先区分交互对象，再看MCP工具交互和A2A任务交互。"
-    ],
-    "talk": "工具提供操作，Memory保存信息，Skills提供方法。与外部系统协作时，还需要约定怎样说明能力、发送请求和接收结果。先区分交互对象，再看MCP工具交互和A2A任务交互。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 115,116页"
-      }
-    ],
-    "authoring_page": 8001,
-    "start_seconds": 12170,
-    "end_seconds": 12245,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 145,
-    "renderer": 8002,
-    "navigation": "3.4",
-    "section": "Protocols·交互对象与范围",
-    "type": "concept",
-    "title": "理解协议：连接谁，为哪些场景设计？",
-    "seconds": 100,
-    "show_sources": false,
-    "on_slide": [
-      "理解协议：连接谁，为哪些场景设计？",
-      "协议把交互格式与流程写成共同约定。先看连接的是外部工具、其他Agent还是用户；再看协议为通用场景还是特定场景设计。本节重点看MCP工具交互和A2A任务协作。"
-    ],
-    "talk": "协议把交互格式与流程写成共同约定。先看连接的是外部工具、其他Agent还是用户；再看协议为通用场景还是特定场景设计。本节重点看MCP工具交互和A2A任务协作。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 116,117,120,121页"
-      }
-    ],
-    "authoring_page": 8002,
-    "start_seconds": 12245,
-    "end_seconds": 12345,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 146,
-    "renderer": 8003,
-    "navigation": "3.4",
-    "section": "Protocols·交互对象与范围",
-    "type": "summary",
-    "title": "两类交互：调用工具与委托任务",
-    "seconds": 90,
-    "show_sources": false,
-    "on_slide": [
-      "两类交互：调用工具与委托任务",
-      "MCP常用于应用接入工具与数据；A2A用于不同Agent服务交换任务、状态和成果。分类看这次交互的约定，不按一个系统中有几个模型判断。MCP服务也可以封装复杂程序。"
-    ],
-    "talk": "MCP常用于应用接入工具与数据；A2A用于不同Agent服务交换任务、状态和成果。分类看这次交互的约定，不按一个系统中有几个模型判断。MCP服务也可以封装复杂程序。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 118,119,122页"
-      }
-    ],
-    "authoring_page": 8003,
-    "start_seconds": 12345,
-    "end_seconds": 12435,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 147,
-    "renderer": 6205,
-    "navigation": "3.4",
-    "section": "Protocols",
-    "type": "subagenda",
-    "title": "Protocols：接下来讲什么？",
-    "seconds": 25,
-    "show_sources": false,
-    "on_slide": [
-      "Protocols：接下来讲什么？",
-      "已讲完：交互对象和协议的作用范围。接下来：MCP怎样连接工具与数据。"
-    ],
-    "talk": "已讲完：交互对象和协议的作用范围。接下来：MCP怎样连接工具与数据。",
-    "sources": [
-      {
-        "id": "MEMORY_REVIEW_R14",
-        "locator": "Protocols：接下来讲什么？"
-      }
-    ],
-    "authoring_page": 6205,
-    "start_seconds": 12435,
-    "end_seconds": 12460,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 148,
-    "renderer": 8004,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "overview",
-    "title": "MCP：连接工具与数据",
-    "seconds": 75,
-    "show_sources": false,
-    "on_slide": [
-      "MCP：连接工具与数据",
-      "MCP全称Model Context Protocol，模型上下文协议。先看模型、应用与服务的分工，再看目录、调用和结果如何往返，最后回到模型的下一次输入。"
-    ],
-    "talk": "MCP全称Model Context Protocol，模型上下文协议。先看模型、应用与服务的分工，再看目录、调用和结果如何往返，最后回到模型的下一次输入。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 123,124,125页"
-      }
-    ],
-    "authoring_page": 8004,
-    "start_seconds": 12460,
-    "end_seconds": 12535,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 149,
-    "renderer": 8005,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "concept",
-    "title": "MCP调用：模型、应用与服务的分工",
-    "seconds": 120,
-    "show_sources": false,
-    "on_slide": [
-      "MCP调用：模型、应用与服务的分工",
-      "应用Host管理模型和连接，其中Client负责与MCP服务通信；Server提供工具或数据。模型提出工具选择与参数，应用转交请求，服务执行。一个应用可以连接多个服务。"
-    ],
-    "talk": "应用Host管理模型和连接，其中Client负责与MCP服务通信；Server提供工具或数据。模型提出工具选择与参数，应用转交请求，服务执行。一个应用可以连接多个服务。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 125页"
-      }
-    ],
-    "authoring_page": 8005,
-    "start_seconds": 12535,
-    "end_seconds": 12655,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 150,
-    "renderer": 8006,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "concept",
-    "title": "先取得目录：工具名、用途与参数",
-    "seconds": 150,
-    "show_sources": false,
-    "on_slide": [
-      "先取得目录：工具名、用途与参数",
-      "连接建立后，客户端用tools/list获取工具说明。天气服务公开get_weather：用途是查询天气，location是必须提供的文字参数。应用把名称、用途与参数要求整理给模型。MCP还可提供Resources和Prompts，本节聚焦工具往返。"
-    ],
-    "talk": "连接建立后，客户端用tools/list获取工具说明。天气服务公开get_weather：用途是查询天气，location是必须提供的文字参数。应用把名称、用途与参数要求整理给模型。MCP还可提供Resources和Prompts，本节聚焦工具往返。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 126,127,128页"
-      }
-    ],
-    "authoring_page": 8006,
-    "start_seconds": 12655,
-    "end_seconds": 12805,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 151,
-    "renderer": 8007,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "concept",
-    "title": "从工具目录，到下一次模型输入",
-    "seconds": 150,
-    "show_sources": false,
-    "on_slide": [
-      "从工具目录，到下一次模型输入",
-      "六个环节：服务给出工具目录；应用整理模型工具说明；模型生成调用；应用转成MCP请求；服务执行并返回；应用把结果放入后续模型输入。MCP通信和模型生成各有位置。"
-    ],
-    "talk": "六个环节：服务给出工具目录；应用整理模型工具说明；模型生成调用；应用转成MCP请求；服务执行并返回；应用把结果放入后续模型输入。MCP通信和模型生成各有位置。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 124,128,130,131,134页"
-      }
-    ],
-    "authoring_page": 8007,
-    "start_seconds": 12805,
-    "end_seconds": 12955,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 152,
-    "renderer": 8008,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "concept",
-    "title": "天气查询：对照一次协议往返",
-    "seconds": 180,
-    "show_sources": false,
-    "on_slide": [
-      "天气查询：对照一次协议往返",
-      "选择目录请求、目录返回、天气调用或天气返回，对照方向、主要内容与原始消息。目录请求对应编号101；实际查询对应102。编号使应用能把返回配回请求。天气返回为72°F、局部多云，与前面工具调用部分的样例一致。"
-    ],
-    "talk": "选择目录请求、目录返回、天气调用或天气返回，对照方向、主要内容与原始消息。目录请求对应编号101；实际查询对应102。编号使应用能把返回配回请求。天气返回为72°F、局部多云，与前面工具调用部分的样例一致。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 126,127,131,132,133页"
-      }
-    ],
-    "authoring_page": 8008,
-    "start_seconds": 12955,
-    "end_seconds": 13135,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 153,
-    "renderer": 8009,
-    "navigation": "3.4",
-    "section": "Protocols·MCP",
-    "type": "summary",
-    "title": "MCP小结：协议通信与模型输入",
-    "seconds": 90,
-    "show_sources": false,
-    "on_slide": [
-      "MCP小结：协议通信与模型输入",
-      "MCP统一工具发现、调用与返回；应用负责组织模型输入、转换格式和对应请求。服务收到调用才执行操作，模型需要取得结果后才能据此继续回答。"
-    ],
-    "talk": "MCP统一工具发现、调用与返回；应用负责组织模型输入、转换格式和对应请求。服务收到调用才执行操作，模型需要取得结果后才能据此继续回答。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 135页"
-      }
-    ],
-    "authoring_page": 8009,
-    "start_seconds": 13135,
-    "end_seconds": 13225,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 154,
-    "renderer": 6206,
-    "navigation": "3.4",
-    "section": "Protocols",
-    "type": "subagenda",
-    "title": "Protocols：接下来讲什么？",
-    "seconds": 25,
-    "show_sources": false,
-    "on_slide": [
-      "Protocols：接下来讲什么？",
-      "已讲完：MCP的能力目录、调用与返回。接下来：A2A怎样委托任务、传递状态和成果。"
-    ],
-    "talk": "已讲完：MCP的能力目录、调用与返回。接下来：A2A怎样委托任务、传递状态和成果。",
-    "sources": [
-      {
-        "id": "MEMORY_REVIEW_R14",
-        "locator": "Protocols：接下来讲什么？"
-      }
-    ],
-    "authoring_page": 6206,
-    "start_seconds": 13225,
-    "end_seconds": 13250,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 155,
-    "renderer": 8010,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
-    "type": "overview",
-    "title": "A2A：把任务交给另一个Agent",
-    "seconds": 90,
-    "show_sources": false,
-    "on_slide": [
-      "A2A：把任务交给另一个Agent",
-      "A2A即Agent2Agent，为不同Agent服务交换任务信息提供共同约定。先读Agent Card了解能力，再发任务；缺信息时补充，完成后取得成果。沿用汇率任务观察整个过程。"
-    ],
-    "talk": "A2A即Agent2Agent，为不同Agent服务交换任务信息提供共同约定。先读Agent Card了解能力，再发任务；缺信息时补充，完成后取得成果。沿用汇率任务观察整个过程。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 136,137,138页"
-      }
-    ],
-    "authoring_page": 8010,
-    "start_seconds": 13250,
-    "end_seconds": 13340,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 156,
-    "renderer": 8011,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
-    "type": "concept",
-    "title": "Agent Card：先了解对方能做什么",
-    "seconds": 120,
-    "show_sources": false,
-    "on_slide": [
-      "Agent Card：先了解对方能做什么",
-      "Agent Card是能力与接口说明：对方处理什么任务、接受什么输入、如何联系以及如何认证。卡片中的skills描述服务能力，与前章下载和读取的SKILL.md技能包是不同对象。"
-    ],
-    "talk": "Agent Card是能力与接口说明：对方处理什么任务、接受什么输入、如何联系以及如何认证。卡片中的skills描述服务能力，与前章下载和读取的SKILL.md技能包是不同对象。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 139页"
-      }
-    ],
-    "authoring_page": 8011,
-    "start_seconds": 13340,
-    "end_seconds": 13460,
-    "playback": {
-      "mode": "full",
-      "source_steps": [
-        0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    }
-  },
-  {
-    "page": 157,
-    "renderer": 8012,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
-    "type": "concept",
-    "title": "汇率任务：委托、补充、继续",
-    "seconds": 180,
-    "show_sources": false,
-    "on_slide": [
-      "汇率任务：委托、补充、继续",
-      "用户问1美元能换多少，本方助理把任务交给汇率Agent。目标币种缺失，对方返回需要补充，并问要换成哪种货币。用户补充CAD，应用将补充与原任务关联，汇率Agent继续处理。"
-    ],
-    "talk": "用户问1美元能换多少，本方助理把任务交给汇率Agent。目标币种缺失，对方返回需要补充，并问要换成哪种货币。用户补充CAD，应用将补充与原任务关联，汇率Agent继续处理。",
-    "sources": [
-      {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 138,140,141,143,144,145,146页"
-      }
-    ],
-    "authoring_page": 8012,
-    "start_seconds": 13460,
-    "end_seconds": 13640,
+    "start_seconds": 13425,
+    "end_seconds": 13440,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5278,27 +5363,28 @@
   },
   {
     "page": 158,
-    "renderer": 8013,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
-    "type": "concept",
-    "title": "两边各自保存消息，交换任务信息",
-    "seconds": 150,
+    "renderer": 8001,
+    "navigation": "3.5",
+    "section": "Protocols·总览",
+    "type": "overview",
+    "title": "Protocols：不同系统怎样配合？",
+    "seconds": 60,
     "show_sources": false,
     "on_slide": [
-      "两边各自保存消息，交换任务信息",
-      "本方助理保存用户对话和委托结果；汇率Agent保存自己的处理规则、收到的任务与补充。A2A传递任务、状态和成果；应用决定发送哪些内容，对方据此组织自己的模型输入。"
+      "各自开发的系统，需要共同的交互规则。",
+      "MCP：连接工具与数据，统一能力说明、调用和返回。",
+      "A2A：委托另一个智能体，交代任务、补充信息、取得成果。"
     ],
-    "talk": "本方助理保存用户对话和委托结果；汇率Agent保存自己的处理规则、收到的任务与补充。A2A传递任务、状态和成果；应用决定发送哪些内容，对方据此组织自己的模型输入。",
+    "talk": "承接Skills：方法已经说明清楚，工具与外部智能体怎样与当前应用配合？先用Web类比解释协议的作用，再区分MCP的工具接入与A2A的任务委托。",
     "sources": [
       {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 137,142,147,150页"
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
       }
     ],
-    "authoring_page": 8013,
-    "start_seconds": 13640,
-    "end_seconds": 13790,
+    "authoring_page": 8001,
+    "start_seconds": 13440,
+    "end_seconds": 13500,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5310,27 +5396,28 @@
   },
   {
     "page": 159,
-    "renderer": 8014,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
+    "renderer": 8002,
+    "navigation": "3.5",
+    "section": "Protocols·为什么需要协议",
     "type": "concept",
-    "title": "任务状态与成果，分别说明什么？",
-    "seconds": 120,
+    "title": "为什么换个浏览器，仍能打开同一个网站？",
+    "seconds": 110,
     "show_sources": false,
     "on_slide": [
-      "任务状态与成果，分别说明什么？",
-      "状态回答目前在处理、等待补充还是已完成；成果保存实际产出，可以是文字、文件或结构化数据。收到完成状态后，本方应用仍要取得成果、检查与原任务是否相符，再组织回复。"
+      "不同浏览器能打开同一个网站，因为双方遵守共同的Web标准与协议。",
+      "网站按共同约定处理请求并返回内容。",
+      "智能体也需要共同约定，让工具和服务能被不同兼容应用复用。"
     ],
-    "talk": "状态回答目前在处理、等待补充还是已完成；成果保存实际产出，可以是文字、文件或结构化数据。收到完成状态后，本方应用仍要取得成果、检查与原任务是否相符，再组织回复。",
+    "talk": "不同浏览器与网站可以由不同团队开发，双方按共同的Web标准处理请求和内容。智能体应用与外部服务也需要共同约定。兼容需要双方支持相应标准，并完成连接与权限配置。",
     "sources": [
       {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 143,149,150页"
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
       }
     ],
-    "authoring_page": 8014,
-    "start_seconds": 13790,
-    "end_seconds": 13910,
+    "authoring_page": 8002,
+    "start_seconds": 13500,
+    "end_seconds": 13610,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5342,27 +5429,27 @@
   },
   {
     "page": 160,
-    "renderer": 8015,
-    "navigation": "3.4",
-    "section": "Protocols·A2A",
-    "type": "summary",
-    "title": "A2A小结：可以与MCP一起使用",
-    "seconds": 105,
+    "renderer": 6205,
+    "navigation": "3.5",
+    "section": "Protocols",
+    "type": "subagenda",
+    "title": "Protocols：接下来讲什么？",
+    "seconds": 25,
     "show_sources": false,
     "on_slide": [
-      "A2A小结：可以与MCP一起使用",
-      "A2A连接Agent服务，接收方仍可通过MCP使用工具和资料。两种协议可以组合，内部工具如何选择、信息如何保留、结果怎样检查仍由各自应用的运行程序安排。"
+      "已讲完：共同规则为什么能减少系统间的重复对接",
+      "接下来：MCP怎样连接工具与数据"
     ],
-    "talk": "A2A连接Agent服务，接收方仍可通过MCP使用工具和资料。两种协议可以组合，内部工具如何选择、信息如何保留、结果怎样检查仍由各自应用的运行程序安排。",
+    "talk": "已讲完：共同规则为什么能减少系统间的重复对接。接下来：MCP怎样连接工具与数据。",
     "sources": [
       {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 151页"
+        "id": "MEMORY_REVIEW_R14",
+        "locator": "Protocols：接下来讲什么？"
       }
     ],
-    "authoring_page": 8015,
-    "start_seconds": 13910,
-    "end_seconds": 14015,
+    "authoring_page": 6205,
+    "start_seconds": 13610,
+    "end_seconds": 13635,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5374,27 +5461,28 @@
   },
   {
     "page": 161,
-    "renderer": 8016,
-    "navigation": "3.4",
-    "section": "Protocols·总结",
-    "type": "summary",
-    "title": "Protocols小结：交互约定如何落到运行",
-    "seconds": 90,
+    "renderer": 8004,
+    "navigation": "3.5",
+    "section": "Protocols·MCP",
+    "type": "concept",
+    "title": "MCP：给工具调用一套统一的接入方式",
+    "seconds": 110,
     "show_sources": false,
     "on_slide": [
-      "Protocols小结：交互约定如何落到运行",
-      "回到三个问题：按对象与范围理解协议；MCP约定工具目录、调用与结果；A2A约定能力、任务、状态与成果。接下来Harness负责把模型、工具、记忆、技能和协议组织成完整运行过程。"
+      "MCP（Model Context Protocol）让AI应用按统一方式接入外部工具和数据。",
+      "统一说明有什么工具、需要什么输入、执行后返回什么。",
+      "工具仍负责具体操作；MCP减少应用与服务之间的重复对接。"
     ],
-    "talk": "回到三个问题：按对象与范围理解协议；MCP约定工具目录、调用与结果；A2A约定能力、任务、状态与成果。接下来Harness负责把模型、工具、记忆、技能和协议组织成完整运行过程。",
+    "talk": "先回忆天气调用已有工具名称和输入。MCP进一步约定应用怎样取得这些说明、联系工具服务并接收结果。同一MCP服务可以供多个兼容应用使用，连接与权限仍需配置。",
     "sources": [
       {
-        "id": "PROTOCOLS_R10",
-        "locator": "原课PDF 115,122,135,151页"
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
       }
     ],
-    "authoring_page": 8016,
-    "start_seconds": 14015,
-    "end_seconds": 14105,
+    "authoring_page": 8004,
+    "start_seconds": 13635,
+    "end_seconds": 13745,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5406,13 +5494,244 @@
   },
   {
     "page": 162,
+    "renderer": 8008,
+    "navigation": "3.5",
+    "section": "Protocols·MCP",
+    "type": "case",
+    "title": "一个MCP请求：查询纽约天气",
+    "seconds": 130,
+    "show_sources": false,
+    "on_slide": [
+      "MCP请求中的主要内容：tools/call；get_weather；location为New York。",
+      "天气工具执行，返回72°F、局部多云。",
+      "模型收到结果后生成天气回答。"
+    ],
+    "talk": "沿用前面天气示例的地点和天气内容。左侧只需读出动作、工具和地点，右侧解释服务执行与结果返回。MCP消息由应用组织发送，模型生成工具调用意图；两者不是同一个文本模板。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8008,
+    "start_seconds": 13745,
+    "end_seconds": 13875,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 163,
+    "renderer": 8009,
+    "navigation": "3.5",
+    "section": "Protocols·MCP",
+    "type": "summary",
+    "title": "MCP让一次工具接入，可以被多个应用复用",
+    "seconds": 85,
+    "show_sources": false,
+    "on_slide": [
+      "服务按共同格式说明能力，兼容应用按统一方式调用。",
+      "工具继续查询、读取或执行操作，结果返回模型。",
+      "可用操作和可见数据由服务能力、账户权限决定。"
+    ],
+    "talk": "回应MCP总览：标准化的是工具接入和往来；具体天气、文件或业务操作仍由服务实现。归纳完工具接入，转到委托另一个智能体。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8009,
+    "start_seconds": 13875,
+    "end_seconds": 13960,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 164,
+    "renderer": 6206,
+    "navigation": "3.5",
+    "section": "Protocols",
+    "type": "subagenda",
+    "title": "Protocols：接下来讲什么？",
+    "seconds": 25,
+    "show_sources": false,
+    "on_slide": [
+      "已讲完：MCP怎样统一工具接入",
+      "接下来：A2A怎样向另一个智能体委托任务"
+    ],
+    "talk": "已讲完：MCP怎样统一工具接入。接下来：A2A怎样向另一个智能体委托任务。",
+    "sources": [
+      {
+        "id": "MEMORY_REVIEW_R14",
+        "locator": "Protocols：接下来讲什么？"
+      }
+    ],
+    "authoring_page": 6206,
+    "start_seconds": 13960,
+    "end_seconds": 13985,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 165,
+    "renderer": 8010,
+    "navigation": "3.5",
+    "section": "Protocols·A2A",
+    "type": "concept",
+    "title": "A2A：把任务委托给另一个智能体",
+    "seconds": 110,
+    "show_sources": false,
+    "on_slide": [
+      "A2A（Agent-to-Agent）约定独立智能体服务怎样接受和交付任务。",
+      "本方说明目标与已有信息；对方组织处理，返回问题、进度和成果。",
+      "调用工具指定操作，委托智能体交代任务。"
+    ],
+    "talk": "本方说明任务与已有信息，对方自行组织处理；双方交换必要的问题、进度与成果。对方内部可以有自己的模型、工具和记忆。MCP也能支持追问，区分两者要看工具接入与任务委托的分工。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8010,
+    "start_seconds": 13985,
+    "end_seconds": 14095,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 166,
+    "renderer": 8012,
+    "navigation": "3.5",
+    "section": "Protocols·A2A",
+    "type": "case",
+    "title": "汇率任务：问清楚，再完成换算",
+    "seconds": 140,
+    "show_sources": false,
+    "on_slide": [
+      "任务：1美元能兑换多少？",
+      "汇率智能体询问目标货币；补充加元CAD。",
+      "同一任务继续查询，返回1 USD对应1.3739 CAD。",
+      "交互中可提出问题、报告进度、交付结果。"
+    ],
+    "talk": "使用A2A项目官方LangGraph Currency Agent README的多轮案例，金额与币种保持一致。1.3739是该案例返回值。讲清缺条件时任务暂停等待补充，补齐后对方调用自己的汇率工具。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8012,
+    "start_seconds": 14095,
+    "end_seconds": 14235,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 167,
+    "renderer": 8015,
+    "navigation": "3.5",
+    "section": "Protocols·A2A",
+    "type": "summary",
+    "title": "MCP与A2A：两种连接可以同时存在",
+    "seconds": 90,
+    "show_sources": false,
+    "on_slide": [
+      "同一个智能体可以通过MCP查询天气，也可以通过A2A委托汇率换算。",
+      "对方智能体也可能通过MCP使用工具。",
+      "看本次连接是在接入工具，还是委托另一个智能体。"
+    ],
+    "talk": "当前智能体可以同时使用两种连接：通过MCP接入工具，通过A2A向其他智能体委托任务。对方智能体在自己的执行过程中，也可以选择MCP来接入工具。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8015,
+    "start_seconds": 14235,
+    "end_seconds": 14325,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 168,
+    "renderer": 8016,
+    "navigation": "3.5",
+    "section": "Protocols·小结",
+    "type": "summary",
+    "title": "Protocols小结：按共同规则连接外部系统",
+    "seconds": 75,
+    "show_sources": false,
+    "on_slide": [
+      "MCP统一工具能力说明、调用与返回。",
+      "A2A统一任务委托、补充信息与成果交付。",
+      "Harness组织这些连接，安排哪些工具可用、何时调用以及结果怎样进入下一轮输入。"
+    ],
+    "talk": "回到总览的三个问题：为什么需要共同规则、怎样连接工具、怎样委托另一个智能体。随后把工具、Memory、Skills、Protocols汇入Harness，讨论运行环境怎样安排工作。",
+    "sources": [
+      {
+        "id": "PROTOCOLS_R19",
+        "locator": "见来源档案与逐页对应"
+      }
+    ],
+    "authoring_page": 8016,
+    "start_seconds": 14325,
+    "end_seconds": 14400,
+    "playback": {
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    }
+  },
+  {
+    "page": 169,
     "authoring_page": 9010,
     "renderer": 4012,
     "section": "Agents",
     "type": "agenda",
     "title": "本讲内容",
     "seconds": 15,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "show_sources": false,
     "sources": [],
     "on_slide": [
@@ -5430,18 +5749,19 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束Protocols，开始Harness。先定位本节在全讲中的位置，再进入内容总览。",
-    "start_seconds": 14105,
-    "end_seconds": 14120,
+    "start_seconds": 14400,
+    "end_seconds": 14415,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5452,9 +5772,9 @@
     }
   },
   {
-    "page": 163,
+    "page": 170,
     "renderer": 8501,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·总览",
     "type": "overview",
     "title": "Harness：把各部分组织成运行系统",
@@ -5472,8 +5792,8 @@
       }
     ],
     "authoring_page": 8501,
-    "start_seconds": 14120,
-    "end_seconds": 14195,
+    "start_seconds": 14415,
+    "end_seconds": 14490,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5484,9 +5804,9 @@
     }
   },
   {
-    "page": 164,
+    "page": 171,
     "renderer": 8502,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·总览",
     "type": "concept",
     "title": "一次任务，在Harness中怎样推进？",
@@ -5504,8 +5824,8 @@
       }
     ],
     "authoring_page": 8502,
-    "start_seconds": 14195,
-    "end_seconds": 14295,
+    "start_seconds": 14490,
+    "end_seconds": 14590,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5516,9 +5836,9 @@
     }
   },
   {
-    "page": 165,
+    "page": 172,
     "renderer": 8503,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·总览",
     "type": "overview",
     "title": "让任务持续运行，还要解决哪些问题？",
@@ -5536,8 +5856,8 @@
       }
     ],
     "authoring_page": 8503,
-    "start_seconds": 14295,
-    "end_seconds": 14375,
+    "start_seconds": 14590,
+    "end_seconds": 14670,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5548,9 +5868,9 @@
     }
   },
   {
-    "page": 166,
+    "page": 173,
     "renderer": 8504,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·上下文",
     "type": "overview",
     "title": "上下文：下一次调用要带上什么？",
@@ -5568,8 +5888,8 @@
       }
     ],
     "authoring_page": 8504,
-    "start_seconds": 14375,
-    "end_seconds": 14465,
+    "start_seconds": 14670,
+    "end_seconds": 14760,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5580,9 +5900,9 @@
     }
   },
   {
-    "page": 167,
+    "page": 174,
     "renderer": 8505,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·上下文",
     "type": "concept",
     "title": "上下文压缩：留下继续工作的要点",
@@ -5600,8 +5920,8 @@
       }
     ],
     "authoring_page": 8505,
-    "start_seconds": 14465,
-    "end_seconds": 14575,
+    "start_seconds": 14760,
+    "end_seconds": 14870,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5612,9 +5932,9 @@
     }
   },
   {
-    "page": 168,
+    "page": 175,
     "renderer": 8506,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·上下文",
     "type": "summary",
     "title": "清理长输出，保留重新查阅的路径",
@@ -5632,8 +5952,8 @@
       }
     ],
     "authoring_page": 8506,
-    "start_seconds": 14575,
-    "end_seconds": 14675,
+    "start_seconds": 14870,
+    "end_seconds": 14970,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5644,9 +5964,9 @@
     }
   },
   {
-    "page": 169,
+    "page": 176,
     "renderer": 6207,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness",
     "type": "subagenda",
     "title": "Harness：接下来讲什么？",
@@ -5664,8 +5984,8 @@
       }
     ],
     "authoring_page": 6207,
-    "start_seconds": 14675,
-    "end_seconds": 14700,
+    "start_seconds": 14970,
+    "end_seconds": 14995,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5676,9 +5996,9 @@
     }
   },
   {
-    "page": 170,
+    "page": 177,
     "renderer": 8507,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·沙盒与权限",
     "type": "overview",
     "title": "沙盒与权限：范围和放行分别管理",
@@ -5696,8 +6016,8 @@
       }
     ],
     "authoring_page": 8507,
-    "start_seconds": 14700,
-    "end_seconds": 14820,
+    "start_seconds": 14995,
+    "end_seconds": 15115,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5708,9 +6028,9 @@
     }
   },
   {
-    "page": 171,
+    "page": 178,
     "renderer": 8508,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·沙盒与权限",
     "type": "summary",
     "title": "人工确认：先核对这次要做什么",
@@ -5728,8 +6048,8 @@
       }
     ],
     "authoring_page": 8508,
-    "start_seconds": 14820,
-    "end_seconds": 14920,
+    "start_seconds": 15115,
+    "end_seconds": 15215,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5740,9 +6060,9 @@
     }
   },
   {
-    "page": 172,
+    "page": 179,
     "renderer": 6208,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness",
     "type": "subagenda",
     "title": "Harness：接下来讲什么？",
@@ -5760,8 +6080,8 @@
       }
     ],
     "authoring_page": 6208,
-    "start_seconds": 14920,
-    "end_seconds": 14945,
+    "start_seconds": 15215,
+    "end_seconds": 15240,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5772,9 +6092,9 @@
     }
   },
   {
-    "page": 173,
+    "page": 180,
     "renderer": 8509,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·Hooks",
     "type": "overview",
     "title": "Hooks：按事件触发预设动作",
@@ -5792,8 +6112,8 @@
       }
     ],
     "authoring_page": 8509,
-    "start_seconds": 14945,
-    "end_seconds": 15045,
+    "start_seconds": 15240,
+    "end_seconds": 15340,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5804,9 +6124,9 @@
     }
   },
   {
-    "page": 174,
+    "page": 181,
     "renderer": 8510,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·Hooks",
     "type": "case",
     "title": "文件编辑后，自动整理格式",
@@ -5824,8 +6144,8 @@
       }
     ],
     "authoring_page": 8510,
-    "start_seconds": 15045,
-    "end_seconds": 15135,
+    "start_seconds": 15340,
+    "end_seconds": 15430,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5836,9 +6156,9 @@
     }
   },
   {
-    "page": 175,
+    "page": 182,
     "renderer": 8511,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·Hooks",
     "type": "summary",
     "title": "Hooks：执行前检查，执行后处理",
@@ -5856,8 +6176,8 @@
       }
     ],
     "authoring_page": 8511,
-    "start_seconds": 15135,
-    "end_seconds": 15235,
+    "start_seconds": 15430,
+    "end_seconds": 15530,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5868,9 +6188,9 @@
     }
   },
   {
-    "page": 176,
+    "page": 183,
     "renderer": 6209,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness",
     "type": "subagenda",
     "title": "Harness：接下来讲什么？",
@@ -5888,8 +6208,8 @@
       }
     ],
     "authoring_page": 6209,
-    "start_seconds": 15235,
-    "end_seconds": 15260,
+    "start_seconds": 15530,
+    "end_seconds": 15555,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5900,9 +6220,9 @@
     }
   },
   {
-    "page": 177,
+    "page": 184,
     "renderer": 8512,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·子智能体",
     "type": "overview",
     "title": "子智能体：把具体工作分出去",
@@ -5920,8 +6240,8 @@
       }
     ],
     "authoring_page": 8512,
-    "start_seconds": 15260,
-    "end_seconds": 15370,
+    "start_seconds": 15555,
+    "end_seconds": 15665,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5932,9 +6252,9 @@
     }
   },
   {
-    "page": 178,
+    "page": 185,
     "renderer": 8513,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·子智能体",
     "type": "concept",
     "title": "过程留在子任务，结果交回主代理",
@@ -5952,8 +6272,8 @@
       }
     ],
     "authoring_page": 8513,
-    "start_seconds": 15370,
-    "end_seconds": 15470,
+    "start_seconds": 15665,
+    "end_seconds": 15765,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5964,9 +6284,9 @@
     }
   },
   {
-    "page": 179,
+    "page": 186,
     "renderer": 8514,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·子智能体",
     "type": "concept",
     "title": "能否并行，先看任务之间的依赖",
@@ -5984,8 +6304,8 @@
       }
     ],
     "authoring_page": 8514,
-    "start_seconds": 15470,
-    "end_seconds": 15570,
+    "start_seconds": 15765,
+    "end_seconds": 15865,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -5996,9 +6316,9 @@
     }
   },
   {
-    "page": 180,
+    "page": 187,
     "renderer": 8515,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·子智能体",
     "type": "summary",
     "title": "什么时候值得把任务分出去？",
@@ -6016,8 +6336,8 @@
       }
     ],
     "authoring_page": 8515,
-    "start_seconds": 15570,
-    "end_seconds": 15670,
+    "start_seconds": 15865,
+    "end_seconds": 15965,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6028,9 +6348,9 @@
     }
   },
   {
-    "page": 181,
+    "page": 188,
     "renderer": 6210,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness",
     "type": "subagenda",
     "title": "Harness：接下来讲什么？",
@@ -6048,8 +6368,8 @@
       }
     ],
     "authoring_page": 6210,
-    "start_seconds": 15670,
-    "end_seconds": 15695,
+    "start_seconds": 15965,
+    "end_seconds": 15990,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6060,9 +6380,9 @@
     }
   },
   {
-    "page": 182,
+    "page": 189,
     "renderer": 8516,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·进度与恢复",
     "type": "overview",
     "title": "保存进度，让下一次运行接得上",
@@ -6080,8 +6400,8 @@
       }
     ],
     "authoring_page": 8516,
-    "start_seconds": 15695,
-    "end_seconds": 15805,
+    "start_seconds": 15990,
+    "end_seconds": 16100,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6092,9 +6412,9 @@
     }
   },
   {
-    "page": 183,
+    "page": 190,
     "renderer": 8517,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·进度与恢复",
     "type": "summary",
     "title": "恢复前，确认哪些动作已经发生",
@@ -6112,8 +6432,8 @@
       }
     ],
     "authoring_page": 8517,
-    "start_seconds": 15805,
-    "end_seconds": 15905,
+    "start_seconds": 16100,
+    "end_seconds": 16200,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6124,9 +6444,9 @@
     }
   },
   {
-    "page": 184,
+    "page": 191,
     "renderer": 8518,
-    "navigation": "3.5",
+    "navigation": "3.6",
     "section": "Harness·小结",
     "type": "summary",
     "title": "Harness：把输入、执行与反馈接起来",
@@ -6144,8 +6464,8 @@
       }
     ],
     "authoring_page": 8518,
-    "start_seconds": 15905,
-    "end_seconds": 16005,
+    "start_seconds": 16200,
+    "end_seconds": 16300,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6156,7 +6476,7 @@
     }
   },
   {
-    "page": 185,
+    "page": 192,
     "renderer": 4013,
     "source_plan_page": 84,
     "section": "外化与内化整合",
@@ -6178,14 +6498,15 @@
       "2.5 决策",
       "2.6 Prompting小结",
       "3. Agents：Externalization & Internalization",
-      "3.0 外化与内化总览",
-      "3.1 工具调用",
-      "3.2 Memory",
-      "3.3 Skills",
-      "3.4 Protocols",
-      "3.5 Harness",
-      "3.6 外化与内化整合",
-      "3.7 全讲总结"
+      "3.0 大模型与智能体",
+      "3.1 外化与内化总览",
+      "3.2 工具调用",
+      "3.3 Memory",
+      "3.4 Skills",
+      "3.5 Protocols",
+      "3.6 Harness",
+      "3.7 外化与内化整合",
+      "3.8 全讲总结"
     ],
     "talk": "结束Harness，开始外化与内化整合。",
     "sources": [
@@ -6199,10 +6520,10 @@
       }
     ],
     "authoring_page": 126,
-    "navigation": "3.6",
+    "navigation": "3.7",
     "show_sources": false,
-    "start_seconds": 16005,
-    "end_seconds": 16020,
+    "start_seconds": 16300,
+    "end_seconds": 16315,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6213,7 +6534,7 @@
     }
   },
   {
-    "page": 186,
+    "page": 193,
     "renderer": 2127,
     "source_plan_page": 85,
     "section": "外化与内化整合",
@@ -6239,9 +6560,9 @@
       }
     ],
     "authoring_page": 127,
-    "navigation": "3.6",
-    "start_seconds": 16020,
-    "end_seconds": 16065,
+    "navigation": "3.7",
+    "start_seconds": 16315,
+    "end_seconds": 16360,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6252,7 +6573,7 @@
     }
   },
   {
-    "page": 187,
+    "page": 194,
     "renderer": 2128,
     "source_plan_page": 86,
     "section": "外化与内化整合",
@@ -6277,9 +6598,9 @@
       }
     ],
     "authoring_page": 128,
-    "navigation": "3.6",
-    "start_seconds": 16065,
-    "end_seconds": 16165,
+    "navigation": "3.7",
+    "start_seconds": 16360,
+    "end_seconds": 16460,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6290,7 +6611,7 @@
     }
   },
   {
-    "page": 188,
+    "page": 195,
     "renderer": 2129,
     "source_plan_page": 87,
     "section": "外化与内化整合",
@@ -6313,9 +6634,9 @@
       }
     ],
     "authoring_page": 129,
-    "navigation": "3.6",
-    "start_seconds": 16165,
-    "end_seconds": 16265,
+    "navigation": "3.7",
+    "start_seconds": 16460,
+    "end_seconds": 16560,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6326,7 +6647,7 @@
     }
   },
   {
-    "page": 189,
+    "page": 196,
     "renderer": 2130,
     "source_plan_page": 87,
     "section": "外化与内化整合",
@@ -6350,9 +6671,9 @@
       }
     ],
     "authoring_page": 130,
-    "navigation": "3.6",
-    "start_seconds": 16265,
-    "end_seconds": 16340,
+    "navigation": "3.7",
+    "start_seconds": 16560,
+    "end_seconds": 16635,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6363,7 +6684,7 @@
     }
   },
   {
-    "page": 190,
+    "page": 197,
     "renderer": 2131,
     "source_plan_page": 88,
     "section": "外化与内化整合",
@@ -6388,9 +6709,9 @@
       }
     ],
     "authoring_page": 131,
-    "navigation": "3.6",
-    "start_seconds": 16340,
-    "end_seconds": 16430,
+    "navigation": "3.7",
+    "start_seconds": 16635,
+    "end_seconds": 16725,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6401,7 +6722,7 @@
     }
   },
   {
-    "page": 191,
+    "page": 198,
     "renderer": 2132,
     "source_plan_page": 87,
     "section": "外化与内化整合",
@@ -6427,9 +6748,9 @@
       }
     ],
     "authoring_page": 132,
-    "navigation": "3.6",
-    "start_seconds": 16430,
-    "end_seconds": 16475,
+    "navigation": "3.7",
+    "start_seconds": 16725,
+    "end_seconds": 16770,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6440,7 +6761,7 @@
     }
   },
   {
-    "page": 192,
+    "page": 199,
     "renderer": 2133,
     "source_plan_page": 89,
     "section": "外化与内化整合",
@@ -6467,9 +6788,9 @@
       }
     ],
     "authoring_page": 133,
-    "navigation": "3.7",
-    "start_seconds": 16475,
-    "end_seconds": 16535,
+    "navigation": "3.8",
+    "start_seconds": 16770,
+    "end_seconds": 16830,
     "playback": {
       "mode": "full",
       "source_steps": [
@@ -6480,7 +6801,7 @@
     }
   },
   {
-    "page": 193,
+    "page": 200,
     "renderer": 2134,
     "source_plan_page": 89,
     "section": "外化与内化整合",
@@ -6505,9 +6826,9 @@
       }
     ],
     "authoring_page": 134,
-    "navigation": "3.7",
-    "start_seconds": 16535,
-    "end_seconds": 16605,
+    "navigation": "3.8",
+    "start_seconds": 16830,
+    "end_seconds": 16900,
     "playback": {
       "mode": "full",
       "source_steps": [

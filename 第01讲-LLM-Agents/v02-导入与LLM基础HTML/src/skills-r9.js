@@ -29,78 +29,76 @@ svg(arrow(1140,340,1140,405))+doc(810,425,690,'独立组织为Skill','把适用�
 a(0,425,650,'Memory保存的信息中，<br>可以包含可复用的做法。<br><br>Skills把这些做法组织成独立入口。')+
 bottom('文件中的方法被读入当前输入，影响本次生成；修改Skill文件不等于训练模型参数。')));
 add(3,()=>page(part(1,'Skills的定位')+
-a(0,75,1500,'用jupyter-notebook包看清：入口、具体做法和生成文件怎样连接。','sr9-lead')+
-a(0,165,650,'Jupyter Notebook是什么？','sr9-h')+ul(0,235,660,['一份同时容纳说明文字与代码的文件。','可按单元逐段阅读和运行，保存结果。','这个Skill支持实验分析与教学教程。'])+
-a(805,158,650,'<h3>Jupyter Notebook · .ipynb</h3><p>说明单元：这一步要做什么？</p><hr><code>代码单元：完成这一小步的计算</code><hr><p>输出区域：展示运行结果</p>','sr9-doc')+im(1350,170,60,60,'jupyter','Jupyter图标')+
-a(0,530,1500,'入口说明　→　参考方法　＋　生成脚本　＋　Notebook模板','sr9-h sr9-center')+
-bottom('先打开完整包，看清每个部分的作用；随后再观察模型实际读取了哪些文件。')));
-const purposes=['名称与用途帮助匹配任务；正文说明步骤、资源位置与检查方法。','教程内容的组织方法：目标、分步说明、代码和常见问题。','实验与探索任务的组织方法。','Notebook文件结构与安全编辑规则。','交付前检查运行顺序、状态、输出与未完成内容。','按指定类型读取模板，替换标题并写出Notebook。','教程型Notebook的7单元起始结构。','实验型Notebook的起始结构。','客户端显示名称、简介、图标与默认请求。','小尺寸界面图标。','界面图标。','Apache-2.0许可文本。'];
-function fileContent(i){const f=D.files[i];return f.image?`<img class="sr9-image-preview" src="${e(f.image)}" alt="${e(f.path)}"><pre class="sr9-pre" data-scroll-region tabindex="0">${e(f.text||f.path)}</pre>`:`<pre class="sr9-pre" data-scroll-region tabindex="0">${e(f.text)}</pre>`;}
-function packageWidget(){return `<section class="sr9-widget sr9-package" data-sr9-widget="files"><div class="sr9-widget-list"><h2>jupyter-notebook / 12个文件</h2><div class="sr9-file-list" data-scroll-region tabindex="0">${D.files.map((f,i)=>`<button data-sr9-file="${i}" aria-pressed="${i===0}">${e(f.path)}</button>`).join('')}</div></div><div class="sr9-panel"><h2 data-sr9-heading>SKILL.md</h2><div class="sr9-panel" data-sr9-filebody style="flex:1">${fileContent(0)}</div><p data-sr9-caption>${purposes[0]}</p></div></section>`;}
-add(4,()=>page(lead('从左侧选择文件；右侧查看原文、模板或图标。')+packageWidget()+bottom('入口文件组织方法；参考、脚本与模板为具体任务提供可取用的资源。')));
-add(5,()=>page(lead('同一个SKILL.md，开头用于识别用途，后续正文给出具体工作方法。')+
-a(0,105,715,'文件开头：什么时候用？','sr9-h')+pre(0,175,715,315,D.files[0].text.split('\n---\n')[0]+'\n---')+
-a(830,105,670,'后续正文：怎样完成？','sr9-h')+ul(830,175,670,['判断实验（experiment）还是教程（tutorial）。','确定目标、对象与交付要求。','找到脚本、模板和对应参考。','生成后，按检查清单核对产物。'])+
-svg(arrow(730,325,810,325))+
-a(0,540,1495,'<span class="sr9-red">目录先提供名称、用途和入口；读取正文后，工作步骤才进入本次输入。</span>','sr9-sub')+
-bottom('文件包已在磁盘上，不意味着它的所有内容已经进入模型。')));
-add(6,()=>page(lead('沿着教程型Notebook的生成路径，分清“模型读方法”与“程序读模板”。')+
-doc(0,125,640,'references / tutorial-patterns.md','模型读取：对象与目标、分步安排、<br>代码与说明怎样对应。')+doc(0,385,640,'scripts / new_notebook.py','模型发起工具调用，运行这段程序。<br>参数指定类型、标题与保存路径。')+
-doc(900,125,600,'assets / tutorial-template.ipynb','程序读取：已排好单元的Notebook模板。')+doc(900,385,600,'output / … .ipynb','程序写出：替换标题后的Notebook骨架。')+
-svg(arrow(320,315,320,365)+`<path d="M900 250 H765 V410 H655" stroke="#0070c0" stroke-width="3" fill="none" marker-end="url(#sr9-arrow)"/>`+arrow(655,510,880,510))+
-a(675,465,205,'写文件','sr9-small sr9-center')+
-bottom('参考帮助模型决定怎么做；脚本完成稳定操作；模板提供文件的起始结构。')));
-add(7,()=>page(lead('技能包把一套做法与所需资源放在一起，并提供清楚的读取入口。')+
-table(0,105,1500,['组成','回答的问题','jupyter-notebook中的对应'],[
-['入口：名称、用途与路径','这次要不要用？','创建、搭建或编辑.ipynb'],['SKILL.md正文','按什么步骤完成？','分用途、选模板、生成、检查'],['参考、脚本与模板','细节在哪？哪些可重复使用？','教程方法、生成程序、7单元模板']])+
-a(0,470,1500,'配置与图标服务于客户端展示；许可说明使用条件。','sr9-text')+
-a(0,555,1500,'文件按需要组织。简单方法可以只写一份SKILL.md。','sr9-h')+
-bottom('接下来把这些文件放回一次任务：到底先读什么，什么时候执行，怎样核对交付？')));
-add(8,()=>page(part(2,'完整技能包')+pre(0,75,1500,135,D.items.user.text)+
-a(0,255,1500,'同一个任务，沿着六个动作往下看','sr9-h')+
-smallFlow(355,['看目录','读SKILL.md','读教程参考','运行生成脚本'])+
-a(1060,455,440,'打开产物并检查','sr9-h sr9-center')+a(530,455,440,'回答用户','sr9-h sr9-center')+
-svg(arrow(1320,405,1320,445)+arrow(1060,480,995,480))+
-a(0,560,1500,'前两次读取逐层取得方法；脚本负责写文件；检查回到“先创建骨架”的要求。')+
-bottom('两级渐进式披露：目录 → SKILL.md → 本次所需参考。')));
-
-function keyText(k){
- if(k==='catalog')return '名称：jupyter-notebook\n用途：创建、搭建或编辑Notebook；支持实验与教程。\n\n入口文件：\n/workspace/course/.agents/skills/jupyter-notebook/SKILL.md';
- if(k==='result_skill')return '## Decision tree\n'+D.items[k].text.split('## Decision tree\n')[1].split('## Skill path')[0]+'## Reference map\n'+D.items[k].text.split('## Reference map\n')[1];
- if(k==='result_reference')return '教程内容的组织要求\n\n• 写明对象、前置知识和学习目标。\n• 先给大纲，再按小步解释与代码展开。\n• 将代码与结果解释配对。\n• 在Notebook内安排练习、答案骨架和常见错误。';
- if(k==='result_checklist')return '产物检查要求\n\n• 按从上到下的顺序检查运行与状态。\n• 输出保持简洁，控制图表与文字长度。\n• 标题、要点和说明应便于阅读。\n• 标清需要继续补充的内容。';
- if(k==='result_notebook')return D.notebook.cells.map((c,i)=>'单元'+(i+1)+' · '+(c.cell_type==='code'?'代码':'说明')+'\n'+c.source.join('')).join('\n\n');
- return D.items[k].text;
-}
-function keyCaption(k){return ({catalog:'目录先提供用途和路径；完整内容中保留英文用途说明。',result_skill:'本次选择tutorial；正文给出教程参考与检查清单的入口。',result_reference:'教程参考补充内容组织要求；按本次“先保留模板”的目标创建骨架。',result_checklist:'清单给出检查维度；本次先核对骨架文件和待补内容。',result_notebook:'读回7个单元后，才能核对标题与实际保留的模板内容。',call_skill:'模型生成读取命令；命令交给工具执行。',call_reference:'读取第二层详细材料，继续补充模型当前输入。',call_checklist:'先读取交付检查标准。',call_notebook:'再读取刚生成的文件，取得实际内容。',answer:'回答依据任务、工具返回与实际文件内容。'})[k]||'当前条目与前面的任务、工具返回一起保留。';}
-
+lead16('沿用采购案例：条件已经确定，下面要把评审方法整理成一个Skill。',75)+
+a(0,170,650,'本次任务','sr9-h')+pre(0,235,680,200,D.items.user.text)+
+a(0,485,680,'Memory提供项目条件。<br>Skill提供组织评审的步骤与方法。','sr9-text')+
+a(850,175,590,'<h3>采购评审要点</h3><p>一、采购条件</p><p>二、费用范围</p><p>三、交付与管理</p><p>四、待确认事项</p>','sr9-doc')+
+svg(arrow(710,335,820,335))+bottom('先看完整文件夹，再打开入口、参考、脚本与模板。')));
+function lead16(t,y=0){return a(0,y,1504,t,'sr9-lead');}
+const purposes=D.files.map(f=>f.purpose);
+function fileContent(i){return `<pre class="sr9-pre" data-scroll-region tabindex="0">${e(D.files[i].text)}</pre>`;}
+function packageWidget(){return `<section class="sr9-widget sr9-package" data-sr9-widget="files"><div class="sr9-widget-list"><h2>procurement-review / 9个文件</h2><div class="sr9-file-list" data-scroll-region tabindex="0">${D.files.map((f,i)=>`<button data-sr9-file="${i}" aria-pressed="${i===0}">${e(f.path)}</button>`).join('')}</div></div><div class="sr9-panel"><h2 data-sr9-heading>SKILL.md</h2><div class="sr9-panel" data-sr9-filebody style="flex:1">${fileContent(0)}</div><p data-sr9-caption>${purposes[0]}</p></div></section>`;}
+add(30,()=>page(lead('一个文件夹，把入口说明、参考方法、脚本和模板放在一起。')+
+`<img class="sr9-at" style="left:0;top:85px;width:850px;height:550px" src="assets/skills-r16/package-tree.png" alt="采购评审技能包文件夹：SKILL.md，references下四份参考，scripts下两个脚本，assets下HTML模板，agents下客户端配置">`+
+a(935,100,560,'SKILL.md：从这里开始','sr9-h')+a(935,155,560,'说明何时用、先做什么，<br>并给出所需文件的位置。')+
+a(935,260,560,'三个资源文件夹','sr9-h')+ul(935,320,560,['references：具体方法与检查清单。','scripts：生成文件、检查一致性。','assets：一页评审的版式。'])+
+a(935,545,560,'agents：客户端显示配置。','sr9-small')+
+bottom('文件夹层级帮助组织资源；模型仍需通过工具逐个读取需要的文件。')));
+add(4,()=>page(lead('选择左侧文件，查看其中的说明、方法、脚本或模板。')+packageWidget()+bottom('采购条件保存在本次任务中；技能包保存可以用于不同采购任务的方法。')));
+add(5,()=>page(lead('同一个SKILL.md，开头用于识别用途，后续正文给出工作步骤。')+
+a(0,105,715,'文件开头：什么时候用？','sr9-h')+pre(0,175,715,345,D.files[0].text.split('\n---\n')[0]+'\n---')+
+a(830,105,670,'后续正文：怎样完成？','sr9-h')+ul(830,175,670,['先核对本次人数、期限与预算。','区分正式部署和小范围试点。','沿参考文件组织初稿，运行脚本。','生成后读取检查清单，核对产物。'])+
+svg(arrow(730,325,810,325))+a(0,560,1500,'目录先给用途和入口；读取SKILL.md后，具体步骤才进入模型输入。','sr9-sub')+
+bottom('正式部署和试点使用同一个包，但会选择不同的参考文件。')));
+add(6,()=>page(lead('模型读取方法并组织内容；工具运行程序，程序读取模板并写出文件。')+
+doc(0,105,600,'references / 评审方法','模型读：正式部署怎样评审，<br>费用范围怎样核对。')+
+doc(0,385,600,'review-input.json / 本次初稿','模型写：300人、一年、30万元，<br>以及按方法整理的评审要点。')+
+doc(850,105,650,'assets / review-template.html','程序读：标题、四部分结构与版式。')+
+doc(850,385,650,'scripts / render_review.py','程序执行：将初稿内容填入模板，<br>写出采购评审HTML文件。')+
+svg(arrow(300,282,300,365)+arrow(1175,282,1175,365)+arrow(620,490,830,490))+
+bottom('参考进入模型输入；模板由脚本直接读取。两种读取的主体和用途不同。')));
+add(7,()=>page(lead('完整技能包提供方法和资源；本次采购条件由任务与记忆提供。')+
+table(0,100,1500,['组成','作用','采购评审包中的内容'],[
+['目录中的名称、用途与路径','判断这次是否需要','起草软件采购评审要点'],
+['SKILL.md','取得工作顺序和资源入口','选分支 → 组织初稿 → 生成 → 检查'],
+['references','补充具体做法','正式部署、试点、费用口径、检查清单'],
+['scripts / assets','完成固定操作和版式','生成与检查脚本、一页HTML模板']])+
+a(0,535,1500,'简单方法可以只写一份SKILL.md；需要细节或稳定操作时，再增加文件。','sr9-text')+
+bottom('下面进入一次调用：模型怎样从入口出发，逐层找到本次需要的内容？')));
+add(8,()=>page(part(2,'完整技能包')+pre(0,70,1500,125,D.items.user.text)+
+a(0,235,1500,'逐层读取方法，再生成并检查文件','sr9-h')+
+smallFlow(320,['看Skill目录','读SKILL.md','读正式部署方法','读费用口径'])+
+a(1060,450,440,'组织初稿、运行脚本','sr9-h sr9-center')+a(530,450,440,'读检查清单与产物','sr9-h sr9-center')+a(0,450,440,'检查并交付','sr9-h sr9-center')+
+svg(arrow(1320,375,1320,430)+arrow(1050,475,995,475)+arrow(520,475,455,475))+
+a(0,565,1500,'先用方法组织内容；文件生成后，再按清单核对。','sr9-text')+
+bottom('每次读取都补充后续输入；没有用到的分支留在磁盘上。')));
+function keyText(k){return D.items[k].excerpt||D.items[k].text;}
+function keyCaption(k){return D.items[k].caption||'';}
 function cumulative(view){const n=D.order.indexOf(D.end[view]);return D.order.slice(0,n+1);}
-function trace(view,selected){return `<section class="sr9-widget" data-sr9-widget="trace" data-sr9-view="${view}" data-sr9-selected="${selected}" data-sr9-default="${selected}"><div class="sr9-widget-list"><h2>当前环节</h2>${D.groups[view].map(k=>`<button data-sr9-item="${k}" aria-pressed="${k===selected}">${e(D.items[k].label)}<span>${e(D.items[k].origin)}</span></button>`).join('')}<div class="sr9-stage-note">${({initial:'目录给出用途与入口。',skill:'第一次展开：目录 → 正文',reference:'第二次展开：正文 → 参考',verify:'先取得检查要求，再读取产物。',answer:'回答依据前面的任务和工具返回。'})[view]}</div></div><div class="sr9-panel"><div class="sr9-toolbar"><button data-sr9-mode="text" aria-pressed="true">关键内容</button><button data-sr9-mode="full" aria-pressed="false">完整内容</button><button data-sr9-mode="raw" aria-pressed="false">消息结构</button><button data-sr9-mode="all" aria-pressed="false">截至此处的内容</button></div><h2 data-sr9-heading>${e(D.items[selected].label)}</h2><pre class="sr9-pre" data-scroll-region tabindex="0" data-sr9-content>${e(keyText(selected))}</pre><p data-sr9-caption>${e(keyCaption(selected))}</p></div></section>`;}
-add(9,()=>page(lead('用户要求创建教学用Notebook骨架；目录中的用途与这个任务匹配。')+trace('initial','catalog')+bottom('目录由客户端提供；模型接着生成读取SKILL.md的工具调用。')));
-add(10,()=>page(lead('目录指向入口文件；工具读取后，工作步骤和资源位置进入后续输入。')+trace('skill','intro')+bottom('教学用途 → tutorial分支；正文进一步指向tutorial-patterns.md。')));
-add(11,()=>page(lead('按照SKILL.md给出的路径，继续读取本次需要的教程参考。')+trace('reference','call_reference')+bottom('教程任务读取tutorial-patterns.md；实验分支的参考文件仍留在磁盘上。')));
-add(12,()=>page(lead('模型生成运行请求；exec_command执行脚本，脚本再读取模板并写文件。')+
-pre(0,87,1500,145,D.command)+
-doc(0,285,420,'模型 → 工具','类型：tutorial<br>标题：Python列表与平均值<br>输出：指定.ipynb文件')+
-doc(560,285,420,'程序执行','读取教程模板<br>替换首个标题<br>保存7个单元')+
-doc(1120,285,380,'工具返回','Wrote …<br>python-lists-and-mean.ipynb<br>using kind=tutorial')+
-svg(arrow(435,390,545,390)+arrow(995,390,1105,390))+
-a(0,555,1500,'脚本直接使用模板；模型随后通过工具读取文件，才能看到产物内容。')+
-bottom('这一步完成文件生成。返回的是保存路径；接下来还要打开文件检查。')));
-add(13,()=>page(lead('知道文件位置之后，再取得检查要求和Notebook的实际内容。')+trace('verify','call_checklist')+bottom('检查清单给出标准；打开产物后，把实际内容与本次“骨架”要求对照。')));
-const cellNames=['标题与对象','内容大纲','准备代码','步骤说明','正弦示例代码','模板中的练习栏目','模板中的答案代码'];
-function notebookWidget(){return `<section class="sr9-widget sr9-notebook-widget" data-sr9-widget="notebook"><div class="sr9-widget-list"><h2>7个单元</h2>${D.notebook.cells.map((c,i)=>`<button data-sr9-cell="${i}" aria-pressed="${i===0}">${i+1}. ${cellNames[i]}</button>`).join('')}</div><div class="sr9-panel"><h2>python-lists-and-mean.ipynb</h2><div class="sr9-notebook"><div class="sr9-nb-head"><img src="assets/skills-r9/jupyter.png" alt="Jupyter">文件中的单元内容</div><div class="sr9-nb-cell"><label data-sr9-celltype>说明</label><pre class="sr9-pre" data-scroll-region tabindex="0" data-sr9-cellbody>${e(D.notebook.cells[0].source.join(''))}</pre></div></div><p data-sr9-caption>第1单元：标题已经替换；对象、前置知识与目标仍保留模板内容。</p></div></section>`;}
-add(14,()=>page(lead('用户要求先保留模板：7个单元中，首个标题已改为“Python列表与平均值”。')+notebookWidget()+bottom('后续补充对象与目标，把正弦示例改成列表求平均值，再逐单元运行并检查结果。')));
-add(15,()=>page(lead('对照用户最初要求，交代交付位置、文件内容与接下来的工作。')+trace('answer','answer')+bottom('文件生成、内容检查与代码运行是不同动作；本次交付停在创建骨架与查看内容。')));
-add(16,()=>page(lead('渐进式披露把材料分层；工具调用把“读取方法”和“实际执行”连接起来。')+
-a(0,100,450,'第一层：目录','sr9-h')+doc(0,165,450,'判断是否适用','名称、用途、入口路径')+
-a(530,100,450,'第二层：SKILL.md','sr9-h')+doc(530,165,450,'取得做法','步骤、分支、资源入口')+
-a(1060,100,440,'第三层：按需资源','sr9-h')+doc(1060,165,440,'取得具体材料','教程参考、检查清单')+
-svg(arrow(460,230,515,230)+arrow(990,230,1045,230))+
-a(0,380,1500,'模型：读取说明与参考　→　生成工具调用','sr9-h')+
-a(0,460,1500,'程序：读取模板　→　写出文件　→　工具返回','sr9-h')+
-a(0,540,1500,'模型：读回产物　→　按本次要求检查　→　回答用户','sr9-h')+
-bottom('Skills说明方法，工具完成操作；记忆中的做法由此能够在新任务里重新使用。')));
+function trace(view,selected){return `<section class="sr9-widget" data-sr9-widget="trace" data-sr9-view="${view}" data-sr9-selected="${selected}"><div class="sr9-widget-list"><h2>当前环节</h2><div class="trace-scroll-list" data-trace-list data-scroll-region tabindex="0" role="region" aria-label="Skills案例完整过程">${D.order.map(k=>`<button data-sr9-item="${k}" aria-pressed="${k===selected}">${e(D.items[k].label)}<span>${e(D.items[k].origin)}</span></button>`).join('')}</div><div class="sr9-stage-note">${D.stages[view]}</div></div><div class="sr9-panel"><div class="sr9-toolbar"><button data-sr9-mode="text" aria-pressed="true">关键内容</button><button data-sr9-mode="full" aria-pressed="false">完整内容</button><button data-sr9-mode="raw" aria-pressed="false">消息结构</button><button data-sr9-mode="all" aria-pressed="false">截至此处的内容</button></div><h2 data-sr9-heading>${e(D.items[selected].label)}</h2><pre class="sr9-pre" data-scroll-region tabindex="0" data-sr9-content>${e(keyText(selected))}</pre><p data-sr9-caption>${e(keyCaption(selected))}</p></div></section>`;}
+add(9,()=>page(lead('Memory已确定本次条件；用户提出新任务，Skill目录提供方法入口。')+trace('initial','memory')+bottom('当前输入包含项目条件和任务；技能正文仍需通过工具读取。')));
+add(10,()=>page(lead('模型选用采购评审Skill，再通过工具读取SKILL.md。')+trace('skill','intro')+bottom('当前任务是正式部署；正文指向references/rollout-review.md。')));
+add(11,()=>page(lead('沿SKILL.md的正式部署分支，读取评审顺序与内容要求。')+trace('reference','call_reference')+bottom('费用范围一节还有一个链接：cost-scope.md。下一步继续展开它。')));
+add(31,()=>page(lead('评审方法继续指向费用口径：需要报清哪些费用，怎样比较？')+trace('cost','call_cost')+bottom('这次读取来自上一份参考中的链接；不是一次把所有参考都放入输入。')));
+add(32,()=>page(lead('补充读取项目的账户与数据要求，再按评审结构组织本次初稿。')+trace('prepare','call_security')+bottom('项目文件提供条件和要求；Skill参考提供整理这些信息的方法。')));
+add(12,()=>page(lead('模型生成运行命令；脚本读取本次初稿和模板，写出评审文件。')+trace('render','call_create')+bottom('工具返回文件位置；接下来读取检查标准，再打开文件核对内容。')));
+add(13,()=>page(lead('从SKILL.md的检查入口出发，先读清单，再读回刚生成的文件。')+trace('verify','call_checklist')+bottom('对照当前条件、材料依据与待确认事项，检查实际产物。')));
+add(33,()=>page(lead('按清单运行检查脚本，比对当前条件、初稿字段与生成文件。')+trace('validate','call_validate')+bottom('自动检查保证这些项目一致；内容是否有依据、待确认事项是否完整，仍需逐项核对。')));
+add(14,()=>page(lead('一页评审要点保留四部分，当前采购条件与待确认事项都能直接看到。')+
+a(0,70,1504,D.artifact,'sr16-review')+
+a(1140,596,360,'<a href="sources/skills-r16/case/output/procurement-review.html" target="_blank" rel="noopener">打开完整评审文件 ↗</a>','sr9-small')+
+bottom('报价、上线日期与验收标准仍需确认；评审文件把这些事项单独列明。')));
+add(15,()=>page(lead('核对文件后，向用户交代产物位置、主要内容与仍需确认的事项。')+trace('answer','answer')+bottom('交付内容与任务一致：起草一页评审要点，保留报价、上线日期与验收标准等待确认事项。')));
+add(16,()=>page(lead('方法逐层展开；脚本完成操作；产物生成后，再读取检查要求。')+
+a(0,105,330,'Skill目录','sr9-h')+a(390,105,330,'SKILL.md','sr9-h')+a(780,105,330,'正式部署方法','sr9-h')+a(1170,105,330,'费用口径','sr9-h')+
+svg(arrow(295,130,365,130)+arrow(685,130,755,130)+arrow(1075,130,1145,130))+
+a(0,180,330,'判断是否适用')+a(390,180,330,'选择工作分支')+a(780,180,330,'组织评审内容')+a(1170,180,330,'补齐具体规则')+
+svg(rule(300))+
+a(0,345,700,'生成：模型组织初稿 → 工具运行脚本','sr9-sub')+a(800,345,700,'检查：另读清单 → 读回文件 → 核对','sr9-sub')+
+a(0,425,700,'脚本直接读取模板，写出文件。<br>模板没有先作为正文交给模型。')+
+a(800,425,700,'检查标准在交付前展开。<br>试点分支本次没有读取。')+
+a(0,555,1500,'渐进式披露的关键：当前要做什么，决定接着读取什么。','sr9-h')+
+bottom('Skills保存方法；工具完成读取与执行；Memory提供本次任务所需的信息。')));
 add(17,()=>page(part(3,'一次Skill调用')+
 a(0,75,1500,'自己的Skills：提炼已有做法，生成初稿，再用新的任务检验与修订。','sr9-lead')+
 im(0,180,1500,415,'creation-cycle','已有工作、自然语言创建、组织文件、新任务试用、具体修改的循环')+
@@ -127,7 +125,7 @@ bottom('判断依据是代表性任务的结果；“成功生成了SKILL.md”�
 add(22,()=>page(lead('一个地方做出来的Skill，迁到另一个场景或应用后，要重新验证。')+
 table(0,105,1500,['依赖什么','换环境时可能发生什么','迁移前核对'],[
 ['任务场景','受众、材料与交付标准变了','适用任务、输入和产物'],['模型','遵循方式与原有能力不同','指令是否仍有帮助'],['Harness：运行环境','工具、路径、依赖与权限不同','能否读取、执行并检查']])+
-a(0,495,1500,'例如：能在本机写Notebook，不代表另一个应用也有相同文件路径和Python环境。','sr9-text')+
+a(0,495,1500,'例如：本机能生成采购评审HTML，另一个应用的文件路径、工具和Python环境可能不同。','sr9-text')+
 a(0,575,1500,'迁移顺序：检查依赖 → 调整入口与工具 → 用代表任务验证。','sr9-h')+
 bottom('方法可以复用；运行条件需要适配。换了环境以后，重新看实际结果。')));
 add(23,()=>page(lead('公共Skill包含文字指令，也可能附带脚本；导入时要看它会引导什么操作。')+
@@ -162,6 +160,5 @@ a(0,555,1500,'接下来：Protocols约定应用怎样与外部工具和其他Age
 bottom('方法能否落实为可靠交付，还取决于这些组件怎样配合。')));
 function updateTrace(w){const v=w.dataset.sr9View,k=w.dataset.sr9Selected,mode=w.dataset.sr9Display||'text',it=D.items[k];w.querySelectorAll('[data-sr9-item]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.sr9Item===k));w.querySelectorAll('[data-sr9-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.sr9Mode===mode));w.querySelector('[data-sr9-heading]').textContent=mode==='all'?'按顺序保留的任务、目录与消息':it.label;const p=w.querySelector('[data-sr9-content]');p.textContent=mode==='all'?cumulative(v).map(id=>'【'+D.items[id].label+'】\n'+D.items[id].text).join('\n\n'):mode==='raw'?it.raw?JSON.stringify(it.raw,null,2):it.text:mode==='full'?it.text:keyText(k);p.scrollTop=0;w.querySelector('[data-sr9-caption]').textContent=mode==='all'?'已有内容按顺序保留；新增的工具返回加入后续输入。':keyCaption(k);}
 function updateFile(w,i){w.querySelectorAll('[data-sr9-file]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.sr9File)===i));w.querySelector('[data-sr9-heading]').textContent=D.files[i].path;w.querySelector('[data-sr9-filebody]').innerHTML=fileContent(i);w.querySelector('[data-sr9-caption]').textContent=purposes[i];}
-function updateCell(w,i){const c=D.notebook.cells[i];w.querySelectorAll('[data-sr9-cell]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.sr9Cell)===i));w.querySelector('[data-sr9-celltype]').textContent=c.cell_type==='code'?'代码':'说明';const p=w.querySelector('[data-sr9-cellbody]');p.textContent=c.source.join('');p.scrollTop=0;w.querySelector('[data-sr9-caption]').textContent=i===0?'第1单元：标题已经替换；对象、前置知识与目标仍保留模板内容。':i===4?'第5单元仍是正弦示例。后续把这段代码换成列表求平均值。':`第${i+1}单元保留模板内容。${c.cell_type==='code'?'代码单元待补齐主题内容后再运行。':'后续按主题补充说明。'}`;}
-if(typeof document!=='undefined')document.addEventListener('click',ev=>{const b=ev.target.closest('[data-sr9-file],[data-sr9-cell],[data-sr9-item],[data-sr9-mode],[data-sr9-reset]');if(!b)return;const w=b.closest('[data-sr9-widget]');if(!w)return;ev.stopPropagation();if(w.dataset.sr9Widget==='files'){updateFile(w,b.hasAttribute('data-sr9-reset')?0:Number(b.dataset.sr9File));if(b.hasAttribute('data-sr9-reset'))w.querySelector('.sr9-file-list').scrollTop=0;}else if(w.dataset.sr9Widget==='notebook'){updateCell(w,b.hasAttribute('data-sr9-reset')?0:Number(b.dataset.sr9Cell));}else{if(b.hasAttribute('data-sr9-reset')){w.dataset.sr9Selected=w.dataset.sr9Default;w.dataset.sr9Display='text';}else if(b.hasAttribute('data-sr9-item')){w.dataset.sr9Selected=b.dataset.sr9Item;w.dataset.sr9Display='text';}else w.dataset.sr9Display=b.dataset.sr9Mode;updateTrace(w);}});
+if(typeof document!=='undefined')document.addEventListener('click',ev=>{const b=ev.target.closest('[data-sr9-file],[data-sr9-item],[data-sr9-mode]');if(!b)return;const w=b.closest('[data-sr9-widget]');if(!w)return;ev.stopPropagation();if(w.dataset.sr9Widget==='files')updateFile(w,Number(b.dataset.sr9File));else{if(b.hasAttribute('data-sr9-item')){w.dataset.sr9Selected=b.dataset.sr9Item;w.dataset.sr9Display='text';}else w.dataset.sr9Display=b.dataset.sr9Mode;updateTrace(w);}});
 })();

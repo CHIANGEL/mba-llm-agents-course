@@ -6,7 +6,7 @@
 
 在线课件：[第一讲 LLM Agents](https://linjianghao.com/mba-llm-agents-course/)。无需登录；课件更新合入 `main` 后自动发布。
 
-- [第一讲 LLM Agents 完整 HTML 课件 v02](第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html)：当前为Memory措辞修订r15，193页、193个播放器状态，参考276分45秒含10分钟休息，可分两次讲；页面默认全显，Agents从第51页开始；[使用说明](第01讲-LLM-Agents/v02-导入与LLM基础HTML/README.md)。
+- [第一讲 LLM Agents 完整 HTML 课件 v02](第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html)：当前为工具调用与Protocols修订r19，200页、200个播放器状态，参考281分40秒含10分钟休息，可分两次讲；页面默认全显，Agents从第51页开始；[使用说明](第01讲-LLM-Agents/v02-导入与LLM基础HTML/README.md)。
 - [结构修订说明](第01讲-LLM-Agents/v01-逐页内容规划/结构修订说明.md)：2026-10-18反馈后的分层目录与各子章节总分总映射。
 - [第一讲逐页内容规划 v01](第01讲-LLM-Agents/v01-逐页内容规划/逐页内容规划.md)：89页初稿，保留当时的拟上屏文案、教师讲解、配图与案例安排；当前内容和页序以完整课件为准。
 - [页序与案例速览（初稿）](第01讲-LLM-Agents/v01-逐页内容规划/页序与案例速览.md)：原规划的节奏与案例位置，当前页码见使用说明。
@@ -16,6 +16,6 @@
 - [参考材料与复用索引](00-课程规划/参考材料与复用索引.md)：原课程页码、HTML 入口与 Prompting 补充材料的取舍。
 - [参考资料](00-课程规划/参考资料/)：教师补充 PDF、原课程措辞规范、视觉规范与固定样张。
 
-第一讲全部内容已制作。最新修订把LLM基础集中为完整逐Token生成与三轮chat template，采用实际模型生成的10步记录；普通页面整页显示，必要机制保留手动演示。工具调用以天气案例贯通调用格式、执行与chat template，并用Computer Use和Memory说明复杂应用；Memory改为概念、个性化趋势与Codex企业采购案例，并引出渐进式披露；Skills重构为程序性记忆、Jupyter完整技能包与两次渐进式披露、合成评估维护；Protocols独立讲解MCP工具交互与A2A任务协作，复用原课图案；Harness重构为宏观运行、上下文、沙盒权限、Hooks、子智能体和进度恢复。第二、三讲主题尚未确定。
+第一讲全部内容已制作。最新修订把LLM基础集中为完整逐Token生成与三轮chat template，采用实际模型生成的10步记录；普通页面整页显示，必要机制保留手动演示。Agents先用通知、数据查询、网页预约和机械臂视频区分模型与智能体，再引出Agent = LLM + Harness与外化/内化。工具调用以天气案例贯通调用格式、执行与chat template，并用Computer Use、机械臂与Memory说明复杂应用；Memory改为概念、个性化趋势与Codex企业采购案例，并引出渐进式披露；Skills使用同一采购案例：完整技能包、多级渐进式披露、实际文件生成与校验，再讨论合成评估维护；Protocols从Web类比说明共同规则，再讲MCP工具接入与A2A任务委托，保留简短天气请求和官方汇率案例；Harness重构为宏观运行、上下文、沙盒权限、Hooks、子智能体和进度恢复。第二、三讲主题尚未确定。
 
 `qa/independent-review/`中的134页、387状态审阅属于此前版本。`交付/MBA第一讲-LLM-Agents-HTML课件-20261019.zip`也是此前分享版，尚不包含本轮LLM基础与播放方式修订；当前最新版入口为上面的HTML课件。

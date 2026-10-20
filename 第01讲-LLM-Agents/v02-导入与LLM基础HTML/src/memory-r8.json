@@ -20,7 +20,7 @@
     {
       "page": 74,
       "renderer": 6001,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "overview",
       "title": "Memory：保存和使用跨会话信息",
@@ -41,7 +41,7 @@
     {
       "page": 7401,
       "renderer": 6002,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "新会话怎样用到过去的信息？",
@@ -62,7 +62,7 @@
     {
       "page": 7402,
       "renderer": 6003,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "记忆要存什么？",
@@ -83,7 +83,7 @@
     {
       "page": 7403,
       "renderer": 6004,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "记忆怎样组织：条目与关系图",
@@ -104,7 +104,7 @@
     {
       "page": 7404,
       "renderer": 6005,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "overview",
       "title": "记忆的增删改查",
@@ -125,7 +125,7 @@
     {
       "page": 7405,
       "renderer": 6006,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "写入：新增、修改、删除，还是不变？",
@@ -146,7 +146,7 @@
     {
       "page": 7406,
       "renderer": 6007,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "事实变了，历史与当前怎样区分？",
@@ -167,7 +167,7 @@
     {
       "page": 7407,
       "renderer": 6008,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "删除一条记忆，信息就消失了吗？",
@@ -188,7 +188,7 @@
     {
       "page": 7408,
       "renderer": 6009,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "查询：先确定范围，再找候选",
@@ -209,7 +209,7 @@
     {
       "page": 7409,
       "renderer": 6010,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "记忆也可能干扰当前任务",
@@ -230,7 +230,7 @@
     {
       "page": 7410,
       "renderer": 6011,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "content",
       "title": "工作场景：需要哪些历史信息？",
@@ -251,7 +251,7 @@
     {
       "page": 7411,
       "renderer": 6012,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·保存、维护与采用",
       "type": "summary",
       "title": "先判断这次需不需要记忆",
@@ -272,7 +272,7 @@
     {
       "page": 7412,
       "renderer": 6013,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·个性化与主动式智能体",
       "type": "overview",
       "title": "从Memory到个性化与主动式智能体",
@@ -293,7 +293,7 @@
     {
       "page": 7413,
       "renderer": 6014,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·个性化与主动式智能体",
       "type": "content",
       "title": "Meta Muse与OpenAI dot",
@@ -314,7 +314,7 @@
     {
       "page": 7414,
       "renderer": 6015,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·个性化与主动式智能体",
       "type": "content",
       "title": "个性化智能体：信息、权限与风险",
@@ -335,7 +335,7 @@
     {
       "page": 7415,
       "renderer": 6016,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·个性化与主动式智能体",
       "type": "content",
       "title": "智能体会改变平台的入口吗？",
@@ -356,7 +356,7 @@
     {
       "page": 7416,
       "renderer": 6017,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·个性化与主动式智能体",
       "type": "summary",
       "title": "个性化与主动式智能体小结",
@@ -377,7 +377,7 @@
     {
       "page": 7417,
       "renderer": 6018,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "overview",
       "title": "Codex采购案例：旧预算还能沿用吗？",
@@ -398,7 +398,7 @@
     {
       "page": 7418,
       "renderer": 6019,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "磁盘里保存了什么？",
@@ -419,7 +419,7 @@
     {
       "page": 7419,
       "renderer": 6020,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "渐进式披露：先摘要，再细节",
@@ -440,7 +440,7 @@
     {
       "page": 7420,
       "renderer": 6021,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "首次输入：摘要怎样进入模型？",
@@ -461,7 +461,7 @@
     {
       "page": 7421,
       "renderer": 6022,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "摘要足够吗？哪些内容还要查？",
@@ -482,7 +482,7 @@
     {
       "page": 7422,
       "renderer": 6023,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "模型生成读取调用",
@@ -503,7 +503,7 @@
     {
       "page": 7423,
       "renderer": 6024,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "工具返回后，输入增加了什么？",
@@ -524,7 +524,7 @@
     {
       "page": 7424,
       "renderer": 6025,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "读取记忆后的采购判断",
@@ -545,7 +545,7 @@
     {
       "page": 7425,
       "renderer": 6026,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "用户补充正式部署条件",
@@ -566,7 +566,7 @@
     {
       "page": 7426,
       "renderer": 6027,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "case",
       "title": "文件更新了，当前输入会自动变吗？",
@@ -587,7 +587,7 @@
     {
       "page": 7427,
       "renderer": 6028,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·Codex商业案例",
       "type": "summary",
       "title": "采购案例小结：记忆读取与更新",
@@ -608,7 +608,7 @@
     {
       "page": 7428,
       "renderer": 6029,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·小结与Skills过渡",
       "type": "summary",
       "title": "Memory小结：保存、读取与采用",
@@ -629,7 +629,7 @@
     {
       "page": 7429,
       "renderer": 6030,
-      "navigation": "3.2",
+      "navigation": "3.3",
       "section": "Memory·小结与Skills过渡",
       "type": "summary",
       "title": "从Memory到Skills：从信息到方法",

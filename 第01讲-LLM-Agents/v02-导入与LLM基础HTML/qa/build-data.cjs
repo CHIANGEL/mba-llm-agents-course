@@ -10,15 +10,19 @@ const prompting=[],agents=[],addSources={};
 const promptingR2=fs.existsSync(path.join(root,'src/prompting-r2.json'))?read('src/prompting-r2.json'):null;
 const foundations=read('src/llm-foundations.json');
 const agentOverview=read('src/agent-overview-r4.json');
+const openingR17=read('src/agent-opening-r17.json');
+Object.assign(authorMaterials,openingR17.materials);Object.assign(addSources,openingR17.sources);
 const memoryR8=read('src/memory-r8.json');
 const skillsR9=read('src/skills-r9.json');
-const protocolsR10=read('src/protocols-r10.json');
+const protocolsR19=read('src/protocols-r19.json');
+const robotR19=read('src/robot-tools-r19.json');
+Object.assign(authorMaterials,robotR19.materials);Object.assign(addSources,robotR19.sources);
 const harnessR11=read('src/harness-r11.json');
 const reviewR14=read('src/memory-review-r14.json');
 Object.assign(authorMaterials,reviewR14.materials);Object.assign(addSources,reviewR14.sources);
 const harnessSeconds=harnessR11.pages.reduce((sum,p)=>sum+p.seconds,0);
 Object.assign(authorMaterials,harnessR11.materials);Object.assign(addSources,harnessR11.sources);
-Object.assign(authorMaterials,protocolsR10.materials);Object.assign(addSources,protocolsR10.sources);
+Object.assign(authorMaterials,protocolsR19.materials);Object.assign(addSources,protocolsR19.sources);
 Object.assign(authorMaterials,skillsR9.materials);Object.assign(addSources,skillsR9.sources);
 Object.assign(authorMaterials,memoryR8.materials);Object.assign(addSources,memoryR8.sources);
 Object.assign(authorMaterials,agentOverview.materials);Object.assign(addSources,agentOverview.sources);
@@ -33,7 +37,7 @@ if(agents.length!==73||agents.some((p,i)=>p.page!==expectedAgents[i]))throw Erro
 const extra={23:45,24:30,25:30,26:25,44:5};if(!promptingR2)prompting.forEach(p=>p.seconds+=extra[p.page]||0);
 if(prompting.reduce((s,p)=>s+p.seconds,0)!==2100)throw Error('Prompting duration must be 2100s');
 Object.assign(authorMaterials,agentOverview.materials,memoryR8.materials,skillsR9.materials);
-let content=base.concat(prompting,agents).flatMap(p=>p.page===agentOverview.replaces_authoring_page?agentOverview.pages:p.page===74?memoryR8.pages:p.page>=75&&p.page<=88?[]:p.page===89?skillsR9.pages:p.page>=90&&p.page<=104?[]:p.page===105?[...protocolsR10.pages,...harnessR11.pages]:p.page>=106&&p.page<=125?[]:[p]);
+let content=base.concat(prompting,agents).flatMap(p=>p.page===agentOverview.replaces_authoring_page?[...openingR17.pages,...agentOverview.pages]:p.page===71?[...robotR19.pages,p]:p.page===74?memoryR8.pages:p.page>=75&&p.page<=88?[]:p.page===89?skillsR9.pages:p.page>=90&&p.page<=104?[]:p.page===105?[...protocolsR19.pages,...harnessR11.pages]:p.page>=106&&p.page<=125?[]:[p]);
 content=content.flatMap(p=>[...reviewR14.insertions.filter(i=>i.before===p.page).map(i=>({...reviewR14.pages.find(x=>x.page===i.page)})),p]);
 for(const p of content){if(agentOverview.timing_overrides[String(p.page)]!==undefined)p.seconds=agentOverview.timing_overrides[String(p.page)];}
 for(const p of content){p.authoring_page=p.authoring_page??p.page;p.renderer=p.renderer??p.page;}
@@ -53,15 +57,16 @@ for(const p of plan.filter(p=>p.type==='agenda')){p.on_slide=p.on_slide.concat(n
 const authorToDisplay=new Map();let t=0;plan.forEach((p,i)=>{p.page=i+1;authorToDisplay.set(p.authoring_page,p.page);p.start_seconds=t;t+=p.seconds;p.end_seconds=t;for(const b of schedule.off_slide_breaks.filter(b=>b.after_authoring_page===p.authoring_page)){b.after_page=p.page;b.start_seconds=t;t+=b.seconds;b.end_seconds=t;}});
 const displayedPage=p=>authorToDisplay.get(p);
 const materials=Object.fromEntries(Object.entries(authorMaterials).filter(([k])=>displayedPage(Number(k))!==undefined).map(([k,v])=>[displayedPage(Number(k)),v]));
-const expectedDuration=10800-1200+memoryR8.pages.reduce((sum,p)=>sum+p.seconds,0)+15-1200+skillsR9.pages.reduce((sum,p)=>sum+p.seconds,0)+15+protocolsR10.pages.reduce((sum,p)=>sum+p.seconds,0)+15-140-1360+harnessSeconds+reviewR14.pages.reduce((s,p)=>s+p.seconds,0); // agenda already deducted from first page
+const expectedDuration=10800-1200+memoryR8.pages.reduce((sum,p)=>sum+p.seconds,0)+15-1200+skillsR9.pages.reduce((sum,p)=>sum+p.seconds,0)+15+protocolsR19.pages.reduce((sum,p)=>sum+p.seconds,0)+15-140-1360+harnessSeconds+reviewR14.pages.reduce((s,p)=>s+p.seconds,0)+openingR17.pages.reduce((s,p)=>s+p.seconds,0)+robotR19.pages.reduce((s,p)=>s+p.seconds,0); // agenda already deducted from first page
 if(t!==expectedDuration)throw Error('Duration disagrees with module estimates: '+t+' / '+expectedDuration);
-if(plan.length!==175+reviewR14.pages.length||plan.some((p,i)=>p.page!==i+1))throw Error('Displayed page sequence disagrees with current modules');
+if(plan.length!==134+protocolsR19.pages.length+skillsR9.pages.length+reviewR14.pages.length+openingR17.pages.length+robotR19.pages.length||plan.some((p,i)=>p.page!==i+1))throw Error('Displayed page sequence disagrees with current modules');
 const originalFiles=fs.existsSync(path.join(root,'sources/material-files.json'))?read('sources/material-files.json'):{},files={};
 for(const[k,v]of Object.entries(originalFiles)){const p=Number(k);if(displayedPage(p)!==undefined&&!(p>=74&&p<=104)&&(p<=3||p>=50||(!promptingR2&&p>=20)))files[displayedPage(p)]=v;}
 for(const[k,v]of Object.entries(foundations.files||{}))files[displayedPage(Number(k))]=v;
 if(promptingR2)for(const[k,v]of Object.entries(promptingR2.files||{}))files[displayedPage(Number(k))]=v;
 for(const[k,v]of Object.entries(memoryR8.files||{}))files[displayedPage(Number(k))]=v;
 for(const[k,v]of Object.entries(skillsR9.files||{}))files[displayedPage(Number(k))]=v;
+for(const[k,v]of Object.entries(openingR17.files||{}))files[displayedPage(Number(k))]=v;
 const registry={...JSON.parse(fs.readFileSync(path.resolve(root,'../v01-逐页内容规划/来源登记.json'),'utf8')),...addSources},used=new Set(plan.flatMap(p=>p.sources.map(s=>s.id)));
 const portable=fs.existsSync(path.join(root,'sources/portable-links.json'))?read('sources/portable-links.json'):{};
 const sources=Object.fromEntries(Object.entries(registry).filter(([k])=>used.has(k)).map(([k,v])=>[k,{title:v.title,path:v.path,...(portable[k]||{}),...(v.href?{href:v.href}:{}),...(v.target?{target:v.target}:{})}]));
@@ -81,7 +86,7 @@ write('schedule.json',schedule);write('slides.json',plan);write('materials.json'
 write('qa/playback-policy-record.json',{date:policy.date,description:policy.description,pages:policyRecords});
 const records=plan.map(p=>({page:p.page,authoring_page:p.authoring_page,renderer:p.renderer,source_plan_page:p.source_plan_page,section:p.section,type:p.type,title:p.title,steps:p.playback.source_steps.length,renderer_steps:ctx.window.MBA_RENDERERS[p.renderer??p.page].steps,playback:p.playback}));
 if(new Set(records.map(p=>p.renderer)).size!==records.length)throw Error('Duplicate renderer');
-const manifest=read('version_manifest.json');Object.assign(manifest,{title:'MBA第一讲：LLM Agents完整HTML课件',scope:'导入、LLM基础、Prompting、智能体外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合及全讲总结',status:'Memory wording r15：依据教师措辞规范修订Memory表达，保留r14结构、配图、案例和互动',page_count:plan.length,state_count:records.reduce((s,p)=>s+p.steps,0),print_page_count:records.reduce((s,p)=>s+p.steps,0),page_records:records,date:'2026-10-20',revision:'2026-10-20-memory-wording-r15',content_revision:'2026-10-20-memory-wording-r15',display_qa_revision:'r15-memory-only',memory_wording_review_record:'qa/memory-wording-r15/措辞修订记录.md',memory_revision_review_record:'qa/memory-review-r14/修订与复查记录.md',harness_review_record:'qa/harness-r11/问题与修订记录.md',protocols_review_record:'qa/protocols-r10/问题与修订记录.md',skills_review_record:'qa/skills-r9/问题与修订记录.md',memory_review_record:'qa/memory-r8/问题与修订记录.md',duration_policy:'参考估计；允许超出180分钟并分两次讲',tools_review_record:'qa/tool-calling-r7/问题与修订记录.md',html_figures_review_record:'qa/html-figures-r6/修订与复查记录.md',source_replica_review_record:'qa/source-replica-r5/修订与复查记录.md',agents_overview_review_record:'qa/agents-overview-r4/修订与复查记录.md',navigation_review_record:'qa/navigation-and-text-r3/修订与复查记录.md',prompting_review_record:'qa/prompting-r2/修订与实播记录.md',decoding_review_record:'qa/decoding-parameters/修订与复查.md',playback_policy:'src/playback-policy.json',review_record:'qa/memory-wording-r15/措辞修订记录.md',llm_review_record:'qa/llm-foundations-r2/修订与实播记录.md',verification:{browser_checks:'qa/memory-wording-r15/controls.json',visual_review:'qa/memory-wording-r15/措辞修订记录.md',scope:'Memory措辞修订页面及相邻衔接，实际范围以本轮记录为准',previous_full_playback:'qa/memory-review-r14/sequential-playback.json'},historical_review_record:'qa/independent-review/审阅总记录.md',duration_seconds:t,teaching_seconds:plan.reduce((sum,p)=>sum+p.seconds,0),break_seconds:600,off_slide_breaks:schedule.off_slide_breaks});write('version_manifest.json',manifest);
+const manifest=read('version_manifest.json');Object.assign(manifest,{title:'MBA第一讲：LLM Agents完整HTML课件',scope:'导入、LLM基础、Prompting、大模型与智能体、智能体外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合及全讲总结',status:'工具与协议 r19：机械臂工具案例与MBA版Protocols',page_count:plan.length,state_count:records.reduce((s,p)=>s+p.steps,0),print_page_count:records.reduce((s,p)=>s+p.steps,0),page_records:records,date:'2026-10-20',revision:'2026-10-20-tools-protocols-r19',content_revision:'2026-10-20-tools-protocols-r19',display_qa_revision:'r19-tools-protocols',memory_wording_review_record:'qa/memory-wording-r15/措辞修订记录.md',memory_revision_review_record:'qa/memory-review-r14/修订与复查记录.md',harness_review_record:'qa/harness-r11/问题与修订记录.md',protocols_review_record:'qa/tools-protocols-r19/修订与复查记录.md',skills_review_record:'qa/skills-r9/问题与修订记录.md',memory_review_record:'qa/memory-r8/问题与修订记录.md',duration_policy:'参考估计；允许超出180分钟并分两次讲',tools_review_record:'qa/tool-calling-r7/问题与修订记录.md',html_figures_review_record:'qa/html-figures-r6/修订与复查记录.md',source_replica_review_record:'qa/source-replica-r5/修订与复查记录.md',agents_overview_review_record:'qa/agents-overview-r4/修订与复查记录.md',navigation_review_record:'qa/navigation-and-text-r3/修订与复查记录.md',prompting_review_record:'qa/prompting-r2/修订与实播记录.md',decoding_review_record:'qa/decoding-parameters/修订与复查.md',playback_policy:'src/playback-policy.json',opening_review_record:'qa/agent-opening-r17/修订与复查记录.md',review_record:'qa/tools-protocols-r19/修订与复查记录.md',llm_review_record:'qa/llm-foundations-r2/修订与实播记录.md',verification:{browser_checks:'qa/tools-protocols-r19/behavior-checks.json',visual_review:'qa/tools-protocols-r19/修订与复查记录.md',scope:'新增机械臂页、Protocols全部新页面与目录、相邻衔接和播放器；实际范围见本轮记录',previous_full_playback:'qa/memory-review-r14/sequential-playback.json'},historical_review_record:'qa/independent-review/审阅总记录.md',duration_seconds:t,teaching_seconds:plan.reduce((sum,p)=>sum+p.seconds,0),break_seconds:600,off_slide_breaks:schedule.off_slide_breaks});write('version_manifest.json',manifest);
 const assetVersions=[];
 const versionedHTML=html.replace(/\b(src|href)="([^"]+)"/g,(attribute,name,href)=>{const file=resourcePath(href);if(/^(?:[a-z][a-z\d+.-]*:|\/\/|#)/i.test(file)||! /\.(?:js|css)$/i.test(file))return attribute;const sha=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex').slice(0,12);assetVersions.push({file,sha256_12:sha});return `${name}="${file}?v=${sha}"`;});
 fs.writeFileSync(path.join(root,'index.html'),versionedHTML.replace(/max="\d+" value="1" aria-label="页码"/,`max="${plan.length}" value="1" aria-label="页码"`).replace(/id="page-total">\/ \d+/,`id="page-total">/ ${plan.length}`));

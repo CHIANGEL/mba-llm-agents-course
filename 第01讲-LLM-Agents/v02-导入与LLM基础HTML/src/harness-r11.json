@@ -3,7 +3,7 @@
     {
       "page": 8501,
       "renderer": 8501,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·总览",
       "type": "overview",
       "title": "Harness：把各部分组织成运行系统",
@@ -24,7 +24,7 @@
     {
       "page": 8502,
       "renderer": 8502,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·总览",
       "type": "concept",
       "title": "一次任务，在Harness中怎样推进？",
@@ -45,7 +45,7 @@
     {
       "page": 8503,
       "renderer": 8503,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·总览",
       "type": "overview",
       "title": "让任务持续运行，还要解决哪些问题？",
@@ -66,7 +66,7 @@
     {
       "page": 8504,
       "renderer": 8504,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·上下文",
       "type": "overview",
       "title": "上下文：下一次调用要带上什么？",
@@ -87,7 +87,7 @@
     {
       "page": 8505,
       "renderer": 8505,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·上下文",
       "type": "concept",
       "title": "上下文压缩：留下继续工作的要点",
@@ -108,7 +108,7 @@
     {
       "page": 8506,
       "renderer": 8506,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·上下文",
       "type": "summary",
       "title": "清理长输出，保留重新查阅的路径",
@@ -129,7 +129,7 @@
     {
       "page": 8507,
       "renderer": 8507,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·沙盒与权限",
       "type": "overview",
       "title": "沙盒与权限：范围和放行分别管理",
@@ -150,7 +150,7 @@
     {
       "page": 8508,
       "renderer": 8508,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·沙盒与权限",
       "type": "summary",
       "title": "人工确认：先核对这次要做什么",
@@ -171,7 +171,7 @@
     {
       "page": 8509,
       "renderer": 8509,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·Hooks",
       "type": "overview",
       "title": "Hooks：按事件触发预设动作",
@@ -192,7 +192,7 @@
     {
       "page": 8510,
       "renderer": 8510,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·Hooks",
       "type": "case",
       "title": "文件编辑后，自动整理格式",
@@ -213,7 +213,7 @@
     {
       "page": 8511,
       "renderer": 8511,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·Hooks",
       "type": "summary",
       "title": "Hooks：执行前检查，执行后处理",
@@ -234,7 +234,7 @@
     {
       "page": 8512,
       "renderer": 8512,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·子智能体",
       "type": "overview",
       "title": "子智能体：把具体工作分出去",
@@ -255,7 +255,7 @@
     {
       "page": 8513,
       "renderer": 8513,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·子智能体",
       "type": "concept",
       "title": "过程留在子任务，结果交回主代理",
@@ -276,7 +276,7 @@
     {
       "page": 8514,
       "renderer": 8514,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·子智能体",
       "type": "concept",
       "title": "能否并行，先看任务之间的依赖",
@@ -297,7 +297,7 @@
     {
       "page": 8515,
       "renderer": 8515,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·子智能体",
       "type": "summary",
       "title": "什么时候值得把任务分出去？",
@@ -318,7 +318,7 @@
     {
       "page": 8516,
       "renderer": 8516,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·进度与恢复",
       "type": "overview",
       "title": "保存进度，让下一次运行接得上",
@@ -339,7 +339,7 @@
     {
       "page": 8517,
       "renderer": 8517,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·进度与恢复",
       "type": "summary",
       "title": "恢复前，确认哪些动作已经发生",
@@ -360,7 +360,7 @@
     {
       "page": 8518,
       "renderer": 8518,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "section": "Harness·小结",
       "type": "summary",
       "title": "Harness：把输入、执行与反馈接起来",

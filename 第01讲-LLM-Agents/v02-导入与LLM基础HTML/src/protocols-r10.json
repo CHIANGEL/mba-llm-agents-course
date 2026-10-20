@@ -3,7 +3,7 @@
     {
       "page": 8001,
       "renderer": 8001,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·总览",
       "type": "overview",
       "title": "Protocols：约定怎样交互",
@@ -24,7 +24,7 @@
     {
       "page": 8002,
       "renderer": 8002,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·交互对象与范围",
       "type": "concept",
       "title": "理解协议：连接谁，为哪些场景设计？",
@@ -45,7 +45,7 @@
     {
       "page": 8003,
       "renderer": 8003,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·交互对象与范围",
       "type": "summary",
       "title": "两类交互：调用工具与委托任务",
@@ -66,7 +66,7 @@
     {
       "page": 8004,
       "renderer": 8004,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "overview",
       "title": "MCP：连接工具与数据",
@@ -87,7 +87,7 @@
     {
       "page": 8005,
       "renderer": 8005,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "concept",
       "title": "MCP调用：模型、应用与服务的分工",
@@ -108,7 +108,7 @@
     {
       "page": 8006,
       "renderer": 8006,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "concept",
       "title": "先取得目录：工具名、用途与参数",
@@ -129,7 +129,7 @@
     {
       "page": 8007,
       "renderer": 8007,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "concept",
       "title": "从工具目录，到下一次模型输入",
@@ -150,7 +150,7 @@
     {
       "page": 8008,
       "renderer": 8008,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "concept",
       "title": "天气查询：对照一次协议往返",
@@ -171,7 +171,7 @@
     {
       "page": 8009,
       "renderer": 8009,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·MCP",
       "type": "summary",
       "title": "MCP小结：协议通信与模型输入",
@@ -192,7 +192,7 @@
     {
       "page": 8010,
       "renderer": 8010,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "overview",
       "title": "A2A：把任务交给另一个Agent",
@@ -213,7 +213,7 @@
     {
       "page": 8011,
       "renderer": 8011,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "concept",
       "title": "Agent Card：先了解对方能做什么",
@@ -234,7 +234,7 @@
     {
       "page": 8012,
       "renderer": 8012,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "concept",
       "title": "汇率任务：委托、补充、继续",
@@ -255,7 +255,7 @@
     {
       "page": 8013,
       "renderer": 8013,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "concept",
       "title": "两边各自保存消息，交换任务信息",
@@ -276,7 +276,7 @@
     {
       "page": 8014,
       "renderer": 8014,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "concept",
       "title": "任务状态与成果，分别说明什么？",
@@ -297,7 +297,7 @@
     {
       "page": 8015,
       "renderer": 8015,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·A2A",
       "type": "summary",
       "title": "A2A小结：可以与MCP一起使用",
@@ -318,7 +318,7 @@
     {
       "page": 8016,
       "renderer": 8016,
-      "navigation": "3.4",
+      "navigation": "3.5",
       "section": "Protocols·总结",
       "type": "summary",
       "title": "Protocols小结：交互约定如何落到运行",

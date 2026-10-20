@@ -1,0 +1,802 @@
+Course preview: http://127.0.0.1:8765/
+127.0.0.1 - - [20/Oct/2026 20:13:41] "GET /assets/agent-opening-r17/finance.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:13:41] "GET /assets/agent-opening-r17/finance.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:13:41] "GET /assets/agent-opening-r17/finance.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:13:41] "GET /assets/agent-opening-r17/finance.mp4 HTTP/1.1" 416 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /?revision=agent-opening-r17 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/agent-opening-r17.js?v=c057c27b317b HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/skills-r9.css?v=829f9e434b96 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/agent-opening-r17.css?v=a3a26158c99f HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/data.js?v=b91ad36c15bb HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/skills-r9.js?v=0139adb3f0f1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /src/player.js?v=4d55b23d9c56 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59000)
+127.0.0.1 - - [20/Oct/2026 20:14:04] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59015)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59017)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59019)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59020)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59022)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:05] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59023)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:45] "GET /?revision=agent-opening-r17 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:45] "GET /src/data.js?v=b91ad36c15bb HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:45] "GET /src/agent-opening-r17.js?v=d8a511c734d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:14:46] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59160)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:46] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:14:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:14:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59184)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59186)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59188)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59189)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:14:54] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:15:20] "GET /assets/agent-opening-r17/browser-booking.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:16:52] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59603)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+127.0.0.1 - - [20/Oct/2026 20:16:52] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:16:52] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /?revision=agent-opening-r17 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/skills-r9.css?v=829f9e434b96 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/agent-opening-r17.js?v=8dafc542c039 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/skills-r9.js?v=0139adb3f0f1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /src/player.js?v=4d55b23d9c56 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:20:40] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /?revision=agent-opening-r17 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/skills-r9.css?v=829f9e434b96 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/skills-r9.js?v=0139adb3f0f1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/agent-opening-r17.js?v=8dafc542c039 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /src/player.js?v=4d55b23d9c56 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:25:00] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:29:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:29:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61781)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 72, in <lambda>
+    handler = lambda *a, **kw: CourseHandler(*a, directory=str(root), **kw)
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 721, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 485, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 473, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 728, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/preview.py", line 63, in copyfile
+    outputfile.write(data)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.0/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [20/Oct/2026 20:29:47] "GET /assets/agent-opening-r17/finance.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /?revision=agent-opening-r17 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/skills-r9.css?v=829f9e434b96 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/memory-review-r14.css?v=16c864f0a3b5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/skills-r9.js?v=0139adb3f0f1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/memory-r8.js?v=0c79dfda3127 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:07] "GET /src/memory-review-r14-data.js?v=55665fa5c40b HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /src/memory-review-r14.js?v=2dae338448d5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /src/agent-opening-r17.js?v=8dafc542c039 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /src/player.js?v=4d55b23d9c56 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:34:08] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /?revision=trace-scroll-r18 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /src/player.js?v=7b0893ee5f06 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:35:45] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /?revision=trace-scroll-r18 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /src/agent-opening-r17.js?v=8dafc542c039 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:38:33] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:14] "GET /?revision=trace-scroll-r18 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/data.js?v=08ecd3ddf7dd HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /src/agent-opening-r17.js?v=8dafc542c039 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:41:15] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /?revision=tools-protocols-r19 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/data.js?v=e999afffb052 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/tools-protocols-r19.css?v=c9f6e63b5911 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/memory-r8-data.js?v=00262300ea33 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/agents-tools.js?v=6c0d8f96eaee HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/memory-review-r14-data.js?v=b8fe7f1c88a1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/agent-opening-r17.js?v=0642a34776e6 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/tools-protocols-r19.js?v=369e1f451967 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:07] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:08] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:08] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:08] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:08] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:08] "GET /assets/protocols-r10/host.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:49:14] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:49:14] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:49:22] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /?revision=tools-protocols-r19 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/tools-protocols-r19.js?v=50b9883c1840 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/tools-protocols-r19.css?v=c9f6e63b5911 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/memory-review-r14-data.js?v=b8fe7f1c88a1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/data.js?v=e999afffb052 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /src/agent-opening-r17.js?v=0642a34776e6 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:52:08] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /?revision=tools-protocols-r19 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/tools-protocols-r19.css?v=c9f6e63b5911 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/tools-protocols-r19.js?v=a9cfc0de8a98 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/data.js?v=e999afffb052 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/memory-review-r14-data.js?v=b8fe7f1c88a1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/agent-opening-r17.js?v=0642a34776e6 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:55:41] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 20:58:30] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:58:30] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 20:58:30] "GET /assets/agent-opening-r17/astra-arm.mp4?v=r17-range HTTP/1.1" 206 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /?revision=tools-protocols-r19 HTTP/1.1" 304 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/tools-protocols-r19.css?v=c9f6e63b5911 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/data.js?v=e999afffb052 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/memory-review-r14-data.js?v=b8fe7f1c88a1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/tools-protocols-r19.js?v=a9cfc0de8a98 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/agent-opening-r17.js?v=0642a34776e6 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:35] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:36] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:36] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:36] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:36] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:40] "GET /?revision=tools-protocols-r19 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/base.css?v=a9a878f1eaa5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/009-013.css?v=5f7721b1226c HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/prompting.css?v=754a5fe00593 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/llm-foundations.css?v=357d0c328c3a HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/001-004.css?v=572d16296032 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/005-008.css?v=816a22ee9cda HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/navigation.css?v=67b972e6e93b HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/prompting-r2.css?v=c7d2ccaf980a HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agent-overview-r4.css?v=51a075af7997 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-r8.css?v=05b603fa87e7 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/source-replica-r5.css?v=9f7261b9b54f HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/skills-r9.css?v=a55659c909d1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/tools-protocols-r19.css?v=c9f6e63b5911 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agent-opening-r17.css?v=80c0f0413b4e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/html-figures-r6.css?v=6621a4bb33ce HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-review-r14.css?v=16c864f0a3b5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/harness-r11.css?v=0b9d2b1c071d HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-r8.js?v=78b9a7584329 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/tool-calling-r7.css?v=685a87a4b54a HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/data.js?v=e999afffb052 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/skills-r9-data.js?v=5c8febbc0949 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-review-r14-data.js?v=b8fe7f1c88a1 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/skills-r9.js?v=298429dffe31 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agent-opening-r17.js?v=0642a34776e6 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/tools-protocols-r19.js?v=a9cfc0de8a98 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/005-008.js?v=685bbd94591f HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/player.js?v=4753c6700512 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/001-004.js?v=523c9ea9776e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/section-frames.js?v=0b853b2f4834 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/prompting-base.js?v=af765f54844d HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/009-013.js?v=54996e6e5047 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/prompting-r2-data.js?v=07f6c21e7adf HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agents-frames.js?v=96a5ed3c3122 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/msyh.ttc HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agents-base.js?v=e4ba513dbdec HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agent-overview-r4.js?v=67f7815d4964 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/prompting-r2.js?v=4325fb65b264 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/tool-calling-r7-data.js?v=c947645f8274 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-r8-data.js?v=00262300ea33 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/agents-tools.js?v=6c0d8f96eaee HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/llm-evidence.js?v=6fec7ab6f989 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/decoding-data.js?v=07eb6411a87f HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/harness-r11.js?v=680de0a2d82e HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/decoding.js?v=7b4688475898 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/llm-foundations.js?v=9b9fa744e6bf HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/html-figures-r6.js?v=58ba10c72778 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/source-replica-r5.js?v=74999842e7a5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/navigation.js?v=d6b668999a7f HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /src/memory-review-r14.js?v=2dae338448d5 HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/prompting-reference.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/llm.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/header.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/doc.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/app.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/msyhbd.ttc HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agent-opening-r17/browser-booking.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agent-opening-r17/astra-arm.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agent-opening-r17/finance.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agents-overview-r4/review-heading.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agents-overview-r4/list-recall.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agents-overview-r4/map.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/tool.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agents-overview-r4/list-check.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/memory.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/row-arrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/protocol.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/skill.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/brace.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/model.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/blue-arrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/computer.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/red-arrow-head.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/red-arrow-shaft.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/next-arrow.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/list-map.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/three-layers.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/weather.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/html-figures-r6/external-internal.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/tool.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/cross-session.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/graph.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/crud-flow.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/read-scope.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/update-relations.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/memory-decision.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/music-mismatch.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/skills-r16/package-tree.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/proactive.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/memory-to-skills.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/memory-r8/platform-figure1.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/skills-r9/creation-cycle.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/skills-r9/file-structure.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/two-interactions.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/agent.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/host.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/directory.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/result.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/protocols-r10/participants.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/components.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/runloop.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/context.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/externalization.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/compaction.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/clearing.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/sandbox.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/confirmation.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/hooks.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/formatter.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/hook-timing.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/subagents.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/subagent-context.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/dependency.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/delegation.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/progress.png HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/agents-integration/prompting-r3-example.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [20/Oct/2026 21:06:41] "GET /assets/harness-r11/resume.png HTTP/1.1" 200 -

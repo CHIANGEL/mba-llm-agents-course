@@ -1,9 +1,9 @@
 {
   "date": "2026-10-20",
   "method": "Node VM execution with a minimal DOM; logic checks only, not visual or browser tests",
-  "pages": 193,
-  "states": 193,
-  "ordinary_pages": 193,
+  "pages": 200,
+  "states": 200,
+  "ordinary_pages": 200,
   "mechanism_pages": [],
   "checks": [
     {
