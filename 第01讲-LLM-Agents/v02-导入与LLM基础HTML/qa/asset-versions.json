@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "method": "sha256 first 12 characters; index references updated after generated data is written",
   "assets": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "file": "src/navigation.css",
-      "sha256_12": "c2778eb16aee"
+      "sha256_12": "67b972e6e93b"
     },
     {
       "file": "src/agent-overview-r4.css",
@@ -43,8 +43,36 @@
       "sha256_12": "9f7261b9b54f"
     },
     {
+      "file": "src/html-figures-r6.css",
+      "sha256_12": "6621a4bb33ce"
+    },
+    {
+      "file": "src/tool-calling-r7.css",
+      "sha256_12": "685a87a4b54a"
+    },
+    {
+      "file": "src/memory-r8.css",
+      "sha256_12": "b10893ad9a3e"
+    },
+    {
+      "file": "src/skills-r9.css",
+      "sha256_12": "e2cb63b88bde"
+    },
+    {
+      "file": "src/protocols-r10.css",
+      "sha256_12": "3fc2a43b9156"
+    },
+    {
+      "file": "src/harness-r11.css",
+      "sha256_12": "0b9d2b1c071d"
+    },
+    {
+      "file": "src/memory-review-r14.css",
+      "sha256_12": "16c864f0a3b5"
+    },
+    {
       "file": "src/data.js",
-      "sha256_12": "191ee09b6adf"
+      "sha256_12": "149f1b19c97b"
     },
     {
       "file": "src/001-004.js",
@@ -80,27 +108,39 @@
     },
     {
       "file": "src/agents-frames.js",
-      "sha256_12": "e238b1934bf3"
+      "sha256_12": "96a5ed3c3122"
     },
     {
       "file": "src/agent-overview-r4.js",
       "sha256_12": "67f7815d4964"
     },
     {
+      "file": "src/tool-calling-r7-data.js",
+      "sha256_12": "c947645f8274"
+    },
+    {
       "file": "src/agents-tools.js",
-      "sha256_12": "d9d2511aabc0"
+      "sha256_12": "6c0d8f96eaee"
     },
     {
-      "file": "src/agents-memory.js",
-      "sha256_12": "2e209f8e2c83"
+      "file": "src/memory-r8-data.js",
+      "sha256_12": "00262300ea33"
     },
     {
-      "file": "src/agents-skills.js",
-      "sha256_12": "b35cf7592e01"
+      "file": "src/memory-r8.js",
+      "sha256_12": "0c79dfda3127"
     },
     {
-      "file": "src/agents-harness.js",
-      "sha256_12": "e2d58a8acb5b"
+      "file": "src/skills-r9-data.js",
+      "sha256_12": "2ea5f312cf7d"
+    },
+    {
+      "file": "src/skills-r9.js",
+      "sha256_12": "ab57ac6bb666"
+    },
+    {
+      "file": "src/harness-r11.js",
+      "sha256_12": "680de0a2d82e"
     },
     {
       "file": "src/llm-evidence.js",
@@ -120,15 +160,35 @@
     },
     {
       "file": "src/source-replica-r5.js",
-      "sha256_12": "15f640f8d522"
+      "sha256_12": "74999842e7a5"
+    },
+    {
+      "file": "src/html-figures-r6.js",
+      "sha256_12": "58ba10c72778"
     },
     {
       "file": "src/navigation.js",
       "sha256_12": "d6b668999a7f"
     },
     {
+      "file": "src/protocols-r10-data.js",
+      "sha256_12": "f242946ed345"
+    },
+    {
+      "file": "src/protocols-r10.js",
+      "sha256_12": "0e337a0cb6bc"
+    },
+    {
+      "file": "src/memory-review-r14-data.js",
+      "sha256_12": "55665fa5c40b"
+    },
+    {
+      "file": "src/memory-review-r14.js",
+      "sha256_12": "2dae338448d5"
+    },
+    {
       "file": "src/player.js",
-      "sha256_12": "1afae34ea8d6"
+      "sha256_12": "c1f12f25572c"
     }
   ]
 }

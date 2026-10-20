@@ -24,3 +24,6 @@
 .chapter-key{position:absolute;left:0;bottom:18px;font-size:24px;color:#647083;display:flex;gap:45px}
 
 .dialog-content pre{color:#111;font-weight:400}
+
+/* Eight Agent subsections: preserve type size, reduce empty spacing. */
+.progress-sub{gap:5px}.progress-sub button{padding:0 7px}.chapter-column:last-child li{margin-bottom:9px}.chapter-column:last-child button{font-size:29px;line-height:1.35}.chapter-column:last-child ol{margin-top:17px}

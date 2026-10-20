@@ -1,40 +1,4 @@
 {
-  "53": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
-  "54": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
-  "55": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
-  "56": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
-  "57": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
-  "58": [
-    {
-      "label": "天气调用：工具、消息与执行记录",
-      "href": "sources/file-readers/tool-files.html"
-    }
-  ],
   "75": [
     {
       "label": "记忆原文件",
@@ -181,6 +145,41 @@
     {
       "label": "MCP原课程执行记录",
       "href": "sources/file-readers/mcp-record.html"
+    }
+  ],
+  "54": [
+    {
+      "label": "天气查询：完整输入与消息文本",
+      "href": "sources/tool-calling-r7/weather-text.html",
+      "target": "_self"
+    }
+  ],
+  "55": [
+    {
+      "label": "天气查询：完整输入与消息文本",
+      "href": "sources/tool-calling-r7/weather-text.html",
+      "target": "_self"
+    }
+  ],
+  "56": [
+    {
+      "label": "天气查询：完整输入与消息文本",
+      "href": "sources/tool-calling-r7/weather-text.html",
+      "target": "_self"
+    }
+  ],
+  "57": [
+    {
+      "label": "天气查询：完整输入与消息文本",
+      "href": "sources/tool-calling-r7/weather-text.html",
+      "target": "_self"
+    }
+  ],
+  "58": [
+    {
+      "label": "天气查询：完整输入与消息文本",
+      "href": "sources/tool-calling-r7/weather-text.html",
+      "target": "_self"
     }
   ]
 }

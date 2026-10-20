@@ -183,11 +183,11 @@
       "show_sources": false,
       "sources": [
         {
-          "id": "SOURCE_REPLICA_R5",
-          "locator": "原课PDF物理第24页"
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第24页的原文与局部图案"
         }
       ],
-      "source_replica": true
+      "html_figures": true
     },
     {
       "page": 5108,
@@ -208,11 +208,11 @@
       "show_sources": false,
       "sources": [
         {
-          "id": "SOURCE_REPLICA_R5",
-          "locator": "原课PDF物理第25页"
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第25页的原文与局部图案"
         }
       ],
-      "source_replica": true
+      "html_figures": true
     },
     {
       "page": 5109,
@@ -234,11 +234,11 @@
       "show_sources": false,
       "sources": [
         {
-          "id": "SOURCE_REPLICA_R5",
-          "locator": "原课PDF物理第23页"
+          "id": "HTML_FIGURES_R6",
+          "locator": "原课PDF物理第23页的原文与局部图案"
         }
       ],
-      "source_replica": true
+      "html_figures": true
     }
   ],
   "materials": {
@@ -253,29 +253,7 @@
     "5108": "外部系统帮助完成任务，并留下可检查的交互过程。\n\n经过选择的过程可以用于训练，让模型学会其中可重复使用的做法；是否学会还要测试。\n\n借助外部系统完成任务→外部经验→选择与训练→更新后的模型。\n\n留下记录不会自动更新模型参数。",
     "5109": "从清单和地图理解外部表示的作用，再区分模型、上下文与运行程序。\n\n随后认识工具、记忆、技能、协议，并提出：哪些做法以后可以被模型学会？\n\n清单与地图：外部表示改变了什么？\n\nWeights、Context、Harness：模型、输入和程序各做什么？\n\n外化与内化：哪些工作交出去，哪些可以学会？"
   },
-  "timing_overrides": {
-    "52": 45,
-    "53": 75,
-    "54": 60,
-    "55": 60,
-    "56": 60,
-    "57": 105,
-    "58": 60,
-    "59": 105,
-    "60": 90,
-    "61": 60,
-    "62": 45,
-    "63": 120,
-    "64": 120,
-    "65": 60,
-    "66": 45,
-    "67": 60,
-    "68": 60,
-    "69": 60,
-    "70": 45,
-    "71": 75,
-    "72": 60
-  },
+  "timing_overrides": {},
   "sources": {
     "AGENT_OVERVIEW_R4": {
       "title": "第03讲-Agent Externalization与Internalization：第16–25页",
@@ -284,6 +262,10 @@
     "SOURCE_REPLICA_R5": {
       "title": "原课外化与内化总览原版复刻",
       "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/source-replica-r5/source-map.json"
+    },
+    "HTML_FIGURES_R6": {
+      "title": "HTML文字与原课局部图案",
+      "path": "/Users/linjianghao/Desktop/我的安泰/开设课程/MBA-葛老师课程/第01讲-LLM-Agents/v02-导入与LLM基础HTML/sources/html-figures-r6/source-map.json"
     }
   }
 }

@@ -99,18 +99,24 @@
         },
         {
           "id": "3.4",
-          "title": "Harness",
-          "from": 105,
-          "to": 125
+          "title": "Protocols",
+          "from": 8001,
+          "to": 8016
         },
         {
           "id": "3.5",
+          "title": "Harness",
+          "from": 8501,
+          "to": 8518
+        },
+        {
+          "id": "3.6",
           "title": "外化与内化整合",
           "from": 126,
           "to": 132
         },
         {
-          "id": "3.6",
+          "id": "3.7",
           "title": "全讲总结",
           "from": 133,
           "to": 134
@@ -219,11 +225,20 @@
       "seconds": 15
     },
     {
-      "authoring_page": 9010,
-      "insert_before": 105,
-      "renderer": 4012,
+      "authoring_page": 9011,
+      "insert_before": 8001,
+      "renderer": 4014,
       "navigation": "3.4",
       "previous": "Skills",
+      "next": "Protocols",
+      "seconds": 15
+    },
+    {
+      "authoring_page": 9010,
+      "insert_before": 8501,
+      "renderer": 4012,
+      "navigation": "3.5",
+      "previous": "Protocols",
       "next": "Harness",
       "seconds": 15
     },
@@ -231,7 +246,7 @@
       "authoring_page": 126,
       "insert_before": null,
       "renderer": 4013,
-      "navigation": "3.5",
+      "navigation": "3.6",
       "previous": "Harness",
       "next": "外化与内化整合",
       "seconds": null

@@ -4,9 +4,9 @@
       "after_authoring_page": 72,
       "seconds": 600,
       "label": "休息10分钟",
-      "after_page": 83,
-      "start_seconds": 5700,
-      "end_seconds": 6300
+      "after_page": 74,
+      "start_seconds": 5750,
+      "end_seconds": 6350
     }
   ]
 }

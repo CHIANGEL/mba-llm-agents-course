@@ -1,81 +1,10 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "method": "Node VM execution with a minimal DOM; logic checks only, not visual or browser tests",
-  "pages": 129,
-  "states": 143,
-  "ordinary_pages": 121,
-  "mechanism_pages": [
-    {
-      "page": 72,
-      "authoring_page": 77,
-      "source_steps": [
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "page": 73,
-      "authoring_page": 78,
-      "source_steps": [
-        0,
-        1,
-        2
-      ]
-    },
-    {
-      "page": 91,
-      "authoring_page": 96,
-      "source_steps": [
-        1,
-        2
-      ]
-    },
-    {
-      "page": 92,
-      "authoring_page": 97,
-      "source_steps": [
-        2,
-        3
-      ]
-    },
-    {
-      "page": 96,
-      "authoring_page": 101,
-      "source_steps": [
-        1,
-        2
-      ]
-    },
-    {
-      "page": 98,
-      "authoring_page": 103,
-      "source_steps": [
-        0,
-        1,
-        2
-      ]
-    },
-    {
-      "page": 103,
-      "authoring_page": 108,
-      "source_steps": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "page": 118,
-      "authoring_page": 123,
-      "source_steps": [
-        1,
-        2,
-        3
-      ]
-    }
-  ],
+  "pages": 193,
+  "states": 193,
+  "ordinary_pages": 193,
+  "mechanism_pages": [],
   "checks": [
     {
       "name": "Old ordinary-page hash is clamped to the complete page",
@@ -110,7 +39,7 @@
       "status": "passed"
     },
     {
-      "name": "Mechanism page entry, next, reverse and re-entry use the same source-state mapping",
+      "name": "Mechanism source-state mappings agree with the current plan",
       "status": "passed"
     },
     {

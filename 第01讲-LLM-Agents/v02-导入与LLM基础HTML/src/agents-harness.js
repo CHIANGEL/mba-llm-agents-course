@@ -22,7 +22,7 @@ function system(summary){
  t(440,350,280,'模型提出下一步','label center')+t(790,350,280,'工具执行操作','label center')+
  t(1140,260,250,'检查返回结果','label center')+
  t(60,430,430,summary?'材料：目标、依据、方法':'Memory · Skills · 当前材料','label',1)+
- t(500,445,520,summary?'过程：按范围执行，按状态继续':'权限与连接 · 进度与日志','label center',1)+
+ t(500,445,520,summary?'过程：按范围执行，按状态继续':'Protocols连接 · 权限与进度','label center',1)+
  t(1125,430,305,'继续／等待／结束','label center',2)+
  t(85,530,1180,summary?'保留有效进度 → 核对现状 → 继续下一步':'新结果进入下一次输入，任务继续推进。','label center',2)+
  t(40,642,1420,summary?'完成任务：有依据的内容、可用的产物、已核对的外部结果。':'先看材料与连接，再看操作范围、交接、恢复和验收。','txt center',2);

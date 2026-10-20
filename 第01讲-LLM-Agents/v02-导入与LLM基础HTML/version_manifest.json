@@ -2,11 +2,11 @@
   "version": "v02",
   "title": "MBA第一讲：LLM Agents完整HTML课件",
   "date": "2026-10-20",
-  "scope": "导入、LLM基础、Prompting、智能体外化与内化总览、工具调用、Memory、Skills、Harness、外化与内化整合及全讲总结",
-  "status": "第57–61页复用原PDF版面与原图；删除休息幻灯片，保留课表10分钟休息",
+  "scope": "导入、LLM基础、Prompting、智能体外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合及全讲总结",
+  "status": "Memory wording r15：依据教师措辞规范修订Memory表达，保留r14结构、配图、案例和互动",
   "entry": "index.html",
-  "page_count": 147,
-  "state_count": 161,
+  "page_count": 193,
+  "state_count": 193,
   "canvas": {
     "width": 1600,
     "height": 900
@@ -1149,16 +1149,15 @@
       "page": 63,
       "authoring_page": 52,
       "renderer": 2052,
-      "source_plan_page": 32,
       "section": "Agents·工具调用",
       "type": "overview",
-      "title": "工具调用：把请求、执行与反馈接起来",
+      "title": "工具调用：大模型与外界交互的主要途径",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1168,16 +1167,15 @@
       "page": 64,
       "authoring_page": 53,
       "renderer": 2053,
-      "source_plan_page": 33,
-      "section": "Agents·一次调用",
-      "type": "overview",
-      "title": "一次调用：从查询建议到天气材料",
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "与外界交互：获取信息，也能产生影响",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1185,18 +1183,17 @@
     },
     {
       "page": 65,
-      "authoring_page": 54,
-      "renderer": 2054,
-      "source_plan_page": 34,
-      "section": "Agents·一次调用",
-      "type": "content",
-      "title": "工具说明告诉模型可以做什么",
+      "authoring_page": 6201,
+      "renderer": 6201,
+      "section": "工具调用",
+      "type": "subagenda",
+      "title": "工具调用：接下来讲什么？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1204,18 +1201,17 @@
     },
     {
       "page": 66,
-      "authoring_page": 55,
-      "renderer": 2055,
-      "source_plan_page": 35,
-      "section": "Agents·一次调用",
+      "authoring_page": 54,
+      "renderer": 2054,
+      "section": "Agents·工具调用",
       "type": "content",
-      "title": "调用请求写明工具与地点",
+      "title": "天气查询：一次调用，有来有回",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1223,18 +1219,17 @@
     },
     {
       "page": 67,
-      "authoring_page": 56,
-      "renderer": 2056,
-      "source_plan_page": 36,
-      "section": "Agents·一次调用",
+      "authoring_page": 55,
+      "renderer": 2055,
+      "section": "Agents·工具调用",
       "type": "content",
-      "title": "程序执行读取，工具返回天气",
+      "title": "调用请求：工具名、参数与约定格式",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1242,18 +1237,17 @@
     },
     {
       "page": 68,
-      "authoring_page": 57,
-      "renderer": 2057,
-      "source_plan_page": 37,
-      "section": "Agents·一次调用",
+      "authoring_page": 56,
+      "renderer": 2056,
+      "section": "Agents·工具调用",
       "type": "content",
-      "title": "把调用与结果追加到下一次输入",
+      "title": "程序执行工具，取得模型之外的结果",
       "steps": 1,
-      "renderer_steps": 4,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          3
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1261,18 +1255,17 @@
     },
     {
       "page": 69,
-      "authoring_page": 58,
-      "renderer": 2058,
-      "source_plan_page": 38,
-      "section": "Agents·一次调用",
-      "type": "summary",
-      "title": "两次生成，中间执行一次工具",
+      "authoring_page": 57,
+      "renderer": 2057,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "工具调用，也是一段文本的继续生成",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1280,18 +1273,17 @@
     },
     {
       "page": 70,
-      "authoring_page": 59,
-      "renderer": 2059,
-      "source_plan_page": 39,
-      "section": "Agents·Fin与Linear",
-      "type": "overview",
-      "title": "Fin：把客户反馈送入问题跟踪",
+      "authoring_page": 58,
+      "renderer": 2058,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "天气查询小结：两次生成，一次工具执行",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1299,18 +1291,17 @@
     },
     {
       "page": 71,
-      "authoring_page": 60,
-      "renderer": 2060,
-      "source_plan_page": 40,
-      "section": "Agents·Fin与Linear",
-      "type": "content",
-      "title": "客户材料、创建请求与系统记录",
+      "authoring_page": 6202,
+      "renderer": 6202,
+      "section": "工具调用",
+      "type": "subagenda",
+      "title": "工具调用：接下来讲什么？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1318,18 +1309,17 @@
     },
     {
       "page": 72,
-      "authoring_page": 61,
-      "renderer": 2061,
-      "source_plan_page": 41,
-      "section": "Agents·Fin与Linear",
-      "type": "summary",
-      "title": "记录建立与问题解决，各有完成条件",
+      "authoring_page": 66,
+      "renderer": 2066,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "Computer Use：把读取与操作封装成工具",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1337,18 +1327,17 @@
     },
     {
       "page": 73,
-      "authoring_page": 62,
-      "renderer": 2062,
-      "source_plan_page": 42,
-      "section": "Agents·多步反馈",
-      "type": "overview",
-      "title": "新结果决定继续、补充还是结束",
+      "authoring_page": 71,
+      "renderer": 2071,
+      "section": "Agents·工具调用",
+      "type": "content",
+      "title": "复杂应用，拆开看仍是一次次工具调用",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1356,18 +1345,17 @@
     },
     {
       "page": 74,
-      "authoring_page": 63,
-      "renderer": 2063,
-      "source_plan_page": 43,
-      "section": "Agents·多步反馈",
-      "type": "content",
-      "title": "缺少地点：让反馈回到原问题",
+      "authoring_page": 72,
+      "renderer": 2072,
+      "section": "Agents·工具调用",
+      "type": "summary",
+      "title": "从对话机器人，走向能做事的智能体",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1375,177 +1363,6 @@
     },
     {
       "page": 75,
-      "authoring_page": 64,
-      "renderer": 2064,
-      "source_plan_page": 44,
-      "section": "Agents·多步反馈",
-      "type": "content",
-      "title": "返回内容要对应对象、内容与时点",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 76,
-      "authoring_page": 65,
-      "renderer": 2065,
-      "source_plan_page": 44,
-      "section": "Agents·多步反馈",
-      "type": "summary",
-      "title": "行动、反馈、判断与下一步",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 77,
-      "authoring_page": 66,
-      "renderer": 2066,
-      "source_plan_page": 45,
-      "section": "Agents·Computer Use",
-      "type": "overview",
-      "title": "Computer Use：观察、动作与新观察",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 78,
-      "authoring_page": 67,
-      "renderer": 2067,
-      "source_plan_page": 45,
-      "section": "Agents·Computer Use",
-      "type": "content",
-      "title": "界面结构与截图提供两种观察",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 79,
-      "authoring_page": 68,
-      "renderer": 2068,
-      "source_plan_page": 46,
-      "section": "Agents·Computer Use",
-      "type": "content",
-      "title": "根据当前观察，提出界面操作",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 80,
-      "authoring_page": 69,
-      "renderer": 2069,
-      "source_plan_page": 46,
-      "section": "Agents·Computer Use",
-      "type": "content",
-      "title": "操作以后，再读取界面核对目标",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 81,
-      "authoring_page": 70,
-      "renderer": 2070,
-      "source_plan_page": 46,
-      "section": "Agents·Computer Use",
-      "type": "summary",
-      "title": "界面操作也要带着新结果继续判断",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 82,
-      "authoring_page": 71,
-      "renderer": 2071,
-      "source_plan_page": 47,
-      "section": "Agents·工具调用",
-      "type": "summary",
-      "title": "工具调用小结：执行结果回到判断",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 83,
-      "authoring_page": 72,
-      "renderer": 2072,
-      "source_plan_page": 47,
-      "section": "Agents·工具调用",
-      "type": "transition",
-      "title": "把以后要用的信息留给下一次任务",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 84,
       "authoring_page": 9008,
       "renderer": 4010,
       "section": "Agents",
@@ -1563,19 +1380,180 @@
       }
     },
     {
-      "page": 85,
+      "page": 76,
       "authoring_page": 74,
-      "renderer": 2074,
-      "source_plan_page": 50,
-      "section": "Memory·总览",
+      "renderer": 6001,
+      "section": "Memory·保存、维护与采用",
       "type": "overview",
-      "title": "Memory：把过去的信息带入本次任务",
+      "title": "Memory：保存和使用跨会话信息",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 77,
+      "authoring_page": 7401,
+      "renderer": 6002,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "新会话怎样用到过去的信息？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 78,
+      "authoring_page": 7402,
+      "renderer": 6003,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "记忆要存什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 79,
+      "authoring_page": 7403,
+      "renderer": 6004,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "记忆怎样组织：条目与关系图",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 80,
+      "authoring_page": 6101,
+      "renderer": 6101,
+      "section": "Memory",
+      "type": "explanation",
+      "title": "记忆库：条目与图谱",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 81,
+      "authoring_page": 7404,
+      "renderer": 6005,
+      "section": "Memory·保存、维护与采用",
+      "type": "overview",
+      "title": "记忆的增删改查",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 82,
+      "authoring_page": 7405,
+      "renderer": 6006,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "写入：新增、修改、删除，还是不变？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 83,
+      "authoring_page": 7406,
+      "renderer": 6007,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "事实变了，历史与当前怎样区分？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 84,
+      "authoring_page": 7407,
+      "renderer": 6008,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "删除一条记忆，信息就消失了吗？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 85,
+      "authoring_page": 7408,
+      "renderer": 6009,
+      "section": "Memory·保存、维护与采用",
+      "type": "content",
+      "title": "查询：先确定范围，再找候选",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1583,18 +1561,17 @@
     },
     {
       "page": 86,
-      "authoring_page": 75,
-      "renderer": 2075,
-      "source_plan_page": 51,
-      "section": "Memory·保存与取回",
-      "type": "overview",
-      "title": "保存与取回：从文件到本次输入",
+      "authoring_page": 6102,
+      "renderer": 6102,
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1602,18 +1579,17 @@
     },
     {
       "page": 87,
-      "authoring_page": 76,
-      "renderer": 2076,
-      "source_plan_page": 52,
-      "section": "Memory·保存与取回",
+      "authoring_page": 7409,
+      "renderer": 6010,
+      "section": "Memory·保存、维护与采用",
       "type": "content",
-      "title": "一份摘要，怎样带出详细记录？",
+      "title": "记忆也可能干扰当前任务",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1621,60 +1597,53 @@
     },
     {
       "page": 88,
-      "authoring_page": 77,
-      "renderer": 2077,
-      "source_plan_page": 53,
-      "section": "Memory·保存与取回",
+      "authoring_page": 7410,
+      "renderer": 6011,
+      "section": "Memory·保存、维护与采用",
       "type": "content",
-      "title": "读取内容，加入后续输入",
-      "steps": 3,
-      "renderer_steps": 4,
+      "title": "工作场景：需要哪些历史信息？",
+      "steps": 1,
+      "renderer_steps": 1,
       "playback": {
-        "mode": "mechanism",
+        "mode": "full",
         "source_steps": [
-          1,
-          2,
-          3
+          0
         ],
-        "reveal": "original",
-        "reason": "分别看到读取请求、返回正文、正文加入后续输入；三者不能替换为只有最终输入。"
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
       }
     },
     {
       "page": 89,
-      "authoring_page": 78,
-      "renderer": 2078,
-      "source_plan_page": 51,
-      "section": "Memory·保存与取回",
-      "type": "content",
-      "title": "文件更新以后，还要更新输入",
-      "steps": 3,
-      "renderer_steps": 3,
+      "authoring_page": 7411,
+      "renderer": 6012,
+      "section": "Memory·保存、维护与采用",
+      "type": "summary",
+      "title": "先判断这次需不需要记忆",
+      "steps": 1,
+      "renderer_steps": 1,
       "playback": {
-        "mode": "mechanism",
+        "mode": "full",
         "source_steps": [
-          0,
-          1,
-          2
+          0
         ],
-        "reveal": "original",
-        "reason": "文件修改后输入仍是旧版本，重新读取后才更新；必须比较三个时间点。"
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
       }
     },
     {
       "page": 90,
-      "authoring_page": 79,
-      "renderer": 2079,
-      "source_plan_page": 53,
-      "section": "Memory·保存与取回",
-      "type": "summary",
-      "title": "保存在哪里，取回什么，怎样参与生成",
+      "authoring_page": 6103,
+      "renderer": 6103,
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1682,18 +1651,17 @@
     },
     {
       "page": 91,
-      "authoring_page": 80,
-      "renderer": 2080,
-      "source_plan_page": 54,
-      "section": "Memory·电子产品客服",
+      "authoring_page": 7412,
+      "renderer": 6013,
+      "section": "Memory·个性化与主动式智能体",
       "type": "overview",
-      "title": "电子产品客服：延续两次会话的背景",
+      "title": "从Memory到个性化与主动式智能体",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1701,18 +1669,17 @@
     },
     {
       "page": 92,
-      "authoring_page": 81,
-      "renderer": 2081,
-      "source_plan_page": 55,
-      "section": "Memory·电子产品客服",
-      "type": "case",
-      "title": "电子产品客服：保存偏好与有关事实",
+      "authoring_page": 7413,
+      "renderer": 6014,
+      "section": "Memory·个性化与主动式智能体",
+      "type": "content",
+      "title": "Meta Muse与OpenAI dot",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1720,18 +1687,17 @@
     },
     {
       "page": 93,
-      "authoring_page": 82,
-      "renderer": 2082,
-      "source_plan_page": 56,
-      "section": "Memory·电子产品客服",
-      "type": "case",
-      "title": "电子产品客服：把背景加入新的问题",
+      "authoring_page": 7414,
+      "renderer": 6015,
+      "section": "Memory·个性化与主动式智能体",
+      "type": "content",
+      "title": "个性化智能体：信息、权限与风险",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1739,18 +1705,17 @@
     },
     {
       "page": 94,
-      "authoring_page": 83,
-      "renderer": 2083,
-      "source_plan_page": 56,
-      "section": "Memory·电子产品客服",
-      "type": "summary",
-      "title": "电子产品客服：让后续服务取得有关背景",
+      "authoring_page": 7415,
+      "renderer": 6016,
+      "section": "Memory·个性化与主动式智能体",
+      "type": "content",
+      "title": "智能体会改变平台的入口吗？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1758,18 +1723,17 @@
     },
     {
       "page": 95,
-      "authoring_page": 84,
-      "renderer": 2084,
-      "source_plan_page": 57,
-      "section": "Memory·更新与适用性",
-      "type": "overview",
-      "title": "取回以后，还要判断本次是否适用",
+      "authoring_page": 6104,
+      "renderer": 6104,
+      "section": "Memory",
+      "type": "explanation",
+      "title": "平台对智能体的限制，已经在发生",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1777,18 +1741,17 @@
     },
     {
       "page": 96,
-      "authoring_page": 85,
-      "renderer": 2085,
-      "source_plan_page": 57,
-      "section": "Memory·更新与适用性",
-      "type": "content",
-      "title": "偏好改变，保留历史并更新当前关系",
+      "authoring_page": 7416,
+      "renderer": 6017,
+      "section": "Memory·个性化与主动式智能体",
+      "type": "summary",
+      "title": "个性化与主动式智能体小结",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1796,18 +1759,17 @@
     },
     {
       "page": 97,
-      "authoring_page": 86,
-      "renderer": 2086,
-      "source_plan_page": 58,
-      "section": "Memory·更新与适用性",
-      "type": "content",
-      "title": "喜欢的音乐，这次一定适合听吗？",
+      "authoring_page": 6105,
+      "renderer": 6105,
+      "section": "Memory",
+      "type": "subagenda",
+      "title": "Memory：本节内容",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1815,18 +1777,17 @@
     },
     {
       "page": 98,
-      "authoring_page": 87,
-      "renderer": 2087,
-      "source_plan_page": 58,
-      "section": "Memory·更新与适用性",
-      "type": "summary",
-      "title": "更新记录，也检查当前用途",
+      "authoring_page": 6106,
+      "renderer": 6106,
+      "section": "Memory",
+      "type": "explanation",
+      "title": "Codex CLI的记忆系统",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1834,18 +1795,17 @@
     },
     {
       "page": 99,
-      "authoring_page": 88,
-      "renderer": 2088,
-      "source_plan_page": 59,
-      "section": "Memory·小结",
-      "type": "summary",
-      "title": "Memory：留下信息，再按当前任务取用",
+      "authoring_page": 7417,
+      "renderer": 6018,
+      "section": "Memory·Codex商业案例",
+      "type": "overview",
+      "title": "Codex采购案例：旧预算还能沿用吗？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -1853,6 +1813,258 @@
     },
     {
       "page": 100,
+      "authoring_page": 6107,
+      "renderer": 6107,
+      "section": "Memory",
+      "type": "explanation",
+      "title": "Codex CLI的记忆文件目录",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 101,
+      "authoring_page": 7418,
+      "renderer": 6019,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "磁盘里保存了什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 102,
+      "authoring_page": 7419,
+      "renderer": 6020,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "渐进式披露：先摘要，再细节",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 103,
+      "authoring_page": 7420,
+      "renderer": 6021,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "首次输入：摘要怎样进入模型？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 104,
+      "authoring_page": 7421,
+      "renderer": 6022,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "摘要足够吗？哪些内容还要查？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 105,
+      "authoring_page": 7422,
+      "renderer": 6023,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "模型生成读取调用",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 106,
+      "authoring_page": 7423,
+      "renderer": 6024,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "工具返回后，输入增加了什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 107,
+      "authoring_page": 7424,
+      "renderer": 6025,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "读取记忆后的采购判断",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 108,
+      "authoring_page": 6108,
+      "renderer": 6031,
+      "section": "Memory",
+      "type": "explanation",
+      "title": "模型生成采购评审要点",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 109,
+      "authoring_page": 7425,
+      "renderer": 6026,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "用户补充正式部署条件",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 110,
+      "authoring_page": 7426,
+      "renderer": 6027,
+      "section": "Memory·Codex商业案例",
+      "type": "case",
+      "title": "文件更新了，当前输入会自动变吗？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 111,
+      "authoring_page": 7427,
+      "renderer": 6028,
+      "section": "Memory·Codex商业案例",
+      "type": "summary",
+      "title": "采购案例小结：记忆读取与更新",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 112,
+      "authoring_page": 7428,
+      "renderer": 6029,
+      "section": "Memory·小结与Skills过渡",
+      "type": "summary",
+      "title": "Memory小结：保存、读取与采用",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 113,
+      "authoring_page": 7429,
+      "renderer": 6030,
+      "section": "Memory·小结与Skills过渡",
+      "type": "summary",
+      "title": "从Memory到Skills：从信息到方法",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 114,
       "authoring_page": 9009,
       "renderer": 4011,
       "section": "Agents",
@@ -1870,309 +2082,36 @@
       }
     },
     {
-      "page": 101,
-      "authoring_page": 89,
-      "renderer": 2089,
-      "source_plan_page": 61,
-      "section": "Skills·总览",
-      "type": "overview",
-      "title": "Skills：把可复用的做法组织起来",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 102,
-      "authoring_page": 90,
-      "renderer": 2090,
-      "source_plan_page": 61,
-      "section": "Skills·方法封装",
-      "type": "overview",
-      "title": "方法封装：说明、参考、脚本和模板",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 103,
-      "authoring_page": 91,
-      "renderer": 2091,
-      "source_plan_page": 62,
-      "section": "Skills·方法封装",
-      "type": "content",
-      "title": "打开一个包含12份文件的Skill包",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 104,
-      "authoring_page": 92,
-      "renderer": 2092,
-      "source_plan_page": 62,
-      "section": "Skills·方法封装",
-      "type": "content",
-      "title": "从入口说明，找到本次需要的做法",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 105,
-      "authoring_page": 93,
-      "renderer": 2093,
-      "source_plan_page": 62,
-      "section": "Skills·方法封装",
-      "type": "summary",
-      "title": "文件包把方法与材料组织在一起",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 106,
-      "authoring_page": 94,
-      "renderer": 2094,
-      "source_plan_page": 63,
-      "section": "Skills·按需读取与执行",
-      "type": "overview",
-      "title": "从发现用途，到读取方法和执行",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 107,
-      "authoring_page": 95,
-      "renderer": 2095,
-      "source_plan_page": 63,
-      "section": "Skills·按需读取与执行",
-      "type": "content",
-      "title": "先根据用途，决定是否打开Skill",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 108,
-      "authoring_page": 96,
-      "renderer": 2096,
-      "source_plan_page": 64,
-      "section": "Skills·按需读取与执行",
-      "type": "content",
-      "title": "渐进式披露：需要什么，再读取什么",
-      "steps": 2,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "mechanism",
-        "source_steps": [
-          1,
-          2
-        ],
-        "reveal": "original",
-        "reason": "保留读取教学参考与脚本读取模板的执行者区别；两态各自完整呈现当前材料。"
-      }
-    },
-    {
-      "page": 109,
-      "authoring_page": 97,
-      "renderer": 2097,
-      "source_plan_page": 65,
-      "section": "Skills·按需读取与执行",
-      "type": "content",
-      "title": "脚本读取模板，写出Notebook骨架",
-      "steps": 2,
-      "renderer_steps": 4,
-      "playback": {
-        "mode": "mechanism",
-        "source_steps": [
-          2,
-          3
-        ],
-        "reveal": "original",
-        "reason": "保留生成模板骨架与返回路径后检查产物的前后说明；移除仅揭示脚本和产物的点击。"
-      }
-    },
-    {
-      "page": 110,
-      "authoring_page": 98,
-      "renderer": 2098,
-      "source_plan_page": 65,
-      "section": "Skills·按需读取与执行",
-      "type": "summary",
-      "title": "读取得到方法，执行形成文件",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 111,
-      "authoring_page": 99,
-      "renderer": 2099,
-      "source_plan_page": 66,
-      "section": "Skills·Box文档生成",
-      "type": "overview",
-      "title": "Box：从已有资料到交付文件",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 112,
-      "authoring_page": 100,
-      "renderer": 2100,
-      "source_plan_page": 66,
-      "section": "Skills·Box文档生成",
-      "type": "case",
-      "title": "Box：先找到季度报告与月度更新",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 113,
-      "authoring_page": 101,
-      "renderer": 2101,
-      "source_plan_page": 67,
-      "section": "Skills·Box文档生成",
-      "type": "case",
-      "title": "Box：生成草稿，继续补充分析",
-      "steps": 2,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "mechanism",
-        "source_steps": [
-          1,
-          2
-        ],
-        "reveal": "original",
-        "reason": "保留通过接口生成草稿和团队继续完善两个阶段，避免末态丢失生成过程。"
-      }
-    },
-    {
-      "page": 114,
-      "authoring_page": 102,
-      "renderer": 2102,
-      "source_plan_page": 68,
-      "section": "Skills·Box文档生成",
-      "type": "summary",
-      "title": "Box：同一批资料，响应新的文件要求",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
       "page": 115,
-      "authoring_page": 103,
-      "renderer": 2103,
-      "source_plan_page": 69,
-      "section": "Skills·产物检查",
-      "type": "content",
-      "title": "回到Notebook：补齐内容、运行与验收",
-      "steps": 3,
-      "renderer_steps": 3,
+      "authoring_page": 89,
+      "renderer": 7001,
+      "section": "Skills·技能包",
+      "type": "overview",
+      "title": "Skills：把“怎样做”保存成可复用的方法",
+      "steps": 1,
+      "renderer_steps": 1,
       "playback": {
-        "mode": "mechanism",
+        "mode": "full",
         "source_steps": [
-          0,
-          1,
-          2
+          0
         ],
-        "reveal": "original",
-        "reason": "内容、运行输出与验收结果发生在不同时间；逐态观察对应关系。"
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
       }
     },
     {
       "page": 116,
-      "authoring_page": 104,
-      "renderer": 2104,
-      "source_plan_page": 70,
-      "section": "Skills·小结",
-      "type": "summary",
-      "title": "Skills：方法、操作与检查相互配合",
+      "authoring_page": 8901,
+      "renderer": 7002,
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "从程序性记忆到Skills",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -2180,6 +2119,816 @@
     },
     {
       "page": 117,
+      "authoring_page": 8902,
+      "renderer": 7003,
+      "section": "Skills·技能包",
+      "type": "overview",
+      "title": "一、完整的技能包：先看方法怎样落在文件中",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 118,
+      "authoring_page": 8903,
+      "renderer": 7004,
+      "section": "Skills·技能包",
+      "type": "files",
+      "title": "打开jupyter-notebook：12个文件各有什么用？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 119,
+      "authoring_page": 8904,
+      "renderer": 7005,
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "SKILL.md：先说明何时用，再说明怎样做",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 120,
+      "authoring_page": 8905,
+      "renderer": 7006,
+      "section": "Skills·技能包",
+      "type": "concept",
+      "title": "参考、脚本、模板：沿着一条生成路径配合",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 121,
+      "authoring_page": 8906,
+      "renderer": 7007,
+      "section": "Skills·技能包",
+      "type": "summary",
+      "title": "技能包小结：入口、方法与资源怎样配合",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 122,
+      "authoring_page": 6203,
+      "renderer": 6203,
+      "section": "Skills",
+      "type": "subagenda",
+      "title": "Skills：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 123,
+      "authoring_page": 8907,
+      "renderer": 7008,
+      "section": "Skills·调用全过程",
+      "type": "overview",
+      "title": "二、一次调用：从任务到Notebook文件",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 124,
+      "authoring_page": 8908,
+      "renderer": 7009,
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "先看目录：这个任务适合哪个Skill？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 125,
+      "authoring_page": 8909,
+      "renderer": 7010,
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "第一次展开：读取SKILL.md",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 126,
+      "authoring_page": 8910,
+      "renderer": 7011,
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "第二次展开：按教程分支读取参考",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 127,
+      "authoring_page": 8911,
+      "renderer": 7012,
+      "section": "Skills·调用全过程",
+      "type": "execution",
+      "title": "执行：程序读取模板，写出文件",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 128,
+      "authoring_page": 8912,
+      "renderer": 7013,
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "检查：取得要求，再打开实际产物",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 129,
+      "authoring_page": 8913,
+      "renderer": 7014,
+      "section": "Skills·调用全过程",
+      "type": "notebook",
+      "title": "打开产物：标题已替换，其余保留模板",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 130,
+      "authoring_page": 8914,
+      "renderer": 7015,
+      "section": "Skills·调用全过程",
+      "type": "trace",
+      "title": "回答用户：交付文件，并说明下一步",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 131,
+      "authoring_page": 8915,
+      "renderer": 7016,
+      "section": "Skills·调用全过程",
+      "type": "summary",
+      "title": "调用小结：两次展开，几次工具操作",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 132,
+      "authoring_page": 6204,
+      "renderer": 6204,
+      "section": "Skills",
+      "type": "subagenda",
+      "title": "Skills：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 133,
+      "authoring_page": 8916,
+      "renderer": 7017,
+      "section": "Skills·合成、评估与维护",
+      "type": "overview",
+      "title": "三、自己的Skills：从已有工作到持续维护",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 134,
+      "authoring_page": 8917,
+      "renderer": 7018,
+      "section": "Skills·合成、评估与维护",
+      "type": "prompt",
+      "title": "让Codex或Claude Code整理Skill初稿",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 135,
+      "authoring_page": 8918,
+      "renderer": 7019,
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "让文件结构服务于自己的任务",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 136,
+      "authoring_page": 8919,
+      "renderer": 7020,
+      "section": "Skills·合成、评估与维护",
+      "type": "prompt",
+      "title": "高Star的Skill，适合你的任务吗？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 137,
+      "authoring_page": 8920,
+      "renderer": 7021,
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "评估：选对了吗，读对了吗，结果对了吗？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 138,
+      "authoring_page": 8921,
+      "renderer": 7022,
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "换一个环境，Skill还适用吗？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 139,
+      "authoring_page": 8922,
+      "renderer": 7023,
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "公共Skill：也会把外部指令与程序带进来",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 140,
+      "authoring_page": 8923,
+      "renderer": 7024,
+      "section": "Skills·合成、评估与维护",
+      "type": "concept",
+      "title": "维护：场景、模型、Harness变了，就要复查",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 141,
+      "authoring_page": 8924,
+      "renderer": 7025,
+      "section": "Skills·合成、评估与维护",
+      "type": "summary",
+      "title": "自己的Skills小结：用结果决定保留什么",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 142,
+      "authoring_page": 8925,
+      "renderer": 7026,
+      "section": "Skills·合成、评估与维护",
+      "type": "summary",
+      "title": "Skills小结：组织方法、调用方法、检验方法",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 143,
+      "authoring_page": 9011,
+      "renderer": 4014,
+      "section": "Agents",
+      "type": "agenda",
+      "title": "本讲内容",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 144,
+      "authoring_page": 8001,
+      "renderer": 8001,
+      "section": "Protocols·总览",
+      "type": "overview",
+      "title": "Protocols：约定怎样交互",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 145,
+      "authoring_page": 8002,
+      "renderer": 8002,
+      "section": "Protocols·交互对象与范围",
+      "type": "concept",
+      "title": "理解协议：连接谁，为哪些场景设计？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 146,
+      "authoring_page": 8003,
+      "renderer": 8003,
+      "section": "Protocols·交互对象与范围",
+      "type": "summary",
+      "title": "两类交互：调用工具与委托任务",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 147,
+      "authoring_page": 6205,
+      "renderer": 6205,
+      "section": "Protocols",
+      "type": "subagenda",
+      "title": "Protocols：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 148,
+      "authoring_page": 8004,
+      "renderer": 8004,
+      "section": "Protocols·MCP",
+      "type": "overview",
+      "title": "MCP：连接工具与数据",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 149,
+      "authoring_page": 8005,
+      "renderer": 8005,
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "MCP调用：模型、应用与服务的分工",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 150,
+      "authoring_page": 8006,
+      "renderer": 8006,
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "先取得目录：工具名、用途与参数",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 151,
+      "authoring_page": 8007,
+      "renderer": 8007,
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "从工具目录，到下一次模型输入",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 152,
+      "authoring_page": 8008,
+      "renderer": 8008,
+      "section": "Protocols·MCP",
+      "type": "concept",
+      "title": "天气查询：对照一次协议往返",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 153,
+      "authoring_page": 8009,
+      "renderer": 8009,
+      "section": "Protocols·MCP",
+      "type": "summary",
+      "title": "MCP小结：协议通信与模型输入",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 154,
+      "authoring_page": 6206,
+      "renderer": 6206,
+      "section": "Protocols",
+      "type": "subagenda",
+      "title": "Protocols：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 155,
+      "authoring_page": 8010,
+      "renderer": 8010,
+      "section": "Protocols·A2A",
+      "type": "overview",
+      "title": "A2A：把任务交给另一个Agent",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 156,
+      "authoring_page": 8011,
+      "renderer": 8011,
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "Agent Card：先了解对方能做什么",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 157,
+      "authoring_page": 8012,
+      "renderer": 8012,
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "汇率任务：委托、补充、继续",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 158,
+      "authoring_page": 8013,
+      "renderer": 8013,
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "两边各自保存消息，交换任务信息",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 159,
+      "authoring_page": 8014,
+      "renderer": 8014,
+      "section": "Protocols·A2A",
+      "type": "concept",
+      "title": "任务状态与成果，分别说明什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 160,
+      "authoring_page": 8015,
+      "renderer": 8015,
+      "section": "Protocols·A2A",
+      "type": "summary",
+      "title": "A2A小结：可以与MCP一起使用",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 161,
+      "authoring_page": 8016,
+      "renderer": 8016,
+      "section": "Protocols·总结",
+      "type": "summary",
+      "title": "Protocols小结：交互约定如何落到运行",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 162,
       "authoring_page": 9010,
       "renderer": 4012,
       "section": "Agents",
@@ -2197,411 +2946,403 @@
       }
     },
     {
-      "page": 118,
-      "authoring_page": 105,
-      "renderer": 2105,
-      "source_plan_page": 72,
+      "page": 163,
+      "authoring_page": 8501,
+      "renderer": 8501,
+      "section": "Harness·总览",
+      "type": "overview",
+      "title": "Harness：把各部分组织成运行系统",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 164,
+      "authoring_page": 8502,
+      "renderer": 8502,
+      "section": "Harness·总览",
+      "type": "concept",
+      "title": "一次任务，在Harness中怎样推进？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 165,
+      "authoring_page": 8503,
+      "renderer": 8503,
+      "section": "Harness·总览",
+      "type": "overview",
+      "title": "让任务持续运行，还要解决哪些问题？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 166,
+      "authoring_page": 8504,
+      "renderer": 8504,
+      "section": "Harness·上下文",
+      "type": "overview",
+      "title": "上下文：下一次调用要带上什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 167,
+      "authoring_page": 8505,
+      "renderer": 8505,
+      "section": "Harness·上下文",
+      "type": "concept",
+      "title": "上下文压缩：留下继续工作的要点",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 168,
+      "authoring_page": 8506,
+      "renderer": 8506,
+      "section": "Harness·上下文",
+      "type": "summary",
+      "title": "清理长输出，保留重新查阅的路径",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 169,
+      "authoring_page": 6207,
+      "renderer": 6207,
       "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 170,
+      "authoring_page": 8507,
+      "renderer": 8507,
+      "section": "Harness·沙盒与权限",
       "type": "overview",
-      "title": "Harness：把各部分组织为持续的工作",
+      "title": "沙盒与权限：范围和放行分别管理",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 119,
-      "authoring_page": 106,
-      "renderer": 2106,
-      "source_plan_page": 73,
-      "section": "Harness·材料与连接",
-      "type": "overview",
-      "title": "材料与连接，分别准备什么",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 120,
-      "authoring_page": 107,
-      "renderer": 2107,
-      "source_plan_page": 73,
-      "section": "Harness·材料与连接",
-      "type": "content",
-      "title": "下一步需要的材料，也在变化",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 121,
-      "authoring_page": 108,
-      "renderer": 2108,
-      "source_plan_page": 74,
-      "section": "Harness·材料与连接",
-      "type": "content",
-      "title": "MCP：应用怎样连接工具服务",
-      "steps": 4,
-      "renderer_steps": 4,
-      "playback": {
-        "mode": "mechanism",
-        "source_steps": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "reveal": "original",
-        "reason": "MCP 目录、模型调用、服务执行与结果回传有不同方向，保留四个通信阶段。"
-      }
-    },
-    {
-      "page": 122,
-      "authoring_page": 109,
-      "renderer": 2109,
-      "source_plan_page": 74,
-      "section": "Harness·材料与连接",
+      "page": 171,
+      "authoring_page": 8508,
+      "renderer": 8508,
+      "section": "Harness·沙盒与权限",
       "type": "summary",
-      "title": "材料进入输入，调用到达工具",
+      "title": "人工确认：先核对这次要做什么",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 123,
-      "authoring_page": 110,
-      "renderer": 2110,
-      "source_plan_page": 75,
-      "section": "Harness·操作范围与确认",
+      "page": 172,
+      "authoring_page": 6208,
+      "renderer": 6208,
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 173,
+      "authoring_page": 8509,
+      "renderer": 8509,
+      "section": "Harness·Hooks",
       "type": "overview",
-      "title": "先看对象与动作，再看执行条件",
+      "title": "Hooks：按事件触发预设动作",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 124,
-      "authoring_page": 111,
-      "renderer": 2111,
-      "source_plan_page": 75,
-      "section": "Harness·操作范围与确认",
-      "type": "content",
-      "title": "读、写和发送，分别落实范围",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 125,
-      "authoring_page": 112,
-      "renderer": 2112,
-      "source_plan_page": 76,
-      "section": "Harness·操作范围与确认",
-      "type": "content",
-      "title": "需要确认时，先展示具体动作",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 126,
-      "authoring_page": 113,
-      "renderer": 2113,
-      "source_plan_page": 76,
-      "section": "Harness·操作范围与确认",
-      "type": "summary",
-      "title": "让授权落到明确的对象与动作",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 127,
-      "authoring_page": 114,
-      "renderer": 2114,
-      "source_plan_page": 77,
-      "section": "Harness·reMarkable客服交接",
-      "type": "overview",
-      "title": "reMarkable：客服处理与人工出口",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 128,
-      "authoring_page": 115,
-      "renderer": 2115,
-      "source_plan_page": 78,
-      "section": "Harness·reMarkable客服交接",
+      "page": 174,
+      "authoring_page": 8510,
+      "renderer": 8510,
+      "section": "Harness·Hooks",
       "type": "case",
-      "title": "接手的人，需要哪些处理材料",
+      "title": "文件编辑后，自动整理格式",
       "steps": 1,
-      "renderer_steps": 4,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          3
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 129,
-      "authoring_page": 116,
-      "renderer": 2116,
-      "source_plan_page": 78,
-      "section": "Harness·reMarkable客服交接",
+      "page": 175,
+      "authoring_page": 8511,
+      "renderer": 8511,
+      "section": "Harness·Hooks",
       "type": "summary",
-      "title": "把服务的前后两段接起来",
+      "title": "Hooks：执行前检查，执行后处理",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 130,
-      "authoring_page": 117,
-      "renderer": 2117,
-      "source_plan_page": 79,
-      "section": "Harness·进度停止与恢复",
-      "type": "overview",
-      "title": "继续、等待和结束，各有什么条件",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 131,
-      "authoring_page": 118,
-      "renderer": 2118,
-      "source_plan_page": 79,
-      "section": "Harness·进度停止与恢复",
-      "type": "content",
-      "title": "完成条件，要连回原来的任务",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 132,
-      "authoring_page": 119,
-      "renderer": 2119,
-      "source_plan_page": 80,
-      "section": "Harness·进度停止与恢复",
-      "type": "content",
-      "title": "回执丢失时，先查动作是否发生",
-      "steps": 1,
-      "renderer_steps": 4,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          3
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 133,
-      "authoring_page": 120,
-      "renderer": 2120,
-      "source_plan_page": 81,
-      "section": "Harness·进度停止与恢复",
-      "type": "content",
-      "title": "留下下一步可以接用的进度",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 134,
-      "authoring_page": 121,
-      "renderer": 2121,
-      "source_plan_page": 81,
-      "section": "Harness·进度停止与恢复",
-      "type": "summary",
-      "title": "按有效进度继续，按完成条件结束",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 135,
-      "authoring_page": 122,
-      "renderer": 2122,
-      "source_plan_page": 82,
-      "section": "Harness·日志与验收",
-      "type": "overview",
-      "title": "过程记录和交付检查怎样配合",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 136,
-      "authoring_page": 123,
-      "renderer": 2123,
-      "source_plan_page": 82,
-      "section": "Harness·日志与验收",
-      "type": "content",
-      "title": "把结果连回材料、调用和返回",
-      "steps": 3,
-      "renderer_steps": 4,
-      "playback": {
-        "mode": "mechanism",
-        "source_steps": [
-          1,
-          2,
-          3
-        ],
-        "reveal": "original",
-        "reason": "三态分别把问题定位到输入、工具返回和结果解释；初态已展示完整记录链。"
-      }
-    },
-    {
-      "page": 137,
-      "authoring_page": 124,
-      "renderer": 2124,
-      "source_plan_page": 83,
-      "section": "Harness·日志与验收",
-      "type": "summary",
-      "title": "用原任务验收不同交付",
-      "steps": 1,
-      "renderer_steps": 4,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          3
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 138,
-      "authoring_page": 125,
-      "renderer": 2125,
-      "source_plan_page": 83,
+      "page": 176,
+      "authoring_page": 6209,
+      "renderer": 6209,
       "section": "Harness",
-      "type": "summary",
-      "title": "Harness：把过程与交付一起组织好",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 139,
+      "page": 177,
+      "authoring_page": 8512,
+      "renderer": 8512,
+      "section": "Harness·子智能体",
+      "type": "overview",
+      "title": "子智能体：把具体工作分出去",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 178,
+      "authoring_page": 8513,
+      "renderer": 8513,
+      "section": "Harness·子智能体",
+      "type": "concept",
+      "title": "过程留在子任务，结果交回主代理",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 179,
+      "authoring_page": 8514,
+      "renderer": 8514,
+      "section": "Harness·子智能体",
+      "type": "concept",
+      "title": "能否并行，先看任务之间的依赖",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 180,
+      "authoring_page": 8515,
+      "renderer": 8515,
+      "section": "Harness·子智能体",
+      "type": "summary",
+      "title": "什么时候值得把任务分出去？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 181,
+      "authoring_page": 6210,
+      "renderer": 6210,
+      "section": "Harness",
+      "type": "subagenda",
+      "title": "Harness：接下来讲什么？",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 182,
+      "authoring_page": 8516,
+      "renderer": 8516,
+      "section": "Harness·进度与恢复",
+      "type": "overview",
+      "title": "保存进度，让下一次运行接得上",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 183,
+      "authoring_page": 8517,
+      "renderer": 8517,
+      "section": "Harness·进度与恢复",
+      "type": "summary",
+      "title": "恢复前，确认哪些动作已经发生",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 184,
+      "authoring_page": 8518,
+      "renderer": 8518,
+      "section": "Harness·小结",
+      "type": "summary",
+      "title": "Harness：把输入、执行与反馈接起来",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 185,
       "authoring_page": 126,
       "renderer": 4013,
       "source_plan_page": 84,
@@ -2620,7 +3361,7 @@
       }
     },
     {
-      "page": 140,
+      "page": 186,
       "authoring_page": 127,
       "renderer": 2127,
       "source_plan_page": 85,
@@ -2639,7 +3380,7 @@
       }
     },
     {
-      "page": 141,
+      "page": 187,
       "authoring_page": 128,
       "renderer": 2128,
       "source_plan_page": 86,
@@ -2658,7 +3399,7 @@
       }
     },
     {
-      "page": 142,
+      "page": 188,
       "authoring_page": 129,
       "renderer": 2129,
       "source_plan_page": 87,
@@ -2677,7 +3418,7 @@
       }
     },
     {
-      "page": 143,
+      "page": 189,
       "authoring_page": 130,
       "renderer": 2130,
       "source_plan_page": 87,
@@ -2696,7 +3437,7 @@
       }
     },
     {
-      "page": 144,
+      "page": 190,
       "authoring_page": 131,
       "renderer": 2131,
       "source_plan_page": 88,
@@ -2715,7 +3456,7 @@
       }
     },
     {
-      "page": 145,
+      "page": 191,
       "authoring_page": 132,
       "renderer": 2132,
       "source_plan_page": 87,
@@ -2734,7 +3475,7 @@
       }
     },
     {
-      "page": 146,
+      "page": 192,
       "authoring_page": 133,
       "renderer": 2133,
       "source_plan_page": 89,
@@ -2753,7 +3494,7 @@
       }
     },
     {
-      "page": 147,
+      "page": 193,
       "authoring_page": 134,
       "renderer": 2134,
       "source_plan_page": 89,
@@ -2774,17 +3515,19 @@
   ],
   "visuals": "复用原课PNG与HTML/SVG可编辑图解",
   "verification": {
-    "browser_checks": "qa/checks.json",
-    "visual_review": "qa/视觉检查记录.md"
+    "browser_checks": "qa/memory-wording-r15/controls.json",
+    "visual_review": "qa/memory-wording-r15/措辞修订记录.md",
+    "scope": "Memory措辞修订页面及相邻衔接，实际范围以本轮记录为准",
+    "previous_full_playback": "qa/memory-review-r14/sequential-playback.json"
   },
   "teacher_approved": false,
-  "revision": "2026-10-20-原课复刻与移除休息页r5",
+  "revision": "2026-10-20-memory-wording-r15",
   "source_structure": "../v01-逐页内容规划/结构修订说明.md",
-  "duration_seconds": 10800,
-  "teaching_seconds": 10200,
+  "duration_seconds": 16605,
+  "teaching_seconds": 16005,
   "break_seconds": 600,
-  "review_record": "qa/llm-foundations-r2/修订与实播记录.md",
-  "print_page_count": 161,
+  "review_record": "qa/memory-wording-r15/措辞修订记录.md",
+  "print_page_count": 193,
   "playback_policy": "src/playback-policy.json",
   "historical_review_record": "qa/independent-review/审阅总记录.md",
   "decoding_review_record": "qa/decoding-parameters/修订与复查.md",
@@ -2797,9 +3540,21 @@
       "after_authoring_page": 72,
       "seconds": 600,
       "label": "休息10分钟",
-      "after_page": 83,
-      "start_seconds": 5700,
-      "end_seconds": 6300
+      "after_page": 74,
+      "start_seconds": 5750,
+      "end_seconds": 6350
     }
-  ]
+  ],
+  "html_figures_review_record": "qa/html-figures-r6/修订与复查记录.md",
+  "tools_review_record": "qa/tool-calling-r7/问题与修订记录.md",
+  "memory_review_record": "qa/memory-r8/问题与修订记录.md",
+  "duration_policy": "参考估计；允许超出180分钟并分两次讲",
+  "llm_review_record": "qa/llm-foundations-r2/修订与实播记录.md",
+  "skills_review_record": "qa/skills-r9/问题与修订记录.md",
+  "protocols_review_record": "qa/protocols-r10/问题与修订记录.md",
+  "harness_review_record": "qa/harness-r11/问题与修订记录.md",
+  "content_revision": "2026-10-20-memory-wording-r15",
+  "display_qa_revision": "r15-memory-only",
+  "memory_revision_review_record": "qa/memory-review-r14/修订与复查记录.md",
+  "memory_wording_review_record": "qa/memory-wording-r15/措辞修订记录.md"
 }

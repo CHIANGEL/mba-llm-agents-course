@@ -8,7 +8,7 @@ function boundary(summary=false){return wrap(
 at(0,0,1490,summary?'外部系统组织信息与执行，训练改变模型本身的能力。':'理解Agent，要同时看模型能力，以及模型之外怎样组织工作。')+
 at(20,94,1000,'Externalization：外化','h2')+at(1115,94,385,'Internalization','h2')+
 svg('<rect x="10" y="160" width="1035" height="405" rx="4" fill="#fff" stroke="#8aa7c8" stroke-width="2.5"/><path d="M1080 93 V599" stroke="#c5d4e5" stroke-width="2"/>')+
-at(35,180,960,'Harness组织整个运行过程','label strong')+
+at(35,180,960,'Harness组织整个运行过程','label strong')+at(660,220,365,'Protocols：交互约定','label')+
 svg(paper(35,257,260,96)+paper(35,406,260,96)+arrow(311,304,390,348)+arrow(311,453,390,410))+
 at(54,277,223,'Memory：信息','label')+at(54,426,223,'Skills：方法','label')+
 svg(paper(410,288,180,185)+arrow(604,378,650,378)+arrow(802,378,848,378))+
@@ -20,16 +20,16 @@ at(585,505,320,'结果进入下一次输入','p-small center')+
 at(1120,156,365,'内化：训练模型','label',1)+
 svg(paper(1150,226,300,116)+arrow(1300,357,1300,415,red),1)+at(1174,252,245,'训练材料与反馈','label center',1)+
 img(1227,429,120,129,'llm.png','训练更新模型参数',1)+at(1120,580,370,'模型参数经过更新','label red center',1)+
-at(20,652,1470,summary?'工具、信息、方法和运行安排，与模型能力共同影响任务结果。':'依次展开工具调用、Memory、Skills、Harness，再回看外化与内化。','label strong',2)
+at(20,652,1470,summary?'工具、信息、方法、交互约定与运行安排，共同影响任务结果。':'依次展开工具调用、Memory、Skills、Protocols、Harness，再回看外化与内化。','label strong',2)
 );}
 R[2051]={steps:3,render(){return boundary();}};
 R[2126]={steps:1,render(){return agenda(true);}};
 function systemMap(summary){return wrap(
-at(0,0,1490,summary?'各部分围绕同一任务配合，结果再回到任务要求中检查。':'把工具、Memory、Skills与Harness放回同一项任务。')+
+at(0,0,1490,summary?'各部分围绕同一任务配合，结果再回到任务要求中检查。':'把工具、Memory、Skills、Protocols与Harness放回同一项任务。')+
 svg(paper(20,124,340,116)+paper(20,304,340,112)+paper(20,475,340,112))+
 at(42,146,292,'任务要求与完成标准','label strong')+at(42,326,292,'Memory：信息记录','label')+at(42,497,292,'Skills：可复用做法','label')+
 svg('<rect x="425" y="100" width="1059" height="521" rx="4" fill="#fff" stroke="#8aa7c8" stroke-width="2.5"/>')+
-at(453,118,990,'Harness：准备输入、安排执行、保存状态与检查','label strong')+
+at(453,118,990,'Harness：准备输入、安排执行、保存状态与检查','label strong')+at(1035,187,420,'Protocols：交互约定','label')+
 svg('<path d="M380 180 H404 V352 H464 M380 360 H464 M380 530 H404 V380 H464" fill="none" stroke="#0070c0" stroke-width="3"/>')+
 svg(paper(480,251,240,205)+arrow(736,351,790,351))+
 at(505,280,195,'本次输入','h2 center')+at(505,352,195,'任务与材料<br>相关结果','label center')+
