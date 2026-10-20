@@ -1,6 +1,6 @@
 # 协作维护
 
-远端为私有仓库 [CHIANGEL/mba-llm-agents-course](https://github.com/CHIANGEL/mba-llm-agents-course)。`main` 保存当前可用版本，修改通过独立分支与 Pull Request 合入。
+远端为课程协作仓库 [CHIANGEL/mba-llm-agents-course](https://github.com/CHIANGEL/mba-llm-agents-course)。`main` 保存当前可用版本，修改通过独立分支与 Pull Request 合入。公开仓库可由所有人读取，推送权限仍通过协作者邀请授予。
 
 ## 第一次加入
 
@@ -57,7 +57,9 @@ python3 -m http.server 8765 --bind 127.0.0.1
 node "第01讲-LLM-Agents/v02-导入与LLM基础HTML/qa/build-data.cjs"
 ```
 
-检查受影响页面的文字、版式、翻页、目录跳转、材料展开和相关交互；同时核对浏览器错误、离线资源与180分钟安排。历史检查记录只证明对应历史版本，新修改的实播结论应另存到本轮 `qa/` 子目录，注明实际覆盖范围。
+检查受影响页面的文字、版式、翻页、目录跳转、材料展开和相关交互；同时核对浏览器错误、离线资源与当前课时安排。教师已允许超出180分钟并分两次讲。历史检查记录只证明对应历史版本，新修改的实播结论应另存到本轮 `qa/` 子目录，注明实际覆盖范围。
+
+合入 `main` 后，GitHub Actions 会自动打包并发布公网课件，具体目录范围和域名设置见 [DEPLOYMENT.md](DEPLOYMENT.md)。
 
 ## 保存范围
 

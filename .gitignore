@@ -25,4 +25,7 @@ __pycache__/
 **/qa/preview-server.log
 /交付/*.zip
 
+# GitHub Pages 本地发布产物
+/_site/
+
 # sources、QA 报告与历史截图均保留版本记录

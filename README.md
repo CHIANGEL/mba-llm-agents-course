@@ -2,7 +2,7 @@
 
 共三次课。当前制作第一讲LLM Agents；原计划3小时，教师现已允许超时并分两次讲。
 
-私有协作仓库：[CHIANGEL/mba-llm-agents-course](https://github.com/CHIANGEL/mba-llm-agents-course)。加入协作、分支提交、课件编辑和检查流程见[协作维护说明](CONTRIBUTING.md)。
+协作仓库：[CHIANGEL/mba-llm-agents-course](https://github.com/CHIANGEL/mba-llm-agents-course)。加入协作、分支提交、课件编辑和检查流程见[协作维护说明](CONTRIBUTING.md)，公网课件的构建和更新方式见[发布说明](DEPLOYMENT.md)。
 
 - [第一讲 LLM Agents 完整 HTML 课件 v02](第01讲-LLM-Agents/v02-导入与LLM基础HTML/index.html)：175页、175个播放器状态，参考266分25秒含10分钟休息，可分两次讲；页面默认全显，Agents从第51页开始；[使用说明](第01讲-LLM-Agents/v02-导入与LLM基础HTML/README.md)。
 - [结构修订说明](第01讲-LLM-Agents/v01-逐页内容规划/结构修订说明.md)：2026-10-18反馈后的分层目录与各子章节总分总映射。
