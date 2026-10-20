@@ -32,7 +32,7 @@
     },
     {
       "file": "src/navigation.css",
-      "sha256_12": "67b972e6e93b"
+      "sha256_12": "2e2dbdc983f6"
     },
     {
       "file": "src/agent-overview-r4.css",
@@ -75,8 +75,16 @@
       "sha256_12": "c9f6e63b5911"
     },
     {
+      "file": "src/agent-internet-r20.css",
+      "sha256_12": "61d783f9eb02"
+    },
+    {
+      "file": "src/integration-r21.css",
+      "sha256_12": "cdf5ff2492d3"
+    },
+    {
       "file": "src/data.js",
-      "sha256_12": "e999afffb052"
+      "sha256_12": "4dbb4895eb18"
     },
     {
       "file": "src/001-004.js",
@@ -144,7 +152,7 @@
     },
     {
       "file": "src/harness-r11.js",
-      "sha256_12": "680de0a2d82e"
+      "sha256_12": "d4d12f8b4836"
     },
     {
       "file": "src/llm-evidence.js",
@@ -172,11 +180,11 @@
     },
     {
       "file": "src/navigation.js",
-      "sha256_12": "d6b668999a7f"
+      "sha256_12": "f5c1d235ec59"
     },
     {
       "file": "src/memory-review-r14-data.js",
-      "sha256_12": "b8fe7f1c88a1"
+      "sha256_12": "245a40c60fbd"
     },
     {
       "file": "src/memory-review-r14.js",
@@ -191,8 +199,16 @@
       "sha256_12": "a9cfc0de8a98"
     },
     {
+      "file": "src/agent-internet-r20.js",
+      "sha256_12": "1f1c873c6e09"
+    },
+    {
+      "file": "src/integration-r21.js",
+      "sha256_12": "b339768552e7"
+    },
+    {
       "file": "src/player.js",
-      "sha256_12": "4753c6700512"
+      "sha256_12": "9c55931c1c5e"
     }
   ]
 }

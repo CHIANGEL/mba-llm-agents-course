@@ -22,7 +22,7 @@ __pycache__/
 *.local
 
 # 预览服务日志与可重新打包的交付 ZIP
-**/qa/preview-server.log
+**/qa/**/preview-server.log
 /交付/*.zip
 
 # GitHub Pages 本地发布产物

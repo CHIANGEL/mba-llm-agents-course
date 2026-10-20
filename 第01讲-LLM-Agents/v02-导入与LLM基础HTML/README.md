@@ -1,10 +1,10 @@
-# MBA第一讲 · LLM Agents完整HTML课件
+# LLM Agents · 入门与实践 HTML课件
 
-当前修订：工具调用与Protocols r19，2026-10-20。共200页、200个播放器状态，默认整页显示。参考讲授271分40秒，另含10分钟休息，共281分40秒；允许分两次讲。休息在第84页之后，不设休息slide。
+当前修订：外化与内化闭环 r21，2026-10-20。共198页、198个播放器状态，默认整页显示。参考讲授271分55秒，另含10分钟休息，共281分55秒；允许分两次讲。休息在第84页之后，不设休息slide。
 
 ## 打开与操作
 
-[最新版预览](http://127.0.0.1:8765/?revision=tools-protocols-r19#p=158&s=1) · [本地入口](index.html) · [页面清单](页面清单.md)
+[最新版预览](http://127.0.0.1:8765/?revision=integration-r21#p=194&s=1) · [本地入口](index.html) · [页面清单](页面清单.md)
 
 移动时保留整个目录，尤其src、assets与sources。字体、图片、视频、程序和演示数据均为本地资源；新闻与项目外链需联网。视频不自动播放，支持播放、暂停、定位、倍速、声音和放大。离开页面停止播放，返回页面恢复初态；视频区方向键调整进度，空格播放/暂停，不翻页。
 
@@ -17,11 +17,22 @@
 
 ## 本轮修订
 
+- 第185–186页重画子智能体分工与上下文图，文字为HTML，统一使用“主智能体／子智能体”。
+- 第193页为目录；194–197页用四页讲清外化与内化闭环、Astra与Skills调整、选择性内化、两轮能力提升的假设。
+- 删除旧末尾两页小结，第198页用总目录结束；所有总目录删除左下角图例。
+- 课程正文、备注、材料与播放器统一使用LLM Agents，不按第几讲命名。
+
+[本轮修订与复查](qa/integration-r21/修订与复查记录.md) · [来源与内容取舍](sources/integration-r21/来源与内容取舍.md)
+
+第168页智能体互联网图继续使用带配送帽／餐袋和购物袋／包裹的两种平台服务智能体图标；[r20记录](qa/agent-internet-r20/修订与复查记录.md)保留。
+
+## 已完成的工具调用与Protocols重构
+
 - 第82页：在Computer Use后加入Astra机械臂工具案例，复用开篇视频，解释相机读取、运动脚本和画面反馈。
-- 第157–168页：Protocols共12页（9页正文、3页目录），依次说明为什么需要协议、MCP工具接入、A2A任务委托及小结。不讲网络层次、客户端角色细分、Agent Card和协议字段；保留一个简短天气请求片段与官方汇率案例。
+- 第157–169页：Protocols共13页（10页正文、3页目录），依次说明为什么需要协议、MCP工具接入、A2A任务委托、智能体互联网趋势及小结。不讲网络层次、客户端角色细分、Agent Card和协议字段；保留一个简短天气请求片段与官方汇率案例。
 - Memory与Skills仍沿用r18固定完整过程列表：Memory 8项、Skills 23项，独立滚动，进入页面定位当前环节。
 
-[本轮修订与复查](qa/tools-protocols-r19/修订与复查记录.md) · [来源与适配](sources/tools-protocols-r19/来源与适配记录.md)
+[r19修订与复查](qa/tools-protocols-r19/修订与复查记录.md) · [来源与适配](sources/tools-protocols-r19/来源与适配记录.md)
 
 ## 已加入的Agents开篇
 
@@ -48,18 +59,18 @@
 | 71–84 | 3.2 工具调用 |
 | 85–123 | 3.3 Memory |
 | 124–156 | 3.4 Skills |
-| 157–168 | 3.5 Protocols |
-| 169–191 | 3.6 Harness |
-| 192–198 | 3.7 外化与内化整合 |
-| 199–200 | 3.8 全讲总结 |
+| 157–169 | 3.5 Protocols |
+| 170–192 | 3.6 Harness |
+| 193–197 | 3.7 外化与内化整合 |
+| 198 | 总目录收束 |
 
 ## 已确认内容与编辑
 
 Memory采购案例与r16采购Skill保留。Skills当前第124–156页；完整包第128页、文件浏览第129页、调用过程第135–144页，实际评审产物第143页。
 
-`src/protocols-r19.json`、`src/robot-tools-r19.json`与`src/tools-protocols-r19.js/css`定义本轮内容；导航由`src/navigation.json`管理。运行`node qa/build-data.cjs`更新页码、材料、时间表、清单和缓存散列，不直接编辑生成的slides.json或src/data.js。`preview.py`为本地预览入口。
+`src/protocols-r19.json`、`src/robot-tools-r19.json`与`src/tools-protocols-r19.js/css`定义工具与Protocols内容；新增生态图由`src/agent-internet-r20.js/css`绘制；整合正文与子智能体新图由`src/integration-r21.js/css/json`定义；导航由`src/navigation.json`管理。运行`node qa/build-data.cjs`更新页码、材料、时间表、清单和缓存散列，不直接编辑生成的slides.json或src/data.js。`preview.py`为本地预览入口。
 
-原课程只读。Prompting没有PDF源文件链接。r12前沿整合仍为研究规划，尚未替换HTML。本轮没有发布远端或更新历史ZIP。
+原课程只读。Prompting没有PDF源文件链接。r12保留为历史研究规划；当前整合采用r21四页正文。本轮没有发布远端或更新历史ZIP。
 
 - [r16 Skills采购案例复查](qa/skills-procurement-r16/修订与复查记录.md)
 - [r15 Memory措辞复查](qa/memory-wording-r15/措辞修订记录.md)

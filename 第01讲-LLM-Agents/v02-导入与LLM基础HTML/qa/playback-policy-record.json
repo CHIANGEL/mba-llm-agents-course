@@ -5,7 +5,7 @@
     {
       "page": 1,
       "authoring_page": 1,
-      "title": "第一讲：LLM Agents",
+      "title": "LLM Agents：入门与实践",
       "renderer": 1,
       "renderer_steps": 2,
       "mode": "full",
@@ -31,7 +31,7 @@
     {
       "page": 3,
       "authoring_page": 3,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4001,
       "renderer_steps": 1,
       "mode": "full",
@@ -122,7 +122,7 @@
     {
       "page": 10,
       "authoring_page": 9001,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4002,
       "renderer_steps": 1,
       "mode": "full",
@@ -200,7 +200,7 @@
     {
       "page": 16,
       "authoring_page": 9002,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4003,
       "renderer_steps": 1,
       "mode": "full",
@@ -278,7 +278,7 @@
     {
       "page": 22,
       "authoring_page": 9003,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4004,
       "renderer_steps": 1,
       "mode": "full",
@@ -317,7 +317,7 @@
     {
       "page": 25,
       "authoring_page": 9004,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4005,
       "renderer_steps": 1,
       "mode": "full",
@@ -447,7 +447,7 @@
     {
       "page": 35,
       "authoring_page": 9005,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4006,
       "renderer_steps": 1,
       "mode": "full",
@@ -538,7 +538,7 @@
     {
       "page": 42,
       "authoring_page": 9006,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4007,
       "renderer_steps": 1,
       "mode": "full",
@@ -655,7 +655,7 @@
     {
       "page": 51,
       "authoring_page": 50,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4008,
       "renderer_steps": 1,
       "mode": "full",
@@ -772,7 +772,7 @@
     {
       "page": 60,
       "authoring_page": 17000,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4015,
       "renderer_steps": 1,
       "mode": "full",
@@ -915,7 +915,7 @@
     {
       "page": 71,
       "authoring_page": 9007,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4009,
       "renderer_steps": 1,
       "mode": "full",
@@ -1097,7 +1097,7 @@
     {
       "page": 85,
       "authoring_page": 9008,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4010,
       "renderer_steps": 1,
       "mode": "full",
@@ -1604,7 +1604,7 @@
     {
       "page": 124,
       "authoring_page": 9009,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4011,
       "renderer_steps": 1,
       "mode": "full",
@@ -2033,7 +2033,7 @@
     {
       "page": 157,
       "authoring_page": 9011,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4014,
       "renderer_steps": 1,
       "mode": "full",
@@ -2175,6 +2175,19 @@
     },
     {
       "page": 168,
+      "authoring_page": 8017,
+      "title": "趋势：从个人助手到智能体互联网",
+      "renderer": 8017,
+      "renderer_steps": 1,
+      "mode": "full",
+      "source_steps": [
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    },
+    {
+      "page": 169,
       "authoring_page": 8016,
       "title": "Protocols小结：按共同规则连接外部系统",
       "renderer": 8016,
@@ -2187,9 +2200,9 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 169,
+      "page": 170,
       "authoring_page": 9010,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4012,
       "renderer_steps": 1,
       "mode": "full",
@@ -2200,7 +2213,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 170,
+      "page": 171,
       "authoring_page": 8501,
       "title": "Harness：把各部分组织成运行系统",
       "renderer": 8501,
@@ -2213,7 +2226,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 171,
+      "page": 172,
       "authoring_page": 8502,
       "title": "一次任务，在Harness中怎样推进？",
       "renderer": 8502,
@@ -2226,7 +2239,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 172,
+      "page": 173,
       "authoring_page": 8503,
       "title": "让任务持续运行，还要解决哪些问题？",
       "renderer": 8503,
@@ -2239,7 +2252,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 173,
+      "page": 174,
       "authoring_page": 8504,
       "title": "上下文：下一次调用要带上什么？",
       "renderer": 8504,
@@ -2252,7 +2265,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 174,
+      "page": 175,
       "authoring_page": 8505,
       "title": "上下文压缩：留下继续工作的要点",
       "renderer": 8505,
@@ -2265,7 +2278,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 175,
+      "page": 176,
       "authoring_page": 8506,
       "title": "清理长输出，保留重新查阅的路径",
       "renderer": 8506,
@@ -2278,7 +2291,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 176,
+      "page": 177,
       "authoring_page": 6207,
       "title": "Harness：接下来讲什么？",
       "renderer": 6207,
@@ -2291,7 +2304,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 177,
+      "page": 178,
       "authoring_page": 8507,
       "title": "沙盒与权限：范围和放行分别管理",
       "renderer": 8507,
@@ -2304,7 +2317,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 178,
+      "page": 179,
       "authoring_page": 8508,
       "title": "人工确认：先核对这次要做什么",
       "renderer": 8508,
@@ -2317,7 +2330,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 179,
+      "page": 180,
       "authoring_page": 6208,
       "title": "Harness：接下来讲什么？",
       "renderer": 6208,
@@ -2330,7 +2343,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 180,
+      "page": 181,
       "authoring_page": 8509,
       "title": "Hooks：按事件触发预设动作",
       "renderer": 8509,
@@ -2343,7 +2356,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 181,
+      "page": 182,
       "authoring_page": 8510,
       "title": "文件编辑后，自动整理格式",
       "renderer": 8510,
@@ -2356,7 +2369,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 182,
+      "page": 183,
       "authoring_page": 8511,
       "title": "Hooks：执行前检查，执行后处理",
       "renderer": 8511,
@@ -2369,7 +2382,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 183,
+      "page": 184,
       "authoring_page": 6209,
       "title": "Harness：接下来讲什么？",
       "renderer": 6209,
@@ -2382,7 +2395,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 184,
+      "page": 185,
       "authoring_page": 8512,
       "title": "子智能体：把具体工作分出去",
       "renderer": 8512,
@@ -2395,9 +2408,9 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 185,
+      "page": 186,
       "authoring_page": 8513,
-      "title": "过程留在子任务，结果交回主代理",
+      "title": "过程留在子任务，结果交回主智能体",
       "renderer": 8513,
       "renderer_steps": 1,
       "mode": "full",
@@ -2408,7 +2421,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 186,
+      "page": 187,
       "authoring_page": 8514,
       "title": "能否并行，先看任务之间的依赖",
       "renderer": 8514,
@@ -2421,7 +2434,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 187,
+      "page": 188,
       "authoring_page": 8515,
       "title": "什么时候值得把任务分出去？",
       "renderer": 8515,
@@ -2434,7 +2447,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 188,
+      "page": 189,
       "authoring_page": 6210,
       "title": "Harness：接下来讲什么？",
       "renderer": 6210,
@@ -2447,7 +2460,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 189,
+      "page": 190,
       "authoring_page": 8516,
       "title": "保存进度，让下一次运行接得上",
       "renderer": 8516,
@@ -2460,7 +2473,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 190,
+      "page": 191,
       "authoring_page": 8517,
       "title": "恢复前，确认哪些动作已经发生",
       "renderer": 8517,
@@ -2473,7 +2486,7 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 191,
+      "page": 192,
       "authoring_page": 8518,
       "title": "Harness：把输入、执行与反馈接起来",
       "renderer": 8518,
@@ -2486,9 +2499,9 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 192,
+      "page": 193,
       "authoring_page": 126,
-      "title": "本讲内容",
+      "title": "课程内容",
       "renderer": 4013,
       "renderer_steps": 1,
       "mode": "full",
@@ -2499,75 +2512,23 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 193,
-      "authoring_page": 127,
-      "title": "外化与内化整合：各部分怎样配合",
-      "renderer": 2127,
+      "page": 194,
+      "authoring_page": 21001,
+      "title": "外化与内化：模型与Harness共同迭代",
+      "renderer": 21001,
       "renderer_steps": 1,
       "mode": "full",
       "source_steps": [
         0
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    },
-    {
-      "page": 194,
-      "authoring_page": 128,
-      "title": "这份课件中的任务、资料与方法",
-      "renderer": 2128,
-      "renderer_steps": 3,
-      "mode": "full",
-      "source_steps": [
-        2
       ],
       "reveal": "all",
       "reason": "进入页面即完整显示。"
     },
     {
       "page": 195,
-      "authoring_page": 129,
-      "title": "外化与内化：改变发生在哪里",
-      "renderer": 2129,
-      "renderer_steps": 2,
-      "mode": "full",
-      "source_steps": [
-        1
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    },
-    {
-      "page": 196,
-      "authoring_page": 130,
-      "title": "任务经验怎样用于下一轮改进",
-      "renderer": 2130,
-      "renderer_steps": 3,
-      "mode": "full",
-      "source_steps": [
-        2
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    },
-    {
-      "page": 197,
-      "authoring_page": 131,
-      "title": "更换模型后，重新检查运行安排",
-      "renderer": 2131,
-      "renderer_steps": 3,
-      "mode": "full",
-      "source_steps": [
-        2
-      ],
-      "reveal": "all",
-      "reason": "进入页面即完整显示。"
-    },
-    {
-      "page": 198,
-      "authoring_page": 132,
-      "title": "整合小结：各部分围绕任务配合",
-      "renderer": 2132,
+      "authoring_page": 21002,
+      "title": "模型升级后，旧的Skills和流程还需要吗？",
+      "renderer": 21002,
       "renderer_steps": 1,
       "mode": "full",
       "source_steps": [
@@ -2577,27 +2538,40 @@
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 199,
-      "authoring_page": 133,
-      "title": "Agents小结：模型与外部系统",
-      "renderer": 2133,
-      "renderer_steps": 3,
+      "page": 196,
+      "authoring_page": 21003,
+      "title": "选择性内化：哪些做法进入模型参数？",
+      "renderer": 21003,
+      "renderer_steps": 1,
       "mode": "full",
       "source_steps": [
-        2
+        0
       ],
       "reveal": "all",
       "reason": "进入页面即完整显示。"
     },
     {
-      "page": 200,
-      "authoring_page": 134,
-      "title": "第一讲小结：生成、任务与执行",
-      "renderer": 2134,
-      "renderer_steps": 3,
+      "page": 197,
+      "authoring_page": 21004,
+      "title": "模型变强，Harness继续补充新的不足",
+      "renderer": 21004,
+      "renderer_steps": 1,
       "mode": "full",
       "source_steps": [
-        2
+        0
+      ],
+      "reveal": "all",
+      "reason": "进入页面即完整显示。"
+    },
+    {
+      "page": 198,
+      "authoring_page": 21005,
+      "title": "课程内容",
+      "renderer": 21005,
+      "renderer_steps": 1,
+      "mode": "full",
+      "source_steps": [
+        0
       ],
       "reveal": "all",
       "reason": "进入页面即完整显示。"

@@ -6,7 +6,7 @@
       "source_plan_page": 1,
       "section": "导入",
       "type": "cover",
-      "title": "第一讲：LLM Agents",
+      "title": "LLM Agents：入门与实践",
       "seconds": 60,
       "on_slide": [
         "从模型生成回答，走到Agent执行任务。",
@@ -75,7 +75,7 @@
       "source_plan_page": 3,
       "section": "导入",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "seconds": 60,
       "on_slide": [
         "1. LLM基础：逐Token连续生成、多轮消息与聊天模板",

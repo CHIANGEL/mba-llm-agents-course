@@ -337,7 +337,7 @@ window.REVIEW_R14 = {
     "current": 3,
     "done": "Hooks的触发时机、动作与检查",
     "next": "把可拆分的任务交给子智能体",
-    "image": "harness-r11/subagents.png",
+    "image": "subagents-r21.svg",
     "targets": [
       8504,
       8507,

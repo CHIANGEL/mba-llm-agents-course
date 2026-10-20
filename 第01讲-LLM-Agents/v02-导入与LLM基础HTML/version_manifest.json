@@ -1,12 +1,12 @@
 {
   "version": "v02",
-  "title": "MBA第一讲：LLM Agents完整HTML课件",
+  "title": "LLM Agents：入门与实践",
   "date": "2026-10-20",
-  "scope": "导入、LLM基础、Prompting、大模型与智能体、智能体外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合及全讲总结",
-  "status": "工具与协议 r19：机械臂工具案例与MBA版Protocols",
+  "scope": "导入、LLM基础、Prompting、大模型与智能体、智能体外化与内化总览、工具调用、Memory、Skills、Protocols、Harness、外化与内化整合及课程回顾",
+  "status": "r21：子智能体图重绘、外化与内化闭环、总目录收束",
   "entry": "index.html",
-  "page_count": 200,
-  "state_count": 200,
+  "page_count": 198,
+  "state_count": 198,
   "canvas": {
     "width": 1600,
     "height": 900
@@ -21,7 +21,7 @@
       "source_plan_page": 1,
       "section": "导入",
       "type": "cover",
-      "title": "第一讲：LLM Agents",
+      "title": "LLM Agents：入门与实践",
       "steps": 1,
       "renderer_steps": 2,
       "playback": {
@@ -59,7 +59,7 @@
       "source_plan_page": 3,
       "section": "导入",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -191,7 +191,7 @@
       "renderer": 4002,
       "section": "LLM基础",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -304,7 +304,7 @@
       "renderer": 4003,
       "section": "Prompting",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -412,7 +412,7 @@
       "renderer": 4004,
       "section": "Prompting",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -466,7 +466,7 @@
       "renderer": 4005,
       "section": "Prompting",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -646,7 +646,7 @@
       "renderer": 4006,
       "section": "Prompting",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -772,7 +772,7 @@
       "renderer": 4007,
       "section": "Prompting",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -935,7 +935,7 @@
       "source_plan_page": 32,
       "section": "Agents总览",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -1097,7 +1097,7 @@
       "renderer": 4015,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -1295,7 +1295,7 @@
       "renderer": 4009,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -1547,7 +1547,7 @@
       "renderer": 4010,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -2249,7 +2249,7 @@
       "renderer": 4011,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -2843,7 +2843,7 @@
       "renderer": 4014,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -3037,6 +3037,24 @@
     },
     {
       "page": 168,
+      "authoring_page": 8017,
+      "renderer": 8017,
+      "section": "Protocols·智能体互联网",
+      "type": "outlook",
+      "title": "趋势：从个人助手到智能体互联网",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 169,
       "authoring_page": 8016,
       "renderer": 8016,
       "section": "Protocols·小结",
@@ -3054,12 +3072,12 @@
       }
     },
     {
-      "page": 169,
+      "page": 170,
       "authoring_page": 9010,
       "renderer": 4012,
       "section": "Agents",
       "type": "agenda",
-      "title": "本讲内容",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -3072,7 +3090,7 @@
       }
     },
     {
-      "page": 170,
+      "page": 171,
       "authoring_page": 8501,
       "renderer": 8501,
       "section": "Harness·总览",
@@ -3090,7 +3108,7 @@
       }
     },
     {
-      "page": 171,
+      "page": 172,
       "authoring_page": 8502,
       "renderer": 8502,
       "section": "Harness·总览",
@@ -3108,7 +3126,7 @@
       }
     },
     {
-      "page": 172,
+      "page": 173,
       "authoring_page": 8503,
       "renderer": 8503,
       "section": "Harness·总览",
@@ -3126,7 +3144,7 @@
       }
     },
     {
-      "page": 173,
+      "page": 174,
       "authoring_page": 8504,
       "renderer": 8504,
       "section": "Harness·上下文",
@@ -3144,7 +3162,7 @@
       }
     },
     {
-      "page": 174,
+      "page": 175,
       "authoring_page": 8505,
       "renderer": 8505,
       "section": "Harness·上下文",
@@ -3162,7 +3180,7 @@
       }
     },
     {
-      "page": 175,
+      "page": 176,
       "authoring_page": 8506,
       "renderer": 8506,
       "section": "Harness·上下文",
@@ -3180,7 +3198,7 @@
       }
     },
     {
-      "page": 176,
+      "page": 177,
       "authoring_page": 6207,
       "renderer": 6207,
       "section": "Harness",
@@ -3198,7 +3216,7 @@
       }
     },
     {
-      "page": 177,
+      "page": 178,
       "authoring_page": 8507,
       "renderer": 8507,
       "section": "Harness·沙盒与权限",
@@ -3216,7 +3234,7 @@
       }
     },
     {
-      "page": 178,
+      "page": 179,
       "authoring_page": 8508,
       "renderer": 8508,
       "section": "Harness·沙盒与权限",
@@ -3234,7 +3252,7 @@
       }
     },
     {
-      "page": 179,
+      "page": 180,
       "authoring_page": 6208,
       "renderer": 6208,
       "section": "Harness",
@@ -3252,7 +3270,7 @@
       }
     },
     {
-      "page": 180,
+      "page": 181,
       "authoring_page": 8509,
       "renderer": 8509,
       "section": "Harness·Hooks",
@@ -3270,7 +3288,7 @@
       }
     },
     {
-      "page": 181,
+      "page": 182,
       "authoring_page": 8510,
       "renderer": 8510,
       "section": "Harness·Hooks",
@@ -3288,7 +3306,7 @@
       }
     },
     {
-      "page": 182,
+      "page": 183,
       "authoring_page": 8511,
       "renderer": 8511,
       "section": "Harness·Hooks",
@@ -3306,7 +3324,7 @@
       }
     },
     {
-      "page": 183,
+      "page": 184,
       "authoring_page": 6209,
       "renderer": 6209,
       "section": "Harness",
@@ -3324,7 +3342,7 @@
       }
     },
     {
-      "page": 184,
+      "page": 185,
       "authoring_page": 8512,
       "renderer": 8512,
       "section": "Harness·子智能体",
@@ -3342,12 +3360,12 @@
       }
     },
     {
-      "page": 185,
+      "page": 186,
       "authoring_page": 8513,
       "renderer": 8513,
       "section": "Harness·子智能体",
       "type": "concept",
-      "title": "过程留在子任务，结果交回主代理",
+      "title": "过程留在子任务，结果交回主智能体",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -3360,7 +3378,7 @@
       }
     },
     {
-      "page": 186,
+      "page": 187,
       "authoring_page": 8514,
       "renderer": 8514,
       "section": "Harness·子智能体",
@@ -3378,7 +3396,7 @@
       }
     },
     {
-      "page": 187,
+      "page": 188,
       "authoring_page": 8515,
       "renderer": 8515,
       "section": "Harness·子智能体",
@@ -3396,7 +3414,7 @@
       }
     },
     {
-      "page": 188,
+      "page": 189,
       "authoring_page": 6210,
       "renderer": 6210,
       "section": "Harness",
@@ -3414,7 +3432,7 @@
       }
     },
     {
-      "page": 189,
+      "page": 190,
       "authoring_page": 8516,
       "renderer": 8516,
       "section": "Harness·进度与恢复",
@@ -3432,7 +3450,7 @@
       }
     },
     {
-      "page": 190,
+      "page": 191,
       "authoring_page": 8517,
       "renderer": 8517,
       "section": "Harness·进度与恢复",
@@ -3450,7 +3468,7 @@
       }
     },
     {
-      "page": 191,
+      "page": 192,
       "authoring_page": 8518,
       "renderer": 8518,
       "section": "Harness·小结",
@@ -3468,32 +3486,12 @@
       }
     },
     {
-      "page": 192,
+      "page": 193,
       "authoring_page": 126,
       "renderer": 4013,
-      "source_plan_page": 84,
       "section": "外化与内化整合",
       "type": "agenda",
-      "title": "本讲内容",
-      "steps": 1,
-      "renderer_steps": 1,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          0
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 193,
-      "authoring_page": 127,
-      "renderer": 2127,
-      "source_plan_page": 85,
-      "section": "外化与内化整合",
-      "type": "overview",
-      "title": "外化与内化整合：各部分怎样配合",
+      "title": "课程内容",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -3507,88 +3505,11 @@
     },
     {
       "page": 194,
-      "authoring_page": 128,
-      "renderer": 2128,
-      "source_plan_page": 86,
+      "authoring_page": 21001,
+      "renderer": 21001,
       "section": "外化与内化整合",
-      "type": "content",
-      "title": "这份课件中的任务、资料与方法",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 195,
-      "authoring_page": 129,
-      "renderer": 2129,
-      "source_plan_page": 87,
-      "section": "外化与内化整合",
-      "type": "content",
-      "title": "外化与内化：改变发生在哪里",
-      "steps": 1,
-      "renderer_steps": 2,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          1
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 196,
-      "authoring_page": 130,
-      "renderer": 2130,
-      "source_plan_page": 87,
-      "section": "外化与内化整合",
-      "type": "content",
-      "title": "任务经验怎样用于下一轮改进",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 197,
-      "authoring_page": 131,
-      "renderer": 2131,
-      "source_plan_page": 88,
-      "section": "外化与内化整合",
-      "type": "content",
-      "title": "更换模型后，重新检查运行安排",
-      "steps": 1,
-      "renderer_steps": 3,
-      "playback": {
-        "mode": "full",
-        "source_steps": [
-          2
-        ],
-        "reveal": "all",
-        "reason": "进入页面即完整显示。"
-      }
-    },
-    {
-      "page": 198,
-      "authoring_page": 132,
-      "renderer": 2132,
-      "source_plan_page": 87,
-      "section": "外化与内化整合",
-      "type": "summary",
-      "title": "整合小结：各部分围绕任务配合",
+      "type": "overview",
+      "title": "外化与内化：模型与Harness共同迭代",
       "steps": 1,
       "renderer_steps": 1,
       "playback": {
@@ -3601,38 +3522,72 @@
       }
     },
     {
-      "page": 199,
-      "authoring_page": 133,
-      "renderer": 2133,
-      "source_plan_page": 89,
+      "page": 195,
+      "authoring_page": 21002,
+      "renderer": 21002,
       "section": "外化与内化整合",
-      "type": "summary",
-      "title": "Agents小结：模型与外部系统",
+      "type": "case",
+      "title": "模型升级后，旧的Skills和流程还需要吗？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
       }
     },
     {
-      "page": 200,
-      "authoring_page": 134,
-      "renderer": 2134,
-      "source_plan_page": 89,
+      "page": 196,
+      "authoring_page": 21003,
+      "renderer": 21003,
       "section": "外化与内化整合",
-      "type": "summary",
-      "title": "第一讲小结：生成、任务与执行",
+      "type": "concept",
+      "title": "选择性内化：哪些做法进入模型参数？",
       "steps": 1,
-      "renderer_steps": 3,
+      "renderer_steps": 1,
       "playback": {
         "mode": "full",
         "source_steps": [
-          2
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 197,
+      "authoring_page": 21004,
+      "renderer": 21004,
+      "section": "外化与内化整合",
+      "type": "summary",
+      "title": "模型变强，Harness继续补充新的不足",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
+        ],
+        "reveal": "all",
+        "reason": "进入页面即完整显示。"
+      }
+    },
+    {
+      "page": 198,
+      "authoring_page": 21005,
+      "renderer": 21005,
+      "section": "课程回顾",
+      "type": "closing-agenda",
+      "title": "课程内容",
+      "steps": 1,
+      "renderer_steps": 1,
+      "playback": {
+        "mode": "full",
+        "source_steps": [
+          0
         ],
         "reveal": "all",
         "reason": "进入页面即完整显示。"
@@ -3641,19 +3596,19 @@
   ],
   "visuals": "复用原课PNG与HTML/SVG可编辑图解",
   "verification": {
-    "browser_checks": "qa/tools-protocols-r19/behavior-checks.json",
-    "visual_review": "qa/tools-protocols-r19/修订与复查记录.md",
-    "scope": "新增机械臂页、Protocols全部新页面与目录、相邻衔接和播放器；实际范围见本轮记录",
+    "browser_checks": "qa/integration-r21/behavior-checks.json",
+    "visual_review": "qa/integration-r21/修订与复查记录.md",
+    "scope": "重绘185–186页；重构193–198页；总目录、课程命名与导航；实际实播范围见记录",
     "previous_full_playback": "qa/memory-review-r14/sequential-playback.json"
   },
   "teacher_approved": false,
-  "revision": "2026-10-20-tools-protocols-r19",
+  "revision": "2026-10-20-integration-r21",
   "source_structure": "../v01-逐页内容规划/结构修订说明.md",
-  "duration_seconds": 16900,
-  "teaching_seconds": 16300,
+  "duration_seconds": 16915,
+  "teaching_seconds": 16315,
   "break_seconds": 600,
-  "review_record": "qa/tools-protocols-r19/修订与复查记录.md",
-  "print_page_count": 200,
+  "review_record": "qa/integration-r21/修订与复查记录.md",
+  "print_page_count": 198,
   "playback_policy": "src/playback-policy.json",
   "historical_review_record": "qa/independent-review/审阅总记录.md",
   "decoding_review_record": "qa/decoding-parameters/修订与复查.md",
@@ -3679,9 +3634,11 @@
   "skills_review_record": "qa/skills-r9/问题与修订记录.md",
   "protocols_review_record": "qa/tools-protocols-r19/修订与复查记录.md",
   "harness_review_record": "qa/harness-r11/问题与修订记录.md",
-  "content_revision": "2026-10-20-tools-protocols-r19",
-  "display_qa_revision": "r19-tools-protocols",
+  "content_revision": "2026-10-20-integration-r21",
+  "display_qa_revision": "r21-integration",
   "memory_revision_review_record": "qa/memory-review-r14/修订与复查记录.md",
   "memory_wording_review_record": "qa/memory-wording-r15/措辞修订记录.md",
-  "opening_review_record": "qa/agent-opening-r17/修订与复查记录.md"
+  "opening_review_record": "qa/agent-opening-r17/修订与复查记录.md",
+  "agent_internet_review_record": "qa/agent-internet-r20/修订与复查记录.md",
+  "integration_review_record": "qa/integration-r21/修订与复查记录.md"
 }

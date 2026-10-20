@@ -21,7 +21,6 @@
 .chapter-column button{border:0;background:transparent;display:flex;align-items:baseline;gap:10px;padding:3px 0;width:100%;text-align:left;font:29px/1.45 MBA-YaHei,sans-serif;color:#344359}
 .chapter-column li.done button{color:#6a7788}.chapter-column li.active button{color:var(--chapter-red);font-weight:700}
 .chapter-status{width:22px;flex:none}.chapter-now{font-size:18px;white-space:nowrap;border-bottom:1px solid currentColor;margin-left:auto}
-.chapter-key{position:absolute;left:0;bottom:18px;font-size:24px;color:#647083;display:flex;gap:45px}
 
 .dialog-content pre{color:#111;font-weight:400}
 
